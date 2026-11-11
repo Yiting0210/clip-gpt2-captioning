@@ -1,0 +1,6 @@
+base: base.yaml
+experiment: prefix_full
+injection: prefix
+finetune: full
+train:
+  gpt_lr: 2.0e-5

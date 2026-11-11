@@ -1,0 +1,6 @@
+base: base.yaml
+experiment: xattn_full
+injection: cross_attention
+finetune: full
+train:
+  gpt_lr: 2.0e-5

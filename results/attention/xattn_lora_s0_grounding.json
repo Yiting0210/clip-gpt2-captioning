@@ -1,0 +1,5581 @@
+{
+ "summary": {
+  "grounded_words": 696,
+  "mean_attention_in_box": 0.5005,
+  "mean_box_area": 0.3571,
+  "median_ratio": 1.557,
+  "share_ratio_above_1": 0.9037
+ },
+ "words": [
+  {
+   "image_id": "175251",
+   "word": "child",
+   "category": "person",
+   "attention_in_box": 0.9182,
+   "box_area": 0.8141,
+   "ratio": 1.128
+  },
+  {
+   "image_id": "175251",
+   "word": "toothbrush.",
+   "category": "toothbrush",
+   "attention_in_box": 0.2076,
+   "box_area": 0.0326,
+   "ratio": 6.361
+  },
+  {
+   "image_id": "307598",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.6966,
+   "box_area": 0.375,
+   "ratio": 1.858
+  },
+  {
+   "image_id": "108244",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.5837,
+   "box_area": 0.3011,
+   "ratio": 1.939
+  },
+  {
+   "image_id": "263594",
+   "word": "car",
+   "category": "car",
+   "attention_in_box": 0.7424,
+   "box_area": 0.3884,
+   "ratio": 1.911
+  },
+  {
+   "image_id": "3934",
+   "word": "child",
+   "category": "person",
+   "attention_in_box": 0.7616,
+   "box_area": 0.4651,
+   "ratio": 1.637
+  },
+  {
+   "image_id": "3934",
+   "word": "child",
+   "category": "person",
+   "attention_in_box": 0.634,
+   "box_area": 0.4651,
+   "ratio": 1.363
+  },
+  {
+   "image_id": "440171",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.1847,
+   "box_area": 0.0684,
+   "ratio": 2.702
+  },
+  {
+   "image_id": "440171",
+   "word": "elephant",
+   "category": "elephant",
+   "attention_in_box": 0.9337,
+   "box_area": 0.933,
+   "ratio": 1.001
+  },
+  {
+   "image_id": "146489",
+   "word": "pizza",
+   "category": "pizza",
+   "attention_in_box": 0.2794,
+   "box_area": 0.125,
+   "ratio": 2.236
+  },
+  {
+   "image_id": "146489",
+   "word": "table.",
+   "category": "dining table",
+   "attention_in_box": 0.9973,
+   "box_area": 0.9955,
+   "ratio": 1.002
+  },
+  {
+   "image_id": "150638",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.8602,
+   "box_area": 0.8438,
+   "ratio": 1.019
+  },
+  {
+   "image_id": "448365",
+   "word": "boy",
+   "category": "person",
+   "attention_in_box": 0.6365,
+   "box_area": 0.3699,
+   "ratio": 1.721
+  },
+  {
+   "image_id": "448365",
+   "word": "skateboard",
+   "category": "skateboard",
+   "attention_in_box": 0.2567,
+   "box_area": 0.1181,
+   "ratio": 2.174
+  },
+  {
+   "image_id": "282298",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.7354,
+   "box_area": 0.4688,
+   "ratio": 1.569
+  },
+  {
+   "image_id": "7386",
+   "word": "motorcycle",
+   "category": "motorcycle",
+   "attention_in_box": 0.9829,
+   "box_area": 0.9688,
+   "ratio": 1.015
+  },
+  {
+   "image_id": "169169",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.5522,
+   "box_area": 0.6044,
+   "ratio": 0.914
+  },
+  {
+   "image_id": "526256",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.1277,
+   "box_area": 0.052,
+   "ratio": 2.454
+  },
+  {
+   "image_id": "526256",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.1172,
+   "box_area": 0.052,
+   "ratio": 2.253
+  },
+  {
+   "image_id": "434996",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.3703,
+   "box_area": 0.1443,
+   "ratio": 2.567
+  },
+  {
+   "image_id": "434996",
+   "word": "bed.",
+   "category": "bed",
+   "attention_in_box": 0.994,
+   "box_area": 0.9866,
+   "ratio": 1.008
+  },
+  {
+   "image_id": "569700",
+   "word": "vases",
+   "category": "vase",
+   "attention_in_box": 0.0939,
+   "box_area": 0.0775,
+   "ratio": 1.211
+  },
+  {
+   "image_id": "430286",
+   "word": "bed",
+   "category": "bed",
+   "attention_in_box": 0.9892,
+   "box_area": 0.9821,
+   "ratio": 1.007
+  },
+  {
+   "image_id": "244496",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.9836,
+   "box_area": 0.9196,
+   "ratio": 1.07
+  },
+  {
+   "image_id": "244496",
+   "word": "tie",
+   "category": "tie",
+   "attention_in_box": 0.4603,
+   "box_area": 0.1298,
+   "ratio": 3.546
+  },
+  {
+   "image_id": "244496",
+   "word": "tie",
+   "category": "tie",
+   "attention_in_box": 0.4613,
+   "box_area": 0.1298,
+   "ratio": 3.554
+  },
+  {
+   "image_id": "244496",
+   "word": "tie.",
+   "category": "tie",
+   "attention_in_box": 0.4229,
+   "box_area": 0.1298,
+   "ratio": 3.258
+  },
+  {
+   "image_id": "337987",
+   "word": "bird",
+   "category": "bird",
+   "attention_in_box": 0.7616,
+   "box_area": 0.4775,
+   "ratio": 1.595
+  },
+  {
+   "image_id": "179214",
+   "word": "pizza",
+   "category": "pizza",
+   "attention_in_box": 0.7284,
+   "box_area": 0.5044,
+   "ratio": 1.444
+  },
+  {
+   "image_id": "193674",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.3354,
+   "box_area": 0.0942,
+   "ratio": 3.561
+  },
+  {
+   "image_id": "193674",
+   "word": "surfboard",
+   "category": "surfboard",
+   "attention_in_box": 0.3239,
+   "box_area": 0.1121,
+   "ratio": 2.89
+  },
+  {
+   "image_id": "206271",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.4373,
+   "box_area": 0.2588,
+   "ratio": 1.689
+  },
+  {
+   "image_id": "206271",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.424,
+   "box_area": 0.2588,
+   "ratio": 1.638
+  },
+  {
+   "image_id": "398905",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.6857,
+   "box_area": 0.5402,
+   "ratio": 1.269
+  },
+  {
+   "image_id": "267300",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.9507,
+   "box_area": 0.8259,
+   "ratio": 1.151
+  },
+  {
+   "image_id": "422998",
+   "word": "girl",
+   "category": "person",
+   "attention_in_box": 0.6579,
+   "box_area": 0.7199,
+   "ratio": 0.914
+  },
+  {
+   "image_id": "54628",
+   "word": "cake",
+   "category": "cake",
+   "attention_in_box": 0.4906,
+   "box_area": 0.235,
+   "ratio": 2.088
+  },
+  {
+   "image_id": "383337",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.6108,
+   "box_area": 0.6166,
+   "ratio": 0.991
+  },
+  {
+   "image_id": "383337",
+   "word": "doughnut",
+   "category": "donut",
+   "attention_in_box": 0.2945,
+   "box_area": 0.1291,
+   "ratio": 2.282
+  },
+  {
+   "image_id": "383337",
+   "word": "table.",
+   "category": "dining table",
+   "attention_in_box": 0.3036,
+   "box_area": 0.2192,
+   "ratio": 1.385
+  },
+  {
+   "image_id": "565853",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4488,
+   "box_area": 0.1884,
+   "ratio": 2.383
+  },
+  {
+   "image_id": "565853",
+   "word": "controller",
+   "category": "remote",
+   "attention_in_box": 0.0001,
+   "box_area": 0.0001,
+   "ratio": 0.448
+  },
+  {
+   "image_id": "565853",
+   "word": "television.",
+   "category": "tv",
+   "attention_in_box": 0.1729,
+   "box_area": 0.085,
+   "ratio": 2.035
+  },
+  {
+   "image_id": "54593",
+   "word": "boy",
+   "category": "person",
+   "attention_in_box": 0.6132,
+   "box_area": 0.2743,
+   "ratio": 2.235
+  },
+  {
+   "image_id": "54593",
+   "word": "bat.",
+   "category": "baseball bat",
+   "attention_in_box": 0.0322,
+   "box_area": 0.0192,
+   "ratio": 1.681
+  },
+  {
+   "image_id": "553788",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.6832,
+   "box_area": 0.5144,
+   "ratio": 1.328
+  },
+  {
+   "image_id": "553788",
+   "word": "bed",
+   "category": "bed",
+   "attention_in_box": 0.5413,
+   "box_area": 0.3571,
+   "ratio": 1.516
+  },
+  {
+   "image_id": "553788",
+   "word": "laptop.",
+   "category": "laptop",
+   "attention_in_box": 0.5067,
+   "box_area": 0.2314,
+   "ratio": 2.19
+  },
+  {
+   "image_id": "142238",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.8189,
+   "box_area": 0.6116,
+   "ratio": 1.339
+  },
+  {
+   "image_id": "98287",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.2024,
+   "box_area": 0.1196,
+   "ratio": 1.693
+  },
+  {
+   "image_id": "98287",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.1635,
+   "box_area": 0.1196,
+   "ratio": 1.367
+  },
+  {
+   "image_id": "28285",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.0099,
+   "box_area": 0.0034,
+   "ratio": 2.95
+  },
+  {
+   "image_id": "279769",
+   "word": "banana",
+   "category": "banana",
+   "attention_in_box": 0.4437,
+   "box_area": 0.1272,
+   "ratio": 3.49
+  },
+  {
+   "image_id": "279769",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.1454,
+   "box_area": 0.1544,
+   "ratio": 0.942
+  },
+  {
+   "image_id": "279769",
+   "word": "banana",
+   "category": "banana",
+   "attention_in_box": 0.4055,
+   "box_area": 0.1272,
+   "ratio": 3.189
+  },
+  {
+   "image_id": "564336",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.2915,
+   "box_area": 0.0357,
+   "ratio": 8.161
+  },
+  {
+   "image_id": "564336",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.6189,
+   "box_area": 0.4491,
+   "ratio": 1.378
+  },
+  {
+   "image_id": "49060",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.9466,
+   "box_area": 0.7723,
+   "ratio": 1.226
+  },
+  {
+   "image_id": "49060",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.9333,
+   "box_area": 0.7723,
+   "ratio": 1.208
+  },
+  {
+   "image_id": "116439",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.4977,
+   "box_area": 0.1903,
+   "ratio": 2.615
+  },
+  {
+   "image_id": "116439",
+   "word": "boat",
+   "category": "boat",
+   "attention_in_box": 0.3317,
+   "box_area": 0.1929,
+   "ratio": 1.72
+  },
+  {
+   "image_id": "498286",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.8874,
+   "box_area": 0.7792,
+   "ratio": 1.139
+  },
+  {
+   "image_id": "376900",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.7035,
+   "box_area": 0.5446,
+   "ratio": 1.292
+  },
+  {
+   "image_id": "332351",
+   "word": "surfers",
+   "category": "person",
+   "attention_in_box": 0.0426,
+   "box_area": 0.0259,
+   "ratio": 1.647
+  },
+  {
+   "image_id": "332351",
+   "word": "surfboard.",
+   "category": "surfboard",
+   "attention_in_box": 0.0209,
+   "box_area": 0.0118,
+   "ratio": 1.771
+  },
+  {
+   "image_id": "135890",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.0736,
+   "box_area": 0.0203,
+   "ratio": 3.62
+  },
+  {
+   "image_id": "135890",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.0732,
+   "box_area": 0.0203,
+   "ratio": 3.6
+  },
+  {
+   "image_id": "302165",
+   "word": "cows",
+   "category": "cow",
+   "attention_in_box": 0.6578,
+   "box_area": 0.3808,
+   "ratio": 1.728
+  },
+  {
+   "image_id": "254516",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.6982,
+   "box_area": 0.5928,
+   "ratio": 1.178
+  },
+  {
+   "image_id": "254516",
+   "word": "bat.",
+   "category": "baseball bat",
+   "attention_in_box": 0.1478,
+   "box_area": 0.1011,
+   "ratio": 1.462
+  },
+  {
+   "image_id": "105264",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.2378,
+   "box_area": 0.1558,
+   "ratio": 1.527
+  },
+  {
+   "image_id": "105264",
+   "word": "calf",
+   "category": "cow",
+   "attention_in_box": 0.5334,
+   "box_area": 0.3968,
+   "ratio": 1.344
+  },
+  {
+   "image_id": "284991",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.9957,
+   "box_area": 0.9866,
+   "ratio": 1.009
+  },
+  {
+   "image_id": "284991",
+   "word": "bottle",
+   "category": "bottle",
+   "attention_in_box": 0.3912,
+   "box_area": 0.1465,
+   "ratio": 2.67
+  },
+  {
+   "image_id": "481159",
+   "word": "horse",
+   "category": "horse",
+   "attention_in_box": 0.6196,
+   "box_area": 0.3707,
+   "ratio": 1.672
+  },
+  {
+   "image_id": "292082",
+   "word": "girl",
+   "category": "person",
+   "attention_in_box": 0.7775,
+   "box_area": 0.3651,
+   "ratio": 2.13
+  },
+  {
+   "image_id": "292082",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.7208,
+   "box_area": 0.3651,
+   "ratio": 1.974
+  },
+  {
+   "image_id": "120584",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.3083,
+   "box_area": 0.023,
+   "ratio": 13.38
+  },
+  {
+   "image_id": "496409",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.1781,
+   "box_area": 0.0287,
+   "ratio": 6.207
+  },
+  {
+   "image_id": "496409",
+   "word": "skis",
+   "category": "skis",
+   "attention_in_box": 0.0138,
+   "box_area": 0.0036,
+   "ratio": 3.795
+  },
+  {
+   "image_id": "459500",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.0916,
+   "box_area": 0.0214,
+   "ratio": 4.281
+  },
+  {
+   "image_id": "376478",
+   "word": "vase",
+   "category": "vase",
+   "attention_in_box": 0.4572,
+   "box_area": 0.3367,
+   "ratio": 1.358
+  },
+  {
+   "image_id": "475365",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.9669,
+   "box_area": 0.8125,
+   "ratio": 1.19
+  },
+  {
+   "image_id": "237071",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.6604,
+   "box_area": 0.5052,
+   "ratio": 1.307
+  },
+  {
+   "image_id": "237071",
+   "word": "ball",
+   "category": "sports ball",
+   "attention_in_box": 0.028,
+   "box_area": 0.0036,
+   "ratio": 7.711
+  },
+  {
+   "image_id": "237071",
+   "word": "racket.",
+   "category": "tennis racket",
+   "attention_in_box": 0.1053,
+   "box_area": 0.042,
+   "ratio": 2.507
+  },
+  {
+   "image_id": "100624",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.8492,
+   "box_area": 0.4796,
+   "ratio": 1.771
+  },
+  {
+   "image_id": "100624",
+   "word": "phone",
+   "category": "cell phone",
+   "attention_in_box": 0.0991,
+   "box_area": 0.0098,
+   "ratio": 10.083
+  },
+  {
+   "image_id": "3255",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.1575,
+   "box_area": 0.0231,
+   "ratio": 6.811
+  },
+  {
+   "image_id": "194724",
+   "word": "pizza",
+   "category": "pizza",
+   "attention_in_box": 0.3422,
+   "box_area": 0.2495,
+   "ratio": 1.371
+  },
+  {
+   "image_id": "194724",
+   "word": "cup",
+   "category": "cup",
+   "attention_in_box": 0.0157,
+   "box_area": 0.0263,
+   "ratio": 0.597
+  },
+  {
+   "image_id": "194724",
+   "word": "table.",
+   "category": "dining table",
+   "attention_in_box": 0.8122,
+   "box_area": 0.7455,
+   "ratio": 1.089
+  },
+  {
+   "image_id": "225670",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.3402,
+   "box_area": 0.0797,
+   "ratio": 4.267
+  },
+  {
+   "image_id": "456292",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.2514,
+   "box_area": 0.1062,
+   "ratio": 2.366
+  },
+  {
+   "image_id": "357060",
+   "word": "bird",
+   "category": "bird",
+   "attention_in_box": 0.4914,
+   "box_area": 0.0474,
+   "ratio": 10.365
+  },
+  {
+   "image_id": "519522",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.0933,
+   "box_area": 0.0216,
+   "ratio": 4.311
+  },
+  {
+   "image_id": "519522",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.0896,
+   "box_area": 0.0216,
+   "ratio": 4.138
+  },
+  {
+   "image_id": "14888",
+   "word": "cows",
+   "category": "cow",
+   "attention_in_box": 0.9585,
+   "box_area": 0.9152,
+   "ratio": 1.047
+  },
+  {
+   "image_id": "86956",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.8767,
+   "box_area": 0.7584,
+   "ratio": 1.156
+  },
+  {
+   "image_id": "95155",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.4527,
+   "box_area": 0.2403,
+   "ratio": 1.884
+  },
+  {
+   "image_id": "95155",
+   "word": "snowboard.",
+   "category": "snowboard",
+   "attention_in_box": 0.0618,
+   "box_area": 0.0296,
+   "ratio": 2.087
+  },
+  {
+   "image_id": "449661",
+   "word": "bed",
+   "category": "bed",
+   "attention_in_box": 0.8312,
+   "box_area": 0.3817,
+   "ratio": 2.177
+  },
+  {
+   "image_id": "449661",
+   "word": "bed",
+   "category": "bed",
+   "attention_in_box": 0.7704,
+   "box_area": 0.3817,
+   "ratio": 2.018
+  },
+  {
+   "image_id": "364166",
+   "word": "zebra",
+   "category": "zebra",
+   "attention_in_box": 0.8889,
+   "box_area": 0.7812,
+   "ratio": 1.138
+  },
+  {
+   "image_id": "82846",
+   "word": "bus",
+   "category": "bus",
+   "attention_in_box": 0.8939,
+   "box_area": 0.5982,
+   "ratio": 1.494
+  },
+  {
+   "image_id": "366141",
+   "word": "couch,",
+   "category": "couch",
+   "attention_in_box": 0.5651,
+   "box_area": 0.3476,
+   "ratio": 1.626
+  },
+  {
+   "image_id": "366141",
+   "word": "chair,",
+   "category": "chair",
+   "attention_in_box": 0.2428,
+   "box_area": 0.1387,
+   "ratio": 1.751
+  },
+  {
+   "image_id": "366141",
+   "word": "television.",
+   "category": "tv",
+   "attention_in_box": 0.0671,
+   "box_area": 0.0405,
+   "ratio": 1.659
+  },
+  {
+   "image_id": "512564",
+   "word": "cars.",
+   "category": "car",
+   "attention_in_box": 0.0118,
+   "box_area": 0.0107,
+   "ratio": 1.102
+  },
+  {
+   "image_id": "308793",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.3822,
+   "box_area": 0.1695,
+   "ratio": 2.255
+  },
+  {
+   "image_id": "321557",
+   "word": "motorcycle",
+   "category": "motorcycle",
+   "attention_in_box": 0.9631,
+   "box_area": 0.9375,
+   "ratio": 1.027
+  },
+  {
+   "image_id": "30828",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.3848,
+   "box_area": 0.2028,
+   "ratio": 1.898
+  },
+  {
+   "image_id": "30828",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.6062,
+   "box_area": 0.4241,
+   "ratio": 1.429
+  },
+  {
+   "image_id": "203317",
+   "word": "bicycle",
+   "category": "bicycle",
+   "attention_in_box": 0.6086,
+   "box_area": 0.2841,
+   "ratio": 2.142
+  },
+  {
+   "image_id": "6771",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.9522,
+   "box_area": 0.8171,
+   "ratio": 1.165
+  },
+  {
+   "image_id": "154431",
+   "word": "tv",
+   "category": "tv",
+   "attention_in_box": 0.1884,
+   "box_area": 0.1674,
+   "ratio": 1.125
+  },
+  {
+   "image_id": "481413",
+   "word": "boy",
+   "category": "person",
+   "attention_in_box": 0.4914,
+   "box_area": 0.1678,
+   "ratio": 2.929
+  },
+  {
+   "image_id": "32861",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.5606,
+   "box_area": 0.4198,
+   "ratio": 1.335
+  },
+  {
+   "image_id": "32861",
+   "word": "umbrella",
+   "category": "umbrella",
+   "attention_in_box": 0.5197,
+   "box_area": 0.2999,
+   "ratio": 1.733
+  },
+  {
+   "image_id": "570736",
+   "word": "sink,",
+   "category": "sink",
+   "attention_in_box": 0.0802,
+   "box_area": 0.0666,
+   "ratio": 1.204
+  },
+  {
+   "image_id": "570736",
+   "word": "toilet,",
+   "category": "toilet",
+   "attention_in_box": 0.2796,
+   "box_area": 0.1387,
+   "ratio": 2.016
+  },
+  {
+   "image_id": "502347",
+   "word": "plane",
+   "category": "airplane",
+   "attention_in_box": 0.0315,
+   "box_area": 0.0026,
+   "ratio": 12.358
+  },
+  {
+   "image_id": "130566",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.8283,
+   "box_area": 0.4643,
+   "ratio": 1.784
+  },
+  {
+   "image_id": "372203",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.3597,
+   "box_area": 0.1112,
+   "ratio": 3.234
+  },
+  {
+   "image_id": "372203",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.3323,
+   "box_area": 0.1112,
+   "ratio": 2.988
+  },
+  {
+   "image_id": "372203",
+   "word": "bench.",
+   "category": "bench",
+   "attention_in_box": 0.2517,
+   "box_area": 0.1112,
+   "ratio": 2.264
+  },
+  {
+   "image_id": "872",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.7515,
+   "box_area": 0.3794,
+   "ratio": 1.981
+  },
+  {
+   "image_id": "872",
+   "word": "player.",
+   "category": "person",
+   "attention_in_box": 0.5578,
+   "box_area": 0.3794,
+   "ratio": 1.47
+  },
+  {
+   "image_id": "10707",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.7592,
+   "box_area": 0.5388,
+   "ratio": 1.409
+  },
+  {
+   "image_id": "85329",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.8991,
+   "box_area": 0.5412,
+   "ratio": 1.661
+  },
+  {
+   "image_id": "85329",
+   "word": "tie.",
+   "category": "tie",
+   "attention_in_box": 0.0686,
+   "box_area": 0.0548,
+   "ratio": 1.25
+  },
+  {
+   "image_id": "60835",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.7823,
+   "box_area": 0.5037,
+   "ratio": 1.553
+  },
+  {
+   "image_id": "60835",
+   "word": "bowl.",
+   "category": "bowl",
+   "attention_in_box": 0.0736,
+   "box_area": 0.06,
+   "ratio": 1.227
+  },
+  {
+   "image_id": "252716",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.2326,
+   "box_area": 0.0188,
+   "ratio": 12.377
+  },
+  {
+   "image_id": "252716",
+   "word": "frisbee.",
+   "category": "frisbee",
+   "attention_in_box": 0.0197,
+   "box_area": 0.0115,
+   "ratio": 1.713
+  },
+  {
+   "image_id": "261097",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.9971,
+   "box_area": 0.9955,
+   "ratio": 1.002
+  },
+  {
+   "image_id": "135604",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.5325,
+   "box_area": 0.1323,
+   "ratio": 4.026
+  },
+  {
+   "image_id": "410456",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.3981,
+   "box_area": 0.2392,
+   "ratio": 1.664
+  },
+  {
+   "image_id": "410456",
+   "word": "surfboards.",
+   "category": "surfboard",
+   "attention_in_box": 0.1414,
+   "box_area": 0.0426,
+   "ratio": 3.317
+  },
+  {
+   "image_id": "213255",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.5851,
+   "box_area": 0.4643,
+   "ratio": 1.26
+  },
+  {
+   "image_id": "356612",
+   "word": "cows",
+   "category": "cow",
+   "attention_in_box": 0.4822,
+   "box_area": 0.2358,
+   "ratio": 2.046
+  },
+  {
+   "image_id": "356612",
+   "word": "bus.",
+   "category": "bus",
+   "attention_in_box": 0.0806,
+   "box_area": 0.0747,
+   "ratio": 1.078
+  },
+  {
+   "image_id": "301061",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.1745,
+   "box_area": 0.0797,
+   "ratio": 2.19
+  },
+  {
+   "image_id": "260261",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4936,
+   "box_area": 0.3533,
+   "ratio": 1.397
+  },
+  {
+   "image_id": "347930",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.688,
+   "box_area": 0.37,
+   "ratio": 1.859
+  },
+  {
+   "image_id": "347930",
+   "word": "couch",
+   "category": "couch",
+   "attention_in_box": 0.9139,
+   "box_area": 0.8616,
+   "ratio": 1.061
+  },
+  {
+   "image_id": "347930",
+   "word": "couch",
+   "category": "couch",
+   "attention_in_box": 0.9312,
+   "box_area": 0.8616,
+   "ratio": 1.081
+  },
+  {
+   "image_id": "324158",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4323,
+   "box_area": 0.0985,
+   "ratio": 4.387
+  },
+  {
+   "image_id": "324158",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.1046,
+   "box_area": 0.0115,
+   "ratio": 9.115
+  },
+  {
+   "image_id": "885",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.4128,
+   "box_area": 0.2293,
+   "ratio": 1.8
+  },
+  {
+   "image_id": "390555",
+   "word": "girls",
+   "category": "person",
+   "attention_in_box": 0.9716,
+   "box_area": 0.9519,
+   "ratio": 1.021
+  },
+  {
+   "image_id": "221872",
+   "word": "bowl",
+   "category": "bowl",
+   "attention_in_box": 0.9877,
+   "box_area": 0.9838,
+   "ratio": 1.004
+  },
+  {
+   "image_id": "221872",
+   "word": "carrots",
+   "category": "carrot",
+   "attention_in_box": 0.3496,
+   "box_area": 0.2659,
+   "ratio": 1.315
+  },
+  {
+   "image_id": "445365",
+   "word": "giraffe",
+   "category": "giraffe",
+   "attention_in_box": 0.9273,
+   "box_area": 0.7967,
+   "ratio": 1.164
+  },
+  {
+   "image_id": "312213",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.6295,
+   "box_area": 0.4873,
+   "ratio": 1.292
+  },
+  {
+   "image_id": "312213",
+   "word": "laptop",
+   "category": "laptop",
+   "attention_in_box": 0.5881,
+   "box_area": 0.588,
+   "ratio": 1.0
+  },
+  {
+   "image_id": "312213",
+   "word": "laptop.",
+   "category": "laptop",
+   "attention_in_box": 0.6121,
+   "box_area": 0.588,
+   "ratio": 1.041
+  },
+  {
+   "image_id": "326462",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.4043,
+   "box_area": 0.1925,
+   "ratio": 2.1
+  },
+  {
+   "image_id": "326462",
+   "word": "doughnut",
+   "category": "donut",
+   "attention_in_box": 0.4947,
+   "box_area": 0.2797,
+   "ratio": 1.769
+  },
+  {
+   "image_id": "537827",
+   "word": "men",
+   "category": "person",
+   "attention_in_box": 0.6167,
+   "box_area": 0.2664,
+   "ratio": 2.314
+  },
+  {
+   "image_id": "365745",
+   "word": "truck",
+   "category": "truck",
+   "attention_in_box": 0.8021,
+   "box_area": 0.4586,
+   "ratio": 1.749
+  },
+  {
+   "image_id": "499266",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.6276,
+   "box_area": 0.4193,
+   "ratio": 1.497
+  },
+  {
+   "image_id": "499266",
+   "word": "phone",
+   "category": "cell phone",
+   "attention_in_box": 0.7186,
+   "box_area": 0.6339,
+   "ratio": 1.134
+  },
+  {
+   "image_id": "277005",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.2846,
+   "box_area": 0.1503,
+   "ratio": 1.894
+  },
+  {
+   "image_id": "105912",
+   "word": "hydrant",
+   "category": "fire hydrant",
+   "attention_in_box": 0.4449,
+   "box_area": 0.1576,
+   "ratio": 2.823
+  },
+  {
+   "image_id": "176778",
+   "word": "toilet,",
+   "category": "toilet",
+   "attention_in_box": 0.6079,
+   "box_area": 0.515,
+   "ratio": 1.18
+  },
+  {
+   "image_id": "348488",
+   "word": "horses",
+   "category": "horse",
+   "attention_in_box": 0.8074,
+   "box_area": 0.7351,
+   "ratio": 1.098
+  },
+  {
+   "image_id": "376307",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.3362,
+   "box_area": 0.3173,
+   "ratio": 1.059
+  },
+  {
+   "image_id": "376307",
+   "word": "bananas.",
+   "category": "banana",
+   "attention_in_box": 0.3454,
+   "box_area": 0.1629,
+   "ratio": 2.121
+  },
+  {
+   "image_id": "180296",
+   "word": "suitcase.",
+   "category": "suitcase",
+   "attention_in_box": 0.7617,
+   "box_area": 0.75,
+   "ratio": 1.016
+  },
+  {
+   "image_id": "9378",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.9235,
+   "box_area": 0.8151,
+   "ratio": 1.133
+  },
+  {
+   "image_id": "512648",
+   "word": "cow",
+   "category": "cow",
+   "attention_in_box": 0.4738,
+   "box_area": 0.0783,
+   "ratio": 6.054
+  },
+  {
+   "image_id": "17031",
+   "word": "giraffe",
+   "category": "giraffe",
+   "attention_in_box": 0.88,
+   "box_area": 0.7411,
+   "ratio": 1.187
+  },
+  {
+   "image_id": "453001",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.6512,
+   "box_area": 0.5064,
+   "ratio": 1.286
+  },
+  {
+   "image_id": "213086",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.5141,
+   "box_area": 0.3303,
+   "ratio": 1.556
+  },
+  {
+   "image_id": "213086",
+   "word": "stove",
+   "category": "oven",
+   "attention_in_box": 0.7233,
+   "box_area": 0.5687,
+   "ratio": 1.272
+  },
+  {
+   "image_id": "506178",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.8287,
+   "box_area": 0.6216,
+   "ratio": 1.333
+  },
+  {
+   "image_id": "506178",
+   "word": "controller",
+   "category": "remote",
+   "attention_in_box": 0.009,
+   "box_area": 0.0117,
+   "ratio": 0.769
+  },
+  {
+   "image_id": "231097",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.9977,
+   "box_area": 0.9955,
+   "ratio": 1.002
+  },
+  {
+   "image_id": "231097",
+   "word": "fork.",
+   "category": "fork",
+   "attention_in_box": 0.0595,
+   "box_area": 0.1293,
+   "ratio": 0.46
+  },
+  {
+   "image_id": "185472",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.3322,
+   "box_area": 0.0928,
+   "ratio": 3.581
+  },
+  {
+   "image_id": "185472",
+   "word": "bicycle",
+   "category": "bicycle",
+   "attention_in_box": 0.1212,
+   "box_area": 0.0341,
+   "ratio": 3.553
+  },
+  {
+   "image_id": "185472",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.133,
+   "box_area": 0.0539,
+   "ratio": 2.469
+  },
+  {
+   "image_id": "366611",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.4617,
+   "box_area": 0.0837,
+   "ratio": 5.516
+  },
+  {
+   "image_id": "290771",
+   "word": "couch",
+   "category": "couch",
+   "attention_in_box": 0.5713,
+   "box_area": 0.1848,
+   "ratio": 3.092
+  },
+  {
+   "image_id": "290771",
+   "word": "chair.",
+   "category": "chair",
+   "attention_in_box": 0.2372,
+   "box_area": 0.1823,
+   "ratio": 1.302
+  },
+  {
+   "image_id": "102820",
+   "word": "boy",
+   "category": "person",
+   "attention_in_box": 0.959,
+   "box_area": 0.9111,
+   "ratio": 1.053
+  },
+  {
+   "image_id": "347265",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.3712,
+   "box_area": 0.056,
+   "ratio": 6.623
+  },
+  {
+   "image_id": "347265",
+   "word": "skis",
+   "category": "skis",
+   "attention_in_box": 0.0263,
+   "box_area": 0.0096,
+   "ratio": 2.742
+  },
+  {
+   "image_id": "448410",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.8079,
+   "box_area": 0.6237,
+   "ratio": 1.295
+  },
+  {
+   "image_id": "448410",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.6889,
+   "box_area": 0.6237,
+   "ratio": 1.105
+  },
+  {
+   "image_id": "453981",
+   "word": "bear",
+   "category": "bear",
+   "attention_in_box": 0.9048,
+   "box_area": 0.672,
+   "ratio": 1.346
+  },
+  {
+   "image_id": "435208",
+   "word": "laptop.",
+   "category": "laptop",
+   "attention_in_box": 0.0208,
+   "box_area": 0.0118,
+   "ratio": 1.758
+  },
+  {
+   "image_id": "109118",
+   "word": "men",
+   "category": "person",
+   "attention_in_box": 0.9679,
+   "box_area": 0.9592,
+   "ratio": 1.009
+  },
+  {
+   "image_id": "109118",
+   "word": "women",
+   "category": "person",
+   "attention_in_box": 0.9619,
+   "box_area": 0.9592,
+   "ratio": 1.003
+  },
+  {
+   "image_id": "220764",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.096,
+   "box_area": 0.0091,
+   "ratio": 10.588
+  },
+  {
+   "image_id": "220764",
+   "word": "skis",
+   "category": "skis",
+   "attention_in_box": 0.0021,
+   "box_area": 0.0002,
+   "ratio": 8.703
+  },
+  {
+   "image_id": "440184",
+   "word": "players",
+   "category": "person",
+   "attention_in_box": 0.2079,
+   "box_area": 0.1353,
+   "ratio": 1.537
+  },
+  {
+   "image_id": "222559",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.0421,
+   "box_area": 0.0173,
+   "ratio": 2.425
+  },
+  {
+   "image_id": "222559",
+   "word": "boat.",
+   "category": "boat",
+   "attention_in_box": 0.1961,
+   "box_area": 0.0869,
+   "ratio": 2.257
+  },
+  {
+   "image_id": "431876",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.1872,
+   "box_area": 0.0894,
+   "ratio": 2.094
+  },
+  {
+   "image_id": "431876",
+   "word": "horses",
+   "category": "horse",
+   "attention_in_box": 0.5589,
+   "box_area": 0.3641,
+   "ratio": 1.535
+  },
+  {
+   "image_id": "5477",
+   "word": "airplane",
+   "category": "airplane",
+   "attention_in_box": 0.8132,
+   "box_area": 0.5268,
+   "ratio": 1.544
+  },
+  {
+   "image_id": "151820",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.6192,
+   "box_area": 0.494,
+   "ratio": 1.253
+  },
+  {
+   "image_id": "151820",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.3006,
+   "box_area": 0.1146,
+   "ratio": 2.623
+  },
+  {
+   "image_id": "151820",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.3202,
+   "box_area": 0.1146,
+   "ratio": 2.794
+  },
+  {
+   "image_id": "114770",
+   "word": "motorcycle",
+   "category": "motorcycle",
+   "attention_in_box": 0.5632,
+   "box_area": 0.3138,
+   "ratio": 1.795
+  },
+  {
+   "image_id": "114770",
+   "word": "motorcycle",
+   "category": "motorcycle",
+   "attention_in_box": 0.5318,
+   "box_area": 0.3138,
+   "ratio": 1.694
+  },
+  {
+   "image_id": "477227",
+   "word": "boat",
+   "category": "boat",
+   "attention_in_box": 0.5996,
+   "box_area": 0.2488,
+   "ratio": 2.41
+  },
+  {
+   "image_id": "203629",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.877,
+   "box_area": 0.6488,
+   "ratio": 1.352
+  },
+  {
+   "image_id": "126137",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.7921,
+   "box_area": 0.7756,
+   "ratio": 1.021
+  },
+  {
+   "image_id": "126137",
+   "word": "racket.",
+   "category": "tennis racket",
+   "attention_in_box": 0.1442,
+   "box_area": 0.0386,
+   "ratio": 3.734
+  },
+  {
+   "image_id": "384666",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.2501,
+   "box_area": 0.1017,
+   "ratio": 2.458
+  },
+  {
+   "image_id": "384666",
+   "word": "skis",
+   "category": "skis",
+   "attention_in_box": 0.0197,
+   "box_area": 0.0173,
+   "ratio": 1.14
+  },
+  {
+   "image_id": "88462",
+   "word": "bus",
+   "category": "bus",
+   "attention_in_box": 0.814,
+   "box_area": 0.3239,
+   "ratio": 2.513
+  },
+  {
+   "image_id": "540962",
+   "word": "couch,",
+   "category": "couch",
+   "attention_in_box": 0.5501,
+   "box_area": 0.3717,
+   "ratio": 1.48
+  },
+  {
+   "image_id": "540962",
+   "word": "chair,",
+   "category": "chair",
+   "attention_in_box": 0.0038,
+   "box_area": 0.0151,
+   "ratio": 0.249
+  },
+  {
+   "image_id": "540962",
+   "word": "television.",
+   "category": "tv",
+   "attention_in_box": 0.0051,
+   "box_area": 0.0266,
+   "ratio": 0.191
+  },
+  {
+   "image_id": "66635",
+   "word": "mouse",
+   "category": "mouse",
+   "attention_in_box": 0.0169,
+   "box_area": 0.0081,
+   "ratio": 2.081
+  },
+  {
+   "image_id": "161008",
+   "word": "scissors.",
+   "category": "scissors",
+   "attention_in_box": 0.9804,
+   "box_area": 0.9778,
+   "ratio": 1.003
+  },
+  {
+   "image_id": "161044",
+   "word": "planes",
+   "category": "airplane",
+   "attention_in_box": 0.1607,
+   "box_area": 0.0203,
+   "ratio": 7.927
+  },
+  {
+   "image_id": "274460",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.4095,
+   "box_area": 0.3209,
+   "ratio": 1.276
+  },
+  {
+   "image_id": "274460",
+   "word": "surfboards.",
+   "category": "surfboard",
+   "attention_in_box": 0.2112,
+   "box_area": 0.0706,
+   "ratio": 2.993
+  },
+  {
+   "image_id": "58705",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.9148,
+   "box_area": 0.7526,
+   "ratio": 1.216
+  },
+  {
+   "image_id": "58705",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.8991,
+   "box_area": 0.7526,
+   "ratio": 1.195
+  },
+  {
+   "image_id": "387098",
+   "word": "laptop",
+   "category": "laptop",
+   "attention_in_box": 0.3311,
+   "box_area": 0.185,
+   "ratio": 1.79
+  },
+  {
+   "image_id": "387098",
+   "word": "mouse",
+   "category": "mouse",
+   "attention_in_box": 0.0051,
+   "box_area": 0.0099,
+   "ratio": 0.521
+  },
+  {
+   "image_id": "355610",
+   "word": "teddy",
+   "category": "teddy bear",
+   "attention_in_box": 0.5075,
+   "box_area": 0.5248,
+   "ratio": 0.967
+  },
+  {
+   "image_id": "16451",
+   "word": "chair",
+   "category": "chair",
+   "attention_in_box": 0.0664,
+   "box_area": 0.0293,
+   "ratio": 2.266
+  },
+  {
+   "image_id": "16451",
+   "word": "backpack",
+   "category": "backpack",
+   "attention_in_box": 0.0106,
+   "box_area": 0.0136,
+   "ratio": 0.778
+  },
+  {
+   "image_id": "335450",
+   "word": "horses",
+   "category": "horse",
+   "attention_in_box": 0.7362,
+   "box_area": 0.554,
+   "ratio": 1.329
+  },
+  {
+   "image_id": "357459",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.4755,
+   "box_area": 0.313,
+   "ratio": 1.519
+  },
+  {
+   "image_id": "357459",
+   "word": "Frisbee",
+   "category": "frisbee",
+   "attention_in_box": 0.3319,
+   "box_area": 0.103,
+   "ratio": 3.221
+  },
+  {
+   "image_id": "188465",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.3845,
+   "box_area": 0.5617,
+   "ratio": 0.685
+  },
+  {
+   "image_id": "188465",
+   "word": "bat",
+   "category": "baseball bat",
+   "attention_in_box": 0.0019,
+   "box_area": 0.0041,
+   "ratio": 0.463
+  },
+  {
+   "image_id": "325991",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.7727,
+   "box_area": 0.5091,
+   "ratio": 1.518
+  },
+  {
+   "image_id": "325991",
+   "word": "frisbee",
+   "category": "frisbee",
+   "attention_in_box": 0.0603,
+   "box_area": 0.0068,
+   "ratio": 8.893
+  },
+  {
+   "image_id": "203931",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.8902,
+   "box_area": 0.8868,
+   "ratio": 1.004
+  },
+  {
+   "image_id": "203931",
+   "word": "bat.",
+   "category": "baseball bat",
+   "attention_in_box": 0.0442,
+   "box_area": 0.0369,
+   "ratio": 1.201
+  },
+  {
+   "image_id": "407960",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.6721,
+   "box_area": 0.298,
+   "ratio": 2.256
+  },
+  {
+   "image_id": "491366",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.5755,
+   "box_area": 0.3287,
+   "ratio": 1.751
+  },
+  {
+   "image_id": "491366",
+   "word": "TV.",
+   "category": "tv",
+   "attention_in_box": 0.1009,
+   "box_area": 0.0285,
+   "ratio": 3.546
+  },
+  {
+   "image_id": "207728",
+   "word": "sheep",
+   "category": "sheep",
+   "attention_in_box": 0.8764,
+   "box_area": 0.7708,
+   "ratio": 1.137
+  },
+  {
+   "image_id": "377368",
+   "word": "cake",
+   "category": "cake",
+   "attention_in_box": 0.4705,
+   "box_area": 0.3281,
+   "ratio": 1.434
+  },
+  {
+   "image_id": "377368",
+   "word": "table.",
+   "category": "dining table",
+   "attention_in_box": 0.8641,
+   "box_area": 0.7824,
+   "ratio": 1.104
+  },
+  {
+   "image_id": "71451",
+   "word": "bed",
+   "category": "bed",
+   "attention_in_box": 0.9834,
+   "box_area": 0.8973,
+   "ratio": 1.096
+  },
+  {
+   "image_id": "546475",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.9748,
+   "box_area": 0.9196,
+   "ratio": 1.06
+  },
+  {
+   "image_id": "546475",
+   "word": "baby",
+   "category": "person",
+   "attention_in_box": 0.9629,
+   "box_area": 0.9196,
+   "ratio": 1.047
+  },
+  {
+   "image_id": "498032",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.7501,
+   "box_area": 0.4933,
+   "ratio": 1.521
+  },
+  {
+   "image_id": "456559",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.9618,
+   "box_area": 0.8589,
+   "ratio": 1.12
+  },
+  {
+   "image_id": "456559",
+   "word": "tie",
+   "category": "tie",
+   "attention_in_box": 0.0387,
+   "box_area": 0.0518,
+   "ratio": 0.747
+  },
+  {
+   "image_id": "51314",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4283,
+   "box_area": 0.2907,
+   "ratio": 1.473
+  },
+  {
+   "image_id": "428280",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.0745,
+   "box_area": 0.1171,
+   "ratio": 0.636
+  },
+  {
+   "image_id": "428280",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.0875,
+   "box_area": 0.1171,
+   "ratio": 0.748
+  },
+  {
+   "image_id": "187734",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.4253,
+   "box_area": 0.2101,
+   "ratio": 2.024
+  },
+  {
+   "image_id": "284725",
+   "word": "bus",
+   "category": "bus",
+   "attention_in_box": 0.734,
+   "box_area": 0.3795,
+   "ratio": 1.934
+  },
+  {
+   "image_id": "129492",
+   "word": "child",
+   "category": "person",
+   "attention_in_box": 0.9232,
+   "box_area": 0.6425,
+   "ratio": 1.437
+  },
+  {
+   "image_id": "129492",
+   "word": "child",
+   "category": "person",
+   "attention_in_box": 0.8726,
+   "box_area": 0.6425,
+   "ratio": 1.358
+  },
+  {
+   "image_id": "289586",
+   "word": "giraffe",
+   "category": "giraffe",
+   "attention_in_box": 0.9457,
+   "box_area": 0.7857,
+   "ratio": 1.204
+  },
+  {
+   "image_id": "378139",
+   "word": "boat",
+   "category": "boat",
+   "attention_in_box": 0.5232,
+   "box_area": 0.1943,
+   "ratio": 2.693
+  },
+  {
+   "image_id": "157213",
+   "word": "elephant",
+   "category": "elephant",
+   "attention_in_box": 0.5677,
+   "box_area": 0.136,
+   "ratio": 4.173
+  },
+  {
+   "image_id": "517069",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.6837,
+   "box_area": 0.2766,
+   "ratio": 2.471
+  },
+  {
+   "image_id": "517069",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.3153,
+   "box_area": 0.1698,
+   "ratio": 1.857
+  },
+  {
+   "image_id": "93261",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.5943,
+   "box_area": 0.3932,
+   "ratio": 1.511
+  },
+  {
+   "image_id": "90155",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.7828,
+   "box_area": 0.365,
+   "ratio": 2.145
+  },
+  {
+   "image_id": "90155",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.6865,
+   "box_area": 0.365,
+   "ratio": 1.881
+  },
+  {
+   "image_id": "491497",
+   "word": "TV",
+   "category": "tv",
+   "attention_in_box": 0.2728,
+   "box_area": 0.1217,
+   "ratio": 2.243
+  },
+  {
+   "image_id": "230362",
+   "word": "boat",
+   "category": "boat",
+   "attention_in_box": 0.4136,
+   "box_area": 0.2521,
+   "ratio": 1.641
+  },
+  {
+   "image_id": "295713",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.4458,
+   "box_area": 0.1882,
+   "ratio": 2.369
+  },
+  {
+   "image_id": "295713",
+   "word": "child.",
+   "category": "person",
+   "attention_in_box": 0.2434,
+   "box_area": 0.1882,
+   "ratio": 1.293
+  },
+  {
+   "image_id": "489842",
+   "word": "children",
+   "category": "person",
+   "attention_in_box": 0.9931,
+   "box_area": 0.9846,
+   "ratio": 1.009
+  },
+  {
+   "image_id": "489842",
+   "word": "women.",
+   "category": "person",
+   "attention_in_box": 0.9908,
+   "box_area": 0.9846,
+   "ratio": 1.006
+  },
+  {
+   "image_id": "463730",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.5081,
+   "box_area": 0.3808,
+   "ratio": 1.334
+  },
+  {
+   "image_id": "463730",
+   "word": "bus.",
+   "category": "bus",
+   "attention_in_box": 0.5719,
+   "box_area": 0.3165,
+   "ratio": 1.807
+  },
+  {
+   "image_id": "575187",
+   "word": "giraffe",
+   "category": "giraffe",
+   "attention_in_box": 0.4593,
+   "box_area": 0.1369,
+   "ratio": 3.356
+  },
+  {
+   "image_id": "482487",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.1511,
+   "box_area": 0.062,
+   "ratio": 2.436
+  },
+  {
+   "image_id": "122962",
+   "word": "children",
+   "category": "person",
+   "attention_in_box": 0.9676,
+   "box_area": 0.9361,
+   "ratio": 1.034
+  },
+  {
+   "image_id": "122962",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.6818,
+   "box_area": 0.5259,
+   "ratio": 1.297
+  },
+  {
+   "image_id": "122962",
+   "word": "people.",
+   "category": "person",
+   "attention_in_box": 0.9566,
+   "box_area": 0.9361,
+   "ratio": 1.022
+  },
+  {
+   "image_id": "520301",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.8927,
+   "box_area": 0.6513,
+   "ratio": 1.371
+  },
+  {
+   "image_id": "330818",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.6108,
+   "box_area": 0.3862,
+   "ratio": 1.581
+  },
+  {
+   "image_id": "189078",
+   "word": "bananas",
+   "category": "banana",
+   "attention_in_box": 0.1857,
+   "box_area": 0.1594,
+   "ratio": 1.165
+  },
+  {
+   "image_id": "549930",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.6323,
+   "box_area": 0.365,
+   "ratio": 1.732
+  },
+  {
+   "image_id": "549930",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.507,
+   "box_area": 0.365,
+   "ratio": 1.389
+  },
+  {
+   "image_id": "549930",
+   "word": "umbrellas.",
+   "category": "umbrella",
+   "attention_in_box": 0.2475,
+   "box_area": 0.1875,
+   "ratio": 1.32
+  },
+  {
+   "image_id": "231831",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.9259,
+   "box_area": 0.7677,
+   "ratio": 1.206
+  },
+  {
+   "image_id": "147498",
+   "word": "birds",
+   "category": "bird",
+   "attention_in_box": 0.8,
+   "box_area": 0.6674,
+   "ratio": 1.199
+  },
+  {
+   "image_id": "44195",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.5925,
+   "box_area": 0.4257,
+   "ratio": 1.392
+  },
+  {
+   "image_id": "44195",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.5138,
+   "box_area": 0.4257,
+   "ratio": 1.207
+  },
+  {
+   "image_id": "252559",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.1637,
+   "box_area": 0.096,
+   "ratio": 1.705
+  },
+  {
+   "image_id": "572303",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.8799,
+   "box_area": 0.6652,
+   "ratio": 1.323
+  },
+  {
+   "image_id": "255749",
+   "word": "bus",
+   "category": "bus",
+   "attention_in_box": 0.7754,
+   "box_area": 0.3897,
+   "ratio": 1.99
+  },
+  {
+   "image_id": "255749",
+   "word": "bus.",
+   "category": "bus",
+   "attention_in_box": 0.6401,
+   "box_area": 0.3897,
+   "ratio": 1.643
+  },
+  {
+   "image_id": "489046",
+   "word": "bird",
+   "category": "bird",
+   "attention_in_box": 0.5239,
+   "box_area": 0.0655,
+   "ratio": 8.003
+  },
+  {
+   "image_id": "561889",
+   "word": "fork",
+   "category": "fork",
+   "attention_in_box": 0.266,
+   "box_area": 0.2243,
+   "ratio": 1.186
+  },
+  {
+   "image_id": "320696",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.3188,
+   "box_area": 0.1165,
+   "ratio": 2.737
+  },
+  {
+   "image_id": "320696",
+   "word": "surfboard",
+   "category": "surfboard",
+   "attention_in_box": 0.0448,
+   "box_area": 0.0239,
+   "ratio": 1.874
+  },
+  {
+   "image_id": "447314",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.3184,
+   "box_area": 0.1077,
+   "ratio": 2.956
+  },
+  {
+   "image_id": "447314",
+   "word": "kite.",
+   "category": "kite",
+   "attention_in_box": 0.0295,
+   "box_area": 0.0061,
+   "ratio": 4.867
+  },
+  {
+   "image_id": "11051",
+   "word": "women",
+   "category": "person",
+   "attention_in_box": 0.9869,
+   "box_area": 0.9383,
+   "ratio": 1.052
+  },
+  {
+   "image_id": "442836",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.7214,
+   "box_area": 0.4364,
+   "ratio": 1.653
+  },
+  {
+   "image_id": "442836",
+   "word": "frisbee",
+   "category": "frisbee",
+   "attention_in_box": 0.0375,
+   "box_area": 0.0101,
+   "ratio": 3.722
+  },
+  {
+   "image_id": "68628",
+   "word": "boy",
+   "category": "person",
+   "attention_in_box": 0.653,
+   "box_area": 0.3052,
+   "ratio": 2.14
+  },
+  {
+   "image_id": "68628",
+   "word": "skateboard",
+   "category": "skateboard",
+   "attention_in_box": 0.2619,
+   "box_area": 0.0694,
+   "ratio": 3.777
+  },
+  {
+   "image_id": "414673",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.9984,
+   "box_area": 0.9955,
+   "ratio": 1.003
+  },
+  {
+   "image_id": "150930",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.5632,
+   "box_area": 0.179,
+   "ratio": 3.148
+  },
+  {
+   "image_id": "506454",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.5972,
+   "box_area": 0.1375,
+   "ratio": 4.343
+  },
+  {
+   "image_id": "508370",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.5196,
+   "box_area": 0.3905,
+   "ratio": 1.331
+  },
+  {
+   "image_id": "508370",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.4611,
+   "box_area": 0.3905,
+   "ratio": 1.181
+  },
+  {
+   "image_id": "508370",
+   "word": "bicycle",
+   "category": "bicycle",
+   "attention_in_box": 0.5252,
+   "box_area": 0.4657,
+   "ratio": 1.128
+  },
+  {
+   "image_id": "539143",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.8623,
+   "box_area": 0.4955,
+   "ratio": 1.74
+  },
+  {
+   "image_id": "539143",
+   "word": "train.",
+   "category": "train",
+   "attention_in_box": 0.6847,
+   "box_area": 0.4955,
+   "ratio": 1.382
+  },
+  {
+   "image_id": "231527",
+   "word": "oranges",
+   "category": "orange",
+   "attention_in_box": 1.0,
+   "box_area": 1.0,
+   "ratio": 1.0
+  },
+  {
+   "image_id": "231527",
+   "word": "table.",
+   "category": "dining table",
+   "attention_in_box": 0.9793,
+   "box_area": 0.9866,
+   "ratio": 0.993
+  },
+  {
+   "image_id": "68409",
+   "word": "boys",
+   "category": "person",
+   "attention_in_box": 0.9743,
+   "box_area": 0.9595,
+   "ratio": 1.015
+  },
+  {
+   "image_id": "68409",
+   "word": "girls.",
+   "category": "person",
+   "attention_in_box": 0.9561,
+   "box_area": 0.9595,
+   "ratio": 0.996
+  },
+  {
+   "image_id": "210099",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.5913,
+   "box_area": 0.2878,
+   "ratio": 2.055
+  },
+  {
+   "image_id": "554735",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.433,
+   "box_area": 0.4316,
+   "ratio": 1.003
+  },
+  {
+   "image_id": "554735",
+   "word": "pizza",
+   "category": "pizza",
+   "attention_in_box": 0.6832,
+   "box_area": 0.5001,
+   "ratio": 1.366
+  },
+  {
+   "image_id": "485844",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.6202,
+   "box_area": 0.3692,
+   "ratio": 1.68
+  },
+  {
+   "image_id": "485844",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.3368,
+   "box_area": 0.1513,
+   "ratio": 2.226
+  },
+  {
+   "image_id": "485844",
+   "word": "knife.",
+   "category": "knife",
+   "attention_in_box": 0.0149,
+   "box_area": 0.0049,
+   "ratio": 3.043
+  },
+  {
+   "image_id": "52591",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.917,
+   "box_area": 0.7545,
+   "ratio": 1.215
+  },
+  {
+   "image_id": "464824",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.8475,
+   "box_area": 0.7277,
+   "ratio": 1.165
+  },
+  {
+   "image_id": "194506",
+   "word": "bears",
+   "category": "bear",
+   "attention_in_box": 0.5002,
+   "box_area": 0.1828,
+   "ratio": 2.736
+  },
+  {
+   "image_id": "380706",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4471,
+   "box_area": 0.1206,
+   "ratio": 3.708
+  },
+  {
+   "image_id": "423123",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.8793,
+   "box_area": 0.6812,
+   "ratio": 1.291
+  },
+  {
+   "image_id": "423123",
+   "word": "phone.",
+   "category": "cell phone",
+   "attention_in_box": 0.0046,
+   "box_area": 0.0018,
+   "ratio": 2.563
+  },
+  {
+   "image_id": "442746",
+   "word": "boy",
+   "category": "person",
+   "attention_in_box": 0.3744,
+   "box_area": 0.0457,
+   "ratio": 8.19
+  },
+  {
+   "image_id": "179265",
+   "word": "bus",
+   "category": "bus",
+   "attention_in_box": 0.3766,
+   "box_area": 0.0909,
+   "ratio": 4.144
+  },
+  {
+   "image_id": "451879",
+   "word": "men",
+   "category": "person",
+   "attention_in_box": 0.7808,
+   "box_area": 0.833,
+   "ratio": 0.937
+  },
+  {
+   "image_id": "190853",
+   "word": "banana",
+   "category": "banana",
+   "attention_in_box": 0.9555,
+   "box_area": 0.9383,
+   "ratio": 1.018
+  },
+  {
+   "image_id": "369081",
+   "word": "horses",
+   "category": "horse",
+   "attention_in_box": 0.7638,
+   "box_area": 0.3252,
+   "ratio": 2.349
+  },
+  {
+   "image_id": "297353",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.6849,
+   "box_area": 0.3047,
+   "ratio": 2.248
+  },
+  {
+   "image_id": "297353",
+   "word": "bed",
+   "category": "bed",
+   "attention_in_box": 0.4018,
+   "box_area": 0.2817,
+   "ratio": 1.426
+  },
+  {
+   "image_id": "27972",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.3636,
+   "box_area": 0.1226,
+   "ratio": 2.966
+  },
+  {
+   "image_id": "27972",
+   "word": "surfboard",
+   "category": "surfboard",
+   "attention_in_box": 0.2489,
+   "box_area": 0.0853,
+   "ratio": 2.919
+  },
+  {
+   "image_id": "306437",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.455,
+   "box_area": 0.0542,
+   "ratio": 8.393
+  },
+  {
+   "image_id": "74860",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.2653,
+   "box_area": 0.0412,
+   "ratio": 6.44
+  },
+  {
+   "image_id": "82085",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.9219,
+   "box_area": 0.9211,
+   "ratio": 1.001
+  },
+  {
+   "image_id": "82085",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.0421,
+   "box_area": 0.0348,
+   "ratio": 1.212
+  },
+  {
+   "image_id": "499313",
+   "word": "pizza",
+   "category": "pizza",
+   "attention_in_box": 0.8623,
+   "box_area": 0.7589,
+   "ratio": 1.136
+  },
+  {
+   "image_id": "4395",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 1.0,
+   "box_area": 1.0,
+   "ratio": 1.0
+  },
+  {
+   "image_id": "4395",
+   "word": "tie",
+   "category": "tie",
+   "attention_in_box": 0.2118,
+   "box_area": 0.1382,
+   "ratio": 1.532
+  },
+  {
+   "image_id": "20059",
+   "word": "zebras",
+   "category": "zebra",
+   "attention_in_box": 0.4812,
+   "box_area": 0.1665,
+   "ratio": 2.891
+  },
+  {
+   "image_id": "306893",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.6906,
+   "box_area": 0.2634,
+   "ratio": 2.622
+  },
+  {
+   "image_id": "402774",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.4766,
+   "box_area": 0.3078,
+   "ratio": 1.548
+  },
+  {
+   "image_id": "402774",
+   "word": "umbrella",
+   "category": "umbrella",
+   "attention_in_box": 0.4848,
+   "box_area": 0.1211,
+   "ratio": 4.004
+  },
+  {
+   "image_id": "402774",
+   "word": "umbrella.",
+   "category": "umbrella",
+   "attention_in_box": 0.4658,
+   "box_area": 0.1211,
+   "ratio": 3.848
+  },
+  {
+   "image_id": "166287",
+   "word": "cows",
+   "category": "cow",
+   "attention_in_box": 0.3776,
+   "box_area": 0.1159,
+   "ratio": 3.259
+  },
+  {
+   "image_id": "192670",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.508,
+   "box_area": 0.3252,
+   "ratio": 1.562
+  },
+  {
+   "image_id": "192670",
+   "word": "bat",
+   "category": "baseball bat",
+   "attention_in_box": 0.0064,
+   "box_area": 0.0068,
+   "ratio": 0.939
+  },
+  {
+   "image_id": "432898",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.3104,
+   "box_area": 0.0855,
+   "ratio": 3.632
+  },
+  {
+   "image_id": "432898",
+   "word": "kite",
+   "category": "kite",
+   "attention_in_box": 0.1031,
+   "box_area": 0.0594,
+   "ratio": 1.737
+  },
+  {
+   "image_id": "466085",
+   "word": "sink.",
+   "category": "sink",
+   "attention_in_box": 0.347,
+   "box_area": 0.1393,
+   "ratio": 2.49
+  },
+  {
+   "image_id": "185250",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.3363,
+   "box_area": 0.1931,
+   "ratio": 1.742
+  },
+  {
+   "image_id": "185250",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.3801,
+   "box_area": 0.0927,
+   "ratio": 4.102
+  },
+  {
+   "image_id": "396518",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4739,
+   "box_area": 0.1842,
+   "ratio": 2.574
+  },
+  {
+   "image_id": "338905",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.6333,
+   "box_area": 0.456,
+   "ratio": 1.389
+  },
+  {
+   "image_id": "338905",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.3745,
+   "box_area": 0.1937,
+   "ratio": 1.933
+  },
+  {
+   "image_id": "58393",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.22,
+   "box_area": 0.0614,
+   "ratio": 3.584
+  },
+  {
+   "image_id": "58393",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.6237,
+   "box_area": 0.4643,
+   "ratio": 1.343
+  },
+  {
+   "image_id": "3156",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.7441,
+   "box_area": 0.817,
+   "ratio": 0.911
+  },
+  {
+   "image_id": "3156",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.5321,
+   "box_area": 0.2821,
+   "ratio": 1.886
+  },
+  {
+   "image_id": "132408",
+   "word": "horses",
+   "category": "horse",
+   "attention_in_box": 0.6451,
+   "box_area": 0.297,
+   "ratio": 2.172
+  },
+  {
+   "image_id": "468505",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.3862,
+   "box_area": 0.2684,
+   "ratio": 1.439
+  },
+  {
+   "image_id": "468505",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.4153,
+   "box_area": 0.2483,
+   "ratio": 1.673
+  },
+  {
+   "image_id": "143556",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.6363,
+   "box_area": 0.3927,
+   "ratio": 1.62
+  },
+  {
+   "image_id": "143556",
+   "word": "motorcycle",
+   "category": "motorcycle",
+   "attention_in_box": 0.4624,
+   "box_area": 0.3371,
+   "ratio": 1.372
+  },
+  {
+   "image_id": "199442",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.3067,
+   "box_area": 0.1592,
+   "ratio": 1.926
+  },
+  {
+   "image_id": "199442",
+   "word": "surfboard",
+   "category": "surfboard",
+   "attention_in_box": 0.1308,
+   "box_area": 0.0797,
+   "ratio": 1.64
+  },
+  {
+   "image_id": "115245",
+   "word": "suitcase",
+   "category": "suitcase",
+   "attention_in_box": 0.4933,
+   "box_area": 0.4014,
+   "ratio": 1.229
+  },
+  {
+   "image_id": "115245",
+   "word": "luggage",
+   "category": "suitcase",
+   "attention_in_box": 0.4698,
+   "box_area": 0.4014,
+   "ratio": 1.17
+  },
+  {
+   "image_id": "467315",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.051,
+   "box_area": 0.0215,
+   "ratio": 2.372
+  },
+  {
+   "image_id": "568690",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.4567,
+   "box_area": 0.0975,
+   "ratio": 4.686
+  },
+  {
+   "image_id": "568690",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.5014,
+   "box_area": 0.3964,
+   "ratio": 1.265
+  },
+  {
+   "image_id": "187585",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.9418,
+   "box_area": 0.7857,
+   "ratio": 1.199
+  },
+  {
+   "image_id": "187585",
+   "word": "skateboard",
+   "category": "skateboard",
+   "attention_in_box": 0.3628,
+   "box_area": 0.1674,
+   "ratio": 2.167
+  },
+  {
+   "image_id": "48564",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.9898,
+   "box_area": 0.9821,
+   "ratio": 1.008
+  },
+  {
+   "image_id": "396526",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.3283,
+   "box_area": 0.1886,
+   "ratio": 1.741
+  },
+  {
+   "image_id": "396526",
+   "word": "chairs",
+   "category": "chair",
+   "attention_in_box": 0.3364,
+   "box_area": 0.2581,
+   "ratio": 1.303
+  },
+  {
+   "image_id": "468965",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.6289,
+   "box_area": 0.4663,
+   "ratio": 1.349
+  },
+  {
+   "image_id": "257865",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.67,
+   "box_area": 0.3639,
+   "ratio": 1.841
+  },
+  {
+   "image_id": "257865",
+   "word": "racket.",
+   "category": "tennis racket",
+   "attention_in_box": 0.1082,
+   "box_area": 0.0438,
+   "ratio": 2.467
+  },
+  {
+   "image_id": "398742",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.9558,
+   "box_area": 0.885,
+   "ratio": 1.08
+  },
+  {
+   "image_id": "398742",
+   "word": "people.",
+   "category": "person",
+   "attention_in_box": 0.9178,
+   "box_area": 0.885,
+   "ratio": 1.037
+  },
+  {
+   "image_id": "569565",
+   "word": "truck",
+   "category": "truck",
+   "attention_in_box": 0.6025,
+   "box_area": 0.2349,
+   "ratio": 2.565
+  },
+  {
+   "image_id": "90108",
+   "word": "sink,",
+   "category": "sink",
+   "attention_in_box": 0.0718,
+   "box_area": 0.0298,
+   "ratio": 2.409
+  },
+  {
+   "image_id": "90108",
+   "word": "toilet,",
+   "category": "toilet",
+   "attention_in_box": 0.0645,
+   "box_area": 0.0249,
+   "ratio": 2.595
+  },
+  {
+   "image_id": "272049",
+   "word": "truck",
+   "category": "truck",
+   "attention_in_box": 0.8835,
+   "box_area": 0.8696,
+   "ratio": 1.016
+  },
+  {
+   "image_id": "272049",
+   "word": "truck",
+   "category": "truck",
+   "attention_in_box": 0.8818,
+   "box_area": 0.8696,
+   "ratio": 1.014
+  },
+  {
+   "image_id": "38678",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.8953,
+   "box_area": 0.7858,
+   "ratio": 1.139
+  },
+  {
+   "image_id": "80273",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.65,
+   "box_area": 0.4258,
+   "ratio": 1.527
+  },
+  {
+   "image_id": "80273",
+   "word": "snowboard.",
+   "category": "snowboard",
+   "attention_in_box": 0.1905,
+   "box_area": 0.1071,
+   "ratio": 1.779
+  },
+  {
+   "image_id": "131444",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.9464,
+   "box_area": 0.8571,
+   "ratio": 1.104
+  },
+  {
+   "image_id": "131444",
+   "word": "tie",
+   "category": "tie",
+   "attention_in_box": 0.0581,
+   "box_area": 0.0731,
+   "ratio": 0.795
+  },
+  {
+   "image_id": "131444",
+   "word": "tie",
+   "category": "tie",
+   "attention_in_box": 0.0599,
+   "box_area": 0.0731,
+   "ratio": 0.82
+  },
+  {
+   "image_id": "97679",
+   "word": "cars",
+   "category": "car",
+   "attention_in_box": 0.7323,
+   "box_area": 0.4228,
+   "ratio": 1.732
+  },
+  {
+   "image_id": "80153",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.3844,
+   "box_area": 0.1824,
+   "ratio": 2.108
+  },
+  {
+   "image_id": "80153",
+   "word": "dog.",
+   "category": "dog",
+   "attention_in_box": 0.2167,
+   "box_area": 0.0843,
+   "ratio": 2.569
+  },
+  {
+   "image_id": "202339",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4684,
+   "box_area": 0.268,
+   "ratio": 1.748
+  },
+  {
+   "image_id": "202339",
+   "word": "suitcase.",
+   "category": "suitcase",
+   "attention_in_box": 0.0735,
+   "box_area": 0.0823,
+   "ratio": 0.893
+  },
+  {
+   "image_id": "294695",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.1446,
+   "box_area": 0.0587,
+   "ratio": 2.464
+  },
+  {
+   "image_id": "294695",
+   "word": "kite.",
+   "category": "kite",
+   "attention_in_box": 0.2244,
+   "box_area": 0.2072,
+   "ratio": 1.083
+  },
+  {
+   "image_id": "299609",
+   "word": "horse",
+   "category": "horse",
+   "attention_in_box": 0.3352,
+   "box_area": 0.0391,
+   "ratio": 8.581
+  },
+  {
+   "image_id": "134689",
+   "word": "giraffe",
+   "category": "giraffe",
+   "attention_in_box": 0.8555,
+   "box_area": 0.7857,
+   "ratio": 1.089
+  },
+  {
+   "image_id": "416269",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.7646,
+   "box_area": 0.5268,
+   "ratio": 1.451
+  },
+  {
+   "image_id": "420840",
+   "word": "girl",
+   "category": "person",
+   "attention_in_box": 0.8777,
+   "box_area": 0.6932,
+   "ratio": 1.266
+  },
+  {
+   "image_id": "423617",
+   "word": "bus",
+   "category": "bus",
+   "attention_in_box": 0.6799,
+   "box_area": 0.3477,
+   "ratio": 1.955
+  },
+  {
+   "image_id": "133000",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.8338,
+   "box_area": 0.5402,
+   "ratio": 1.544
+  },
+  {
+   "image_id": "389109",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.7324,
+   "box_area": 0.5248,
+   "ratio": 1.396
+  },
+  {
+   "image_id": "389109",
+   "word": "pizza",
+   "category": "pizza",
+   "attention_in_box": 0.5906,
+   "box_area": 0.29,
+   "ratio": 2.037
+  },
+  {
+   "image_id": "298738",
+   "word": "bear",
+   "category": "bear",
+   "attention_in_box": 0.9853,
+   "box_area": 0.9509,
+   "ratio": 1.036
+  },
+  {
+   "image_id": "328337",
+   "word": "boy",
+   "category": "person",
+   "attention_in_box": 0.814,
+   "box_area": 0.5998,
+   "ratio": 1.357
+  },
+  {
+   "image_id": "522007",
+   "word": "sink",
+   "category": "sink",
+   "attention_in_box": 0.0017,
+   "box_area": 0.0085,
+   "ratio": 0.205
+  },
+  {
+   "image_id": "522007",
+   "word": "stove.",
+   "category": "oven",
+   "attention_in_box": 0.1467,
+   "box_area": 0.0868,
+   "ratio": 1.69
+  },
+  {
+   "image_id": "51610",
+   "word": "boy",
+   "category": "person",
+   "attention_in_box": 0.5147,
+   "box_area": 0.3137,
+   "ratio": 1.641
+  },
+  {
+   "image_id": "51610",
+   "word": "laptop",
+   "category": "laptop",
+   "attention_in_box": 0.3987,
+   "box_area": 0.1914,
+   "ratio": 2.083
+  },
+  {
+   "image_id": "51610",
+   "word": "laptop.",
+   "category": "laptop",
+   "attention_in_box": 0.4083,
+   "box_area": 0.1914,
+   "ratio": 2.133
+  },
+  {
+   "image_id": "311002",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.5336,
+   "box_area": 0.4026,
+   "ratio": 1.325
+  },
+  {
+   "image_id": "311002",
+   "word": "bat.",
+   "category": "baseball bat",
+   "attention_in_box": 0.1196,
+   "box_area": 0.1212,
+   "ratio": 0.986
+  },
+  {
+   "image_id": "420472",
+   "word": "giraffes",
+   "category": "giraffe",
+   "attention_in_box": 0.8719,
+   "box_area": 0.6122,
+   "ratio": 1.424
+  },
+  {
+   "image_id": "243344",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.4545,
+   "box_area": 0.0834,
+   "ratio": 5.452
+  },
+  {
+   "image_id": "243344",
+   "word": "refrigerator",
+   "category": "refrigerator",
+   "attention_in_box": 0.5938,
+   "box_area": 0.381,
+   "ratio": 1.559
+  },
+  {
+   "image_id": "42276",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.2559,
+   "box_area": 0.125,
+   "ratio": 2.048
+  },
+  {
+   "image_id": "441442",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4365,
+   "box_area": 0.0829,
+   "ratio": 5.267
+  },
+  {
+   "image_id": "441442",
+   "word": "horse",
+   "category": "horse",
+   "attention_in_box": 0.4745,
+   "box_area": 0.3422,
+   "ratio": 1.387
+  },
+  {
+   "image_id": "384670",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.3641,
+   "box_area": 0.1374,
+   "ratio": 2.651
+  },
+  {
+   "image_id": "384670",
+   "word": "ball.",
+   "category": "sports ball",
+   "attention_in_box": 0.0002,
+   "box_area": 0.0003,
+   "ratio": 0.766
+  },
+  {
+   "image_id": "78032",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.3033,
+   "box_area": 0.1211,
+   "ratio": 2.504
+  },
+  {
+   "image_id": "100238",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.9649,
+   "box_area": 0.8988,
+   "ratio": 1.074
+  },
+  {
+   "image_id": "370486",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.9632,
+   "box_area": 0.953,
+   "ratio": 1.011
+  },
+  {
+   "image_id": "370486",
+   "word": "umbrella.",
+   "category": "umbrella",
+   "attention_in_box": 0.2666,
+   "box_area": 0.1376,
+   "ratio": 1.937
+  },
+  {
+   "image_id": "151480",
+   "word": "kids",
+   "category": "person",
+   "attention_in_box": 0.3229,
+   "box_area": 0.1717,
+   "ratio": 1.88
+  },
+  {
+   "image_id": "334521",
+   "word": "giraffe",
+   "category": "giraffe",
+   "attention_in_box": 0.5453,
+   "box_area": 0.3714,
+   "ratio": 1.468
+  },
+  {
+   "image_id": "334521",
+   "word": "giraffe",
+   "category": "giraffe",
+   "attention_in_box": 0.4685,
+   "box_area": 0.3714,
+   "ratio": 1.261
+  },
+  {
+   "image_id": "46048",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.4409,
+   "box_area": 0.0565,
+   "ratio": 7.804
+  },
+  {
+   "image_id": "46048",
+   "word": "bed",
+   "category": "bed",
+   "attention_in_box": 0.6871,
+   "box_area": 0.4347,
+   "ratio": 1.581
+  },
+  {
+   "image_id": "46048",
+   "word": "bed.",
+   "category": "bed",
+   "attention_in_box": 0.6282,
+   "box_area": 0.4347,
+   "ratio": 1.445
+  },
+  {
+   "image_id": "331352",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.4758,
+   "box_area": 0.4159,
+   "ratio": 1.144
+  },
+  {
+   "image_id": "226903",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.7061,
+   "box_area": 0.3571,
+   "ratio": 1.977
+  },
+  {
+   "image_id": "135410",
+   "word": "motorcycle",
+   "category": "motorcycle",
+   "attention_in_box": 0.1384,
+   "box_area": 0.0912,
+   "ratio": 1.518
+  },
+  {
+   "image_id": "231088",
+   "word": "umbrella",
+   "category": "umbrella",
+   "attention_in_box": 0.8659,
+   "box_area": 0.7677,
+   "ratio": 1.128
+  },
+  {
+   "image_id": "231088",
+   "word": "umbrella",
+   "category": "umbrella",
+   "attention_in_box": 0.8583,
+   "box_area": 0.7677,
+   "ratio": 1.118
+  },
+  {
+   "image_id": "127394",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.3345,
+   "box_area": 0.3098,
+   "ratio": 1.08
+  },
+  {
+   "image_id": "357430",
+   "word": "pizza",
+   "category": "pizza",
+   "attention_in_box": 0.8291,
+   "box_area": 0.8304,
+   "ratio": 0.999
+  },
+  {
+   "image_id": "449579",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.4713,
+   "box_area": 0.1995,
+   "ratio": 2.362
+  },
+  {
+   "image_id": "509719",
+   "word": "bird",
+   "category": "bird",
+   "attention_in_box": 0.7608,
+   "box_area": 0.3727,
+   "ratio": 2.041
+  },
+  {
+   "image_id": "581615",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.3635,
+   "box_area": 0.1471,
+   "ratio": 2.472
+  },
+  {
+   "image_id": "581615",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.326,
+   "box_area": 0.1471,
+   "ratio": 2.216
+  },
+  {
+   "image_id": "398028",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.8169,
+   "box_area": 0.7557,
+   "ratio": 1.081
+  },
+  {
+   "image_id": "398028",
+   "word": "bat",
+   "category": "baseball bat",
+   "attention_in_box": 0.1304,
+   "box_area": 0.0688,
+   "ratio": 1.897
+  },
+  {
+   "image_id": "409542",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.1472,
+   "box_area": 0.0575,
+   "ratio": 2.56
+  },
+  {
+   "image_id": "409542",
+   "word": "Clock",
+   "category": "clock",
+   "attention_in_box": 0.1502,
+   "box_area": 0.0575,
+   "ratio": 2.612
+  },
+  {
+   "image_id": "409542",
+   "word": "Clock\".",
+   "category": "clock",
+   "attention_in_box": 0.1222,
+   "box_area": 0.0575,
+   "ratio": 2.125
+  },
+  {
+   "image_id": "74646",
+   "word": "People",
+   "category": "person",
+   "attention_in_box": 0.0478,
+   "box_area": 0.0092,
+   "ratio": 5.212
+  },
+  {
+   "image_id": "74646",
+   "word": "kites",
+   "category": "kite",
+   "attention_in_box": 0.0428,
+   "box_area": 0.0026,
+   "ratio": 16.274
+  },
+  {
+   "image_id": "239627",
+   "word": "sink",
+   "category": "sink",
+   "attention_in_box": 0.9568,
+   "box_area": 0.875,
+   "ratio": 1.093
+  },
+  {
+   "image_id": "482275",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.847,
+   "box_area": 0.7372,
+   "ratio": 1.149
+  },
+  {
+   "image_id": "482275",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.8174,
+   "box_area": 0.7372,
+   "ratio": 1.109
+  },
+  {
+   "image_id": "482275",
+   "word": "cake.",
+   "category": "cake",
+   "attention_in_box": 0.1547,
+   "box_area": 0.0763,
+   "ratio": 2.029
+  },
+  {
+   "image_id": "565877",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.8279,
+   "box_area": 0.6696,
+   "ratio": 1.236
+  },
+  {
+   "image_id": "565877",
+   "word": "couch.",
+   "category": "couch",
+   "attention_in_box": 0.7128,
+   "box_area": 0.8,
+   "ratio": 0.891
+  },
+  {
+   "image_id": "236308",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.1527,
+   "box_area": 0.0318,
+   "ratio": 4.805
+  },
+  {
+   "image_id": "236308",
+   "word": "skis",
+   "category": "skis",
+   "attention_in_box": 0.0051,
+   "box_area": 0.0017,
+   "ratio": 3.041
+  },
+  {
+   "image_id": "527960",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.781,
+   "box_area": 0.3315,
+   "ratio": 2.356
+  },
+  {
+   "image_id": "527960",
+   "word": "bench.",
+   "category": "bench",
+   "attention_in_box": 0.6701,
+   "box_area": 0.3315,
+   "ratio": 2.022
+  },
+  {
+   "image_id": "397133",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.6111,
+   "box_area": 0.1659,
+   "ratio": 3.685
+  },
+  {
+   "image_id": "397133",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.3021,
+   "box_area": 0.2461,
+   "ratio": 1.228
+  },
+  {
+   "image_id": "293858",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.8813,
+   "box_area": 0.7266,
+   "ratio": 1.213
+  },
+  {
+   "image_id": "66817",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.9872,
+   "box_area": 0.9778,
+   "ratio": 1.01
+  },
+  {
+   "image_id": "66817",
+   "word": "fork.",
+   "category": "fork",
+   "attention_in_box": 0.0213,
+   "box_area": 0.0334,
+   "ratio": 0.638
+  },
+  {
+   "image_id": "45472",
+   "word": "oranges",
+   "category": "orange",
+   "attention_in_box": 0.3071,
+   "box_area": 0.1179,
+   "ratio": 2.605
+  },
+  {
+   "image_id": "426203",
+   "word": "skateboarder",
+   "category": "person",
+   "attention_in_box": 0.4823,
+   "box_area": 0.1565,
+   "ratio": 3.082
+  },
+  {
+   "image_id": "562561",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.8403,
+   "box_area": 0.7946,
+   "ratio": 1.058
+  },
+  {
+   "image_id": "157756",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.0463,
+   "box_area": 0.0057,
+   "ratio": 8.072
+  },
+  {
+   "image_id": "157756",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.046,
+   "box_area": 0.0057,
+   "ratio": 8.018
+  },
+  {
+   "image_id": "31248",
+   "word": "couch",
+   "category": "couch",
+   "attention_in_box": 0.0024,
+   "box_area": 0.009,
+   "ratio": 0.269
+  },
+  {
+   "image_id": "31248",
+   "word": "chair.",
+   "category": "chair",
+   "attention_in_box": 0.3177,
+   "box_area": 0.1673,
+   "ratio": 1.899
+  },
+  {
+   "image_id": "79565",
+   "word": "giraffes",
+   "category": "giraffe",
+   "attention_in_box": 0.7334,
+   "box_area": 0.4286,
+   "ratio": 1.711
+  },
+  {
+   "image_id": "179141",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.7951,
+   "box_area": 0.8526,
+   "ratio": 0.933
+  },
+  {
+   "image_id": "179141",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.2519,
+   "box_area": 0.1632,
+   "ratio": 1.544
+  },
+  {
+   "image_id": "179141",
+   "word": "pizza.",
+   "category": "pizza",
+   "attention_in_box": 0.2992,
+   "box_area": 0.0674,
+   "ratio": 4.441
+  },
+  {
+   "image_id": "445248",
+   "word": "elephants",
+   "category": "elephant",
+   "attention_in_box": 0.8678,
+   "box_area": 0.6488,
+   "ratio": 1.338
+  },
+  {
+   "image_id": "224051",
+   "word": "bicycle",
+   "category": "bicycle",
+   "attention_in_box": 0.6495,
+   "box_area": 0.2421,
+   "ratio": 2.682
+  },
+  {
+   "image_id": "188592",
+   "word": "boy",
+   "category": "person",
+   "attention_in_box": 0.8077,
+   "box_area": 0.5073,
+   "ratio": 1.592
+  },
+  {
+   "image_id": "453584",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.3441,
+   "box_area": 0.2101,
+   "ratio": 1.638
+  },
+  {
+   "image_id": "453584",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.3563,
+   "box_area": 0.2101,
+   "ratio": 1.696
+  },
+  {
+   "image_id": "453584",
+   "word": "bench.",
+   "category": "bench",
+   "attention_in_box": 0.3165,
+   "box_area": 0.2101,
+   "ratio": 1.507
+  },
+  {
+   "image_id": "488075",
+   "word": "chair,",
+   "category": "chair",
+   "attention_in_box": 0.3755,
+   "box_area": 0.1667,
+   "ratio": 2.253
+  },
+  {
+   "image_id": "47740",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.7444,
+   "box_area": 0.6278,
+   "ratio": 1.186
+  },
+  {
+   "image_id": "47740",
+   "word": "kite",
+   "category": "kite",
+   "attention_in_box": 0.6062,
+   "box_area": 0.501,
+   "ratio": 1.21
+  },
+  {
+   "image_id": "47740",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.5291,
+   "box_area": 0.6278,
+   "ratio": 0.843
+  },
+  {
+   "image_id": "171757",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.8063,
+   "box_area": 0.5526,
+   "ratio": 1.459
+  },
+  {
+   "image_id": "171757",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.7531,
+   "box_area": 0.5526,
+   "ratio": 1.363
+  },
+  {
+   "image_id": "410612",
+   "word": "boat",
+   "category": "boat",
+   "attention_in_box": 0.2481,
+   "box_area": 0.0552,
+   "ratio": 4.491
+  },
+  {
+   "image_id": "500716",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 1.0,
+   "box_area": 1.0,
+   "ratio": 1.0
+  },
+  {
+   "image_id": "253002",
+   "word": "bus",
+   "category": "bus",
+   "attention_in_box": 0.9953,
+   "box_area": 0.9821,
+   "ratio": 1.013
+  },
+  {
+   "image_id": "377882",
+   "word": "boat",
+   "category": "boat",
+   "attention_in_box": 0.7026,
+   "box_area": 0.4663,
+   "ratio": 1.507
+  },
+  {
+   "image_id": "363461",
+   "word": "laptop",
+   "category": "laptop",
+   "attention_in_box": 0.2329,
+   "box_area": 0.1216,
+   "ratio": 1.916
+  },
+  {
+   "image_id": "71756",
+   "word": "bear",
+   "category": "bear",
+   "attention_in_box": 0.7942,
+   "box_area": 0.3184,
+   "ratio": 2.495
+  },
+  {
+   "image_id": "159311",
+   "word": "zebra",
+   "category": "zebra",
+   "attention_in_box": 0.8822,
+   "box_area": 0.6194,
+   "ratio": 1.424
+  },
+  {
+   "image_id": "181816",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.5915,
+   "box_area": 0.3784,
+   "ratio": 1.563
+  },
+  {
+   "image_id": "181816",
+   "word": "bench",
+   "category": "bench",
+   "attention_in_box": 0.5939,
+   "box_area": 0.3784,
+   "ratio": 1.57
+  },
+  {
+   "image_id": "181816",
+   "word": "bench.",
+   "category": "bench",
+   "attention_in_box": 0.5511,
+   "box_area": 0.3784,
+   "ratio": 1.456
+  },
+  {
+   "image_id": "160864",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.7503,
+   "box_area": 0.718,
+   "ratio": 1.045
+  },
+  {
+   "image_id": "160864",
+   "word": "bat.",
+   "category": "baseball bat",
+   "attention_in_box": 0.1165,
+   "box_area": 0.0926,
+   "ratio": 1.258
+  },
+  {
+   "image_id": "579158",
+   "word": "plane",
+   "category": "airplane",
+   "attention_in_box": 0.9567,
+   "box_area": 0.8705,
+   "ratio": 1.099
+  },
+  {
+   "image_id": "163117",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.4204,
+   "box_area": 0.4614,
+   "ratio": 0.911
+  },
+  {
+   "image_id": "163117",
+   "word": "kite.",
+   "category": "kite",
+   "attention_in_box": 0.025,
+   "box_area": 0.0143,
+   "ratio": 1.747
+  },
+  {
+   "image_id": "55950",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.5834,
+   "box_area": 0.3451,
+   "ratio": 1.691
+  },
+  {
+   "image_id": "55950",
+   "word": "racket.",
+   "category": "tennis racket",
+   "attention_in_box": 0.1381,
+   "box_area": 0.0646,
+   "ratio": 2.139
+  },
+  {
+   "image_id": "311789",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.9576,
+   "box_area": 0.9286,
+   "ratio": 1.031
+  },
+  {
+   "image_id": "69213",
+   "word": "men",
+   "category": "person",
+   "attention_in_box": 0.9055,
+   "box_area": 0.8932,
+   "ratio": 1.014
+  },
+  {
+   "image_id": "37988",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.4271,
+   "box_area": 0.19,
+   "ratio": 2.248
+  },
+  {
+   "image_id": "37988",
+   "word": "ball.",
+   "category": "sports ball",
+   "attention_in_box": 0.0004,
+   "box_area": 0.0005,
+   "ratio": 0.844
+  },
+  {
+   "image_id": "9483",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.3571,
+   "box_area": 0.1749,
+   "ratio": 2.042
+  },
+  {
+   "image_id": "9483",
+   "word": "mouse.",
+   "category": "mouse",
+   "attention_in_box": 0.0044,
+   "box_area": 0.0027,
+   "ratio": 1.63
+  },
+  {
+   "image_id": "562843",
+   "word": "scissors",
+   "category": "scissors",
+   "attention_in_box": 0.3285,
+   "box_area": 0.2957,
+   "ratio": 1.111
+  },
+  {
+   "image_id": "395701",
+   "word": "chair",
+   "category": "chair",
+   "attention_in_box": 0.3204,
+   "box_area": 0.1306,
+   "ratio": 2.454
+  },
+  {
+   "image_id": "395701",
+   "word": "tv.",
+   "category": "tv",
+   "attention_in_box": 0.0816,
+   "box_area": 0.0369,
+   "ratio": 2.214
+  },
+  {
+   "image_id": "119445",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.5288,
+   "box_area": 0.2588,
+   "ratio": 2.043
+  },
+  {
+   "image_id": "520324",
+   "word": "planes",
+   "category": "airplane",
+   "attention_in_box": 0.6292,
+   "box_area": 0.1979,
+   "ratio": 3.179
+  },
+  {
+   "image_id": "164602",
+   "word": "women",
+   "category": "person",
+   "attention_in_box": 0.8644,
+   "box_area": 0.8091,
+   "ratio": 1.068
+  },
+  {
+   "image_id": "547854",
+   "word": "girl",
+   "category": "person",
+   "attention_in_box": 0.5869,
+   "box_area": 0.6216,
+   "ratio": 0.944
+  },
+  {
+   "image_id": "547854",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.0216,
+   "box_area": 0.0553,
+   "ratio": 0.391
+  },
+  {
+   "image_id": "547854",
+   "word": "pizza.",
+   "category": "pizza",
+   "attention_in_box": 0.4507,
+   "box_area": 0.2208,
+   "ratio": 2.041
+  },
+  {
+   "image_id": "352684",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.8718,
+   "box_area": 0.54,
+   "ratio": 1.614
+  },
+  {
+   "image_id": "352684",
+   "word": "people.",
+   "category": "person",
+   "attention_in_box": 0.7497,
+   "box_area": 0.54,
+   "ratio": 1.389
+  },
+  {
+   "image_id": "438907",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.6335,
+   "box_area": 0.3871,
+   "ratio": 1.636
+  },
+  {
+   "image_id": "438907",
+   "word": "skateboard",
+   "category": "skateboard",
+   "attention_in_box": 0.1889,
+   "box_area": 0.0664,
+   "ratio": 2.844
+  },
+  {
+   "image_id": "203546",
+   "word": "bear",
+   "category": "bear",
+   "attention_in_box": 0.5955,
+   "box_area": 0.353,
+   "ratio": 1.687
+  },
+  {
+   "image_id": "563281",
+   "word": "boy",
+   "category": "person",
+   "attention_in_box": 0.4864,
+   "box_area": 0.2889,
+   "ratio": 1.684
+  },
+  {
+   "image_id": "232088",
+   "word": "couch,",
+   "category": "couch",
+   "attention_in_box": 0.4583,
+   "box_area": 0.3963,
+   "ratio": 1.156
+  },
+  {
+   "image_id": "232088",
+   "word": "tv,",
+   "category": "tv",
+   "attention_in_box": 0.1978,
+   "box_area": 0.0692,
+   "ratio": 2.859
+  },
+  {
+   "image_id": "232088",
+   "word": "chair.",
+   "category": "chair",
+   "attention_in_box": 0.0954,
+   "box_area": 0.0711,
+   "ratio": 1.341
+  },
+  {
+   "image_id": "1818",
+   "word": "zebra",
+   "category": "zebra",
+   "attention_in_box": 1.0,
+   "box_area": 1.0,
+   "ratio": 1.0
+  },
+  {
+   "image_id": "430048",
+   "word": "clock",
+   "category": "clock",
+   "attention_in_box": 0.1008,
+   "box_area": 0.0171,
+   "ratio": 5.896
+  },
+  {
+   "image_id": "199771",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.7496,
+   "box_area": 0.6661,
+   "ratio": 1.125
+  },
+  {
+   "image_id": "217400",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.8,
+   "box_area": 0.4648,
+   "ratio": 1.721
+  },
+  {
+   "image_id": "217400",
+   "word": "train.",
+   "category": "train",
+   "attention_in_box": 0.6365,
+   "box_area": 0.4648,
+   "ratio": 1.37
+  },
+  {
+   "image_id": "488592",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.1414,
+   "box_area": 0.0274,
+   "ratio": 5.152
+  },
+  {
+   "image_id": "509131",
+   "word": "bananas",
+   "category": "banana",
+   "attention_in_box": 0.2228,
+   "box_area": 0.0748,
+   "ratio": 2.978
+  },
+  {
+   "image_id": "509131",
+   "word": "apples.",
+   "category": "apple",
+   "attention_in_box": 0.1641,
+   "box_area": 0.0708,
+   "ratio": 2.318
+  },
+  {
+   "image_id": "456496",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.3505,
+   "box_area": 0.1844,
+   "ratio": 1.901
+  },
+  {
+   "image_id": "456496",
+   "word": "bird",
+   "category": "bird",
+   "attention_in_box": 0.127,
+   "box_area": 0.0276,
+   "ratio": 4.596
+  },
+  {
+   "image_id": "170474",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.5324,
+   "box_area": 0.6042,
+   "ratio": 0.881
+  },
+  {
+   "image_id": "170474",
+   "word": "ball",
+   "category": "sports ball",
+   "attention_in_box": 0.0019,
+   "box_area": 0.0031,
+   "ratio": 0.609
+  },
+  {
+   "image_id": "170474",
+   "word": "racket.",
+   "category": "tennis racket",
+   "attention_in_box": 0.2354,
+   "box_area": 0.0679,
+   "ratio": 3.465
+  },
+  {
+   "image_id": "90208",
+   "word": "bus",
+   "category": "bus",
+   "attention_in_box": 0.9008,
+   "box_area": 0.7616,
+   "ratio": 1.183
+  },
+  {
+   "image_id": "78843",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.9656,
+   "box_area": 0.9488,
+   "ratio": 1.018
+  },
+  {
+   "image_id": "78843",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.9634,
+   "box_area": 0.9488,
+   "ratio": 1.015
+  },
+  {
+   "image_id": "492992",
+   "word": "bird",
+   "category": "bird",
+   "attention_in_box": 0.3137,
+   "box_area": 0.0693,
+   "ratio": 4.527
+  },
+  {
+   "image_id": "566042",
+   "word": "giraffes",
+   "category": "giraffe",
+   "attention_in_box": 0.9524,
+   "box_area": 0.8052,
+   "ratio": 1.183
+  },
+  {
+   "image_id": "140640",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.9425,
+   "box_area": 0.8393,
+   "ratio": 1.123
+  },
+  {
+   "image_id": "530146",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.9759,
+   "box_area": 0.9821,
+   "ratio": 0.994
+  },
+  {
+   "image_id": "530146",
+   "word": "knife",
+   "category": "knife",
+   "attention_in_box": 0.0154,
+   "box_area": 0.021,
+   "ratio": 0.736
+  },
+  {
+   "image_id": "530146",
+   "word": "fork.",
+   "category": "fork",
+   "attention_in_box": 0.0087,
+   "box_area": 0.0085,
+   "ratio": 1.03
+  },
+  {
+   "image_id": "420069",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.3931,
+   "box_area": 0.1394,
+   "ratio": 2.82
+  },
+  {
+   "image_id": "308430",
+   "word": "bowl",
+   "category": "bowl",
+   "attention_in_box": 0.9375,
+   "box_area": 0.8991,
+   "ratio": 1.043
+  },
+  {
+   "image_id": "63965",
+   "word": "cake",
+   "category": "cake",
+   "attention_in_box": 0.3448,
+   "box_area": 0.2327,
+   "ratio": 1.482
+  },
+  {
+   "image_id": "63965",
+   "word": "cake.",
+   "category": "cake",
+   "attention_in_box": 0.3722,
+   "box_area": 0.2327,
+   "ratio": 1.6
+  },
+  {
+   "image_id": "175364",
+   "word": "sink",
+   "category": "sink",
+   "attention_in_box": 0.0136,
+   "box_area": 0.007,
+   "ratio": 1.943
+  },
+  {
+   "image_id": "175364",
+   "word": "stove",
+   "category": "oven",
+   "attention_in_box": 0.2359,
+   "box_area": 0.1489,
+   "ratio": 1.584
+  },
+  {
+   "image_id": "493613",
+   "word": "skateboards",
+   "category": "skateboard",
+   "attention_in_box": 0.4608,
+   "box_area": 0.1616,
+   "ratio": 2.851
+  },
+  {
+   "image_id": "57238",
+   "word": "refrigerator",
+   "category": "refrigerator",
+   "attention_in_box": 0.7419,
+   "box_area": 0.5536,
+   "ratio": 1.34
+  },
+  {
+   "image_id": "263860",
+   "word": "elephants",
+   "category": "elephant",
+   "attention_in_box": 0.9588,
+   "box_area": 0.8389,
+   "ratio": 1.143
+  },
+  {
+   "image_id": "17182",
+   "word": "book",
+   "category": "book",
+   "attention_in_box": 0.2472,
+   "box_area": 0.046,
+   "ratio": 5.378
+  },
+  {
+   "image_id": "529762",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.8335,
+   "box_area": 0.5877,
+   "ratio": 1.418
+  },
+  {
+   "image_id": "88040",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.9952,
+   "box_area": 0.9955,
+   "ratio": 1.0
+  },
+  {
+   "image_id": "88040",
+   "word": "fork",
+   "category": "fork",
+   "attention_in_box": 0.1091,
+   "box_area": 0.074,
+   "ratio": 1.475
+  },
+  {
+   "image_id": "88040",
+   "word": "spoon.",
+   "category": "spoon",
+   "attention_in_box": 0.0619,
+   "box_area": 0.0781,
+   "ratio": 0.793
+  },
+  {
+   "image_id": "494188",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.2845,
+   "box_area": 0.3101,
+   "ratio": 0.918
+  },
+  {
+   "image_id": "494188",
+   "word": "bird",
+   "category": "bird",
+   "attention_in_box": 0.4558,
+   "box_area": 0.1863,
+   "ratio": 2.446
+  },
+  {
+   "image_id": "415194",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.057,
+   "box_area": 0.0255,
+   "ratio": 2.235
+  },
+  {
+   "image_id": "5060",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4687,
+   "box_area": 0.135,
+   "ratio": 3.47
+  },
+  {
+   "image_id": "264441",
+   "word": "cat",
+   "category": "cat",
+   "attention_in_box": 0.7459,
+   "box_area": 0.5561,
+   "ratio": 1.341
+  },
+  {
+   "image_id": "384527",
+   "word": "chair",
+   "category": "chair",
+   "attention_in_box": 0.4674,
+   "box_area": 0.3247,
+   "ratio": 1.44
+  },
+  {
+   "image_id": "384527",
+   "word": "table.",
+   "category": "dining table",
+   "attention_in_box": 0.1904,
+   "box_area": 0.0686,
+   "ratio": 2.777
+  },
+  {
+   "image_id": "11149",
+   "word": "bicycle",
+   "category": "bicycle",
+   "attention_in_box": 0.6382,
+   "box_area": 0.4226,
+   "ratio": 1.51
+  },
+  {
+   "image_id": "11149",
+   "word": "motorcycle",
+   "category": "motorcycle",
+   "attention_in_box": 0.2525,
+   "box_area": 0.1473,
+   "ratio": 1.714
+  },
+  {
+   "image_id": "388927",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.7902,
+   "box_area": 0.7117,
+   "ratio": 1.11
+  },
+  {
+   "image_id": "571857",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.0952,
+   "box_area": 0.0301,
+   "ratio": 3.161
+  },
+  {
+   "image_id": "39484",
+   "word": "cars.",
+   "category": "car",
+   "attention_in_box": 0.1389,
+   "box_area": 0.1524,
+   "ratio": 0.912
+  },
+  {
+   "image_id": "7088",
+   "word": "girl",
+   "category": "person",
+   "attention_in_box": 0.4649,
+   "box_area": 0.1091,
+   "ratio": 4.261
+  },
+  {
+   "image_id": "7088",
+   "word": "umbrella.",
+   "category": "umbrella",
+   "attention_in_box": 0.2731,
+   "box_area": 0.0912,
+   "ratio": 2.994
+  },
+  {
+   "image_id": "210789",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.5632,
+   "box_area": 0.251,
+   "ratio": 2.244
+  },
+  {
+   "image_id": "210789",
+   "word": "umbrella",
+   "category": "umbrella",
+   "attention_in_box": 0.4771,
+   "box_area": 0.3328,
+   "ratio": 1.433
+  },
+  {
+   "image_id": "210789",
+   "word": "umbrella.",
+   "category": "umbrella",
+   "attention_in_box": 0.4748,
+   "box_area": 0.3328,
+   "ratio": 1.427
+  },
+  {
+   "image_id": "360564",
+   "word": "sink,",
+   "category": "sink",
+   "attention_in_box": 0.0248,
+   "box_area": 0.0088,
+   "ratio": 2.817
+  },
+  {
+   "image_id": "360564",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.2861,
+   "box_area": 0.1097,
+   "ratio": 2.608
+  },
+  {
+   "image_id": "429718",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.4233,
+   "box_area": 0.1,
+   "ratio": 4.234
+  },
+  {
+   "image_id": "342397",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4224,
+   "box_area": 0.1119,
+   "ratio": 3.775
+  },
+  {
+   "image_id": "342397",
+   "word": "skis",
+   "category": "skis",
+   "attention_in_box": 0.0795,
+   "box_area": 0.0342,
+   "ratio": 2.327
+  },
+  {
+   "image_id": "361730",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.153,
+   "box_area": 0.1412,
+   "ratio": 1.083
+  },
+  {
+   "image_id": "361730",
+   "word": "kites",
+   "category": "kite",
+   "attention_in_box": 0.8796,
+   "box_area": 0.7768,
+   "ratio": 1.132
+  },
+  {
+   "image_id": "390902",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.8128,
+   "box_area": 0.6518,
+   "ratio": 1.247
+  },
+  {
+   "image_id": "191614",
+   "word": "horse",
+   "category": "horse",
+   "attention_in_box": 0.4136,
+   "box_area": 0.1051,
+   "ratio": 3.936
+  },
+  {
+   "image_id": "113051",
+   "word": "boat",
+   "category": "boat",
+   "attention_in_box": 0.6592,
+   "box_area": 0.2931,
+   "ratio": 2.249
+  },
+  {
+   "image_id": "194716",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.918,
+   "box_area": 0.7647,
+   "ratio": 1.201
+  },
+  {
+   "image_id": "194716",
+   "word": "baby",
+   "category": "person",
+   "attention_in_box": 0.896,
+   "box_area": 0.7647,
+   "ratio": 1.172
+  },
+  {
+   "image_id": "194716",
+   "word": "baby",
+   "category": "person",
+   "attention_in_box": 0.8715,
+   "box_area": 0.7647,
+   "ratio": 1.14
+  },
+  {
+   "image_id": "386352",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.9857,
+   "box_area": 0.9792,
+   "ratio": 1.007
+  },
+  {
+   "image_id": "386352",
+   "word": "racket.",
+   "category": "tennis racket",
+   "attention_in_box": 0.3838,
+   "box_area": 0.2091,
+   "ratio": 1.835
+  },
+  {
+   "image_id": "350002",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.9912,
+   "box_area": 0.9196,
+   "ratio": 1.078
+  },
+  {
+   "image_id": "166426",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.9714,
+   "box_area": 0.9821,
+   "ratio": 0.989
+  },
+  {
+   "image_id": "320632",
+   "word": "zebras",
+   "category": "zebra",
+   "attention_in_box": 0.9061,
+   "box_area": 0.8891,
+   "ratio": 1.019
+  },
+  {
+   "image_id": "491090",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.6556,
+   "box_area": 0.4181,
+   "ratio": 1.568
+  },
+  {
+   "image_id": "491090",
+   "word": "motorcycle.",
+   "category": "motorcycle",
+   "attention_in_box": 0.7899,
+   "box_area": 0.7886,
+   "ratio": 1.002
+  },
+  {
+   "image_id": "361238",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.4037,
+   "box_area": 0.2893,
+   "ratio": 1.396
+  },
+  {
+   "image_id": "361238",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.6797,
+   "box_area": 0.5045,
+   "ratio": 1.347
+  },
+  {
+   "image_id": "361238",
+   "word": "pizza.",
+   "category": "pizza",
+   "attention_in_box": 0.6473,
+   "box_area": 0.4728,
+   "ratio": 1.369
+  },
+  {
+   "image_id": "377113",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.608,
+   "box_area": 0.4171,
+   "ratio": 1.458
+  },
+  {
+   "image_id": "25181",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.322,
+   "box_area": 0.1538,
+   "ratio": 2.093
+  },
+  {
+   "image_id": "539445",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.4392,
+   "box_area": 0.1291,
+   "ratio": 3.402
+  },
+  {
+   "image_id": "301718",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.4378,
+   "box_area": 0.3993,
+   "ratio": 1.096
+  },
+  {
+   "image_id": "301718",
+   "word": "table.",
+   "category": "dining table",
+   "attention_in_box": 0.6738,
+   "box_area": 0.5955,
+   "ratio": 1.131
+  },
+  {
+   "image_id": "373353",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.272,
+   "box_area": 0.1087,
+   "ratio": 2.503
+  },
+  {
+   "image_id": "373353",
+   "word": "bus.",
+   "category": "bus",
+   "attention_in_box": 0.2206,
+   "box_area": 0.0732,
+   "ratio": 3.014
+  },
+  {
+   "image_id": "15079",
+   "word": "sandwich",
+   "category": "sandwich",
+   "attention_in_box": 0.6452,
+   "box_area": 0.5865,
+   "ratio": 1.1
+  },
+  {
+   "image_id": "15079",
+   "word": "sandwich",
+   "category": "sandwich",
+   "attention_in_box": 0.654,
+   "box_area": 0.5865,
+   "ratio": 1.115
+  },
+  {
+   "image_id": "311190",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.5791,
+   "box_area": 0.5862,
+   "ratio": 0.988
+  },
+  {
+   "image_id": "311190",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.5443,
+   "box_area": 0.5862,
+   "ratio": 0.929
+  },
+  {
+   "image_id": "222825",
+   "word": "stove,",
+   "category": "oven",
+   "attention_in_box": 0.3421,
+   "box_area": 0.1814,
+   "ratio": 1.886
+  },
+  {
+   "image_id": "374545",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.0451,
+   "box_area": 0.0469,
+   "ratio": 0.96
+  },
+  {
+   "image_id": "551822",
+   "word": "sandwich",
+   "category": "sandwich",
+   "attention_in_box": 0.5406,
+   "box_area": 0.347,
+   "ratio": 1.558
+  },
+  {
+   "image_id": "325483",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.845,
+   "box_area": 0.5515,
+   "ratio": 1.532
+  },
+  {
+   "image_id": "325483",
+   "word": "couch.",
+   "category": "couch",
+   "attention_in_box": 0.3633,
+   "box_area": 0.2734,
+   "ratio": 1.329
+  },
+  {
+   "image_id": "455448",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.961,
+   "box_area": 0.9189,
+   "ratio": 1.046
+  },
+  {
+   "image_id": "455448",
+   "word": "cake",
+   "category": "cake",
+   "attention_in_box": 0.7485,
+   "box_area": 0.6585,
+   "ratio": 1.137
+  },
+  {
+   "image_id": "570471",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.8771,
+   "box_area": 0.875,
+   "ratio": 1.002
+  },
+  {
+   "image_id": "111086",
+   "word": "cars",
+   "category": "car",
+   "attention_in_box": 0.4455,
+   "box_area": 0.3443,
+   "ratio": 1.294
+  },
+  {
+   "image_id": "529105",
+   "word": "horse",
+   "category": "horse",
+   "attention_in_box": 0.6639,
+   "box_area": 0.2493,
+   "ratio": 2.663
+  },
+  {
+   "image_id": "231169",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.846,
+   "box_area": 0.4543,
+   "ratio": 1.862
+  },
+  {
+   "image_id": "231169",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.7328,
+   "box_area": 0.4543,
+   "ratio": 1.613
+  },
+  {
+   "image_id": "251824",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.8325,
+   "box_area": 0.7098,
+   "ratio": 1.173
+  },
+  {
+   "image_id": "174482",
+   "word": "bicycle",
+   "category": "bicycle",
+   "attention_in_box": 0.931,
+   "box_area": 0.7848,
+   "ratio": 1.186
+  },
+  {
+   "image_id": "174482",
+   "word": "bicycle.",
+   "category": "bicycle",
+   "attention_in_box": 0.869,
+   "box_area": 0.7848,
+   "ratio": 1.107
+  },
+  {
+   "image_id": "405970",
+   "word": "television",
+   "category": "tv",
+   "attention_in_box": 0.1091,
+   "box_area": 0.0412,
+   "ratio": 2.651
+  },
+  {
+   "image_id": "286553",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.7583,
+   "box_area": 0.8405,
+   "ratio": 0.902
+  },
+  {
+   "image_id": "286553",
+   "word": "woman",
+   "category": "person",
+   "attention_in_box": 0.7052,
+   "box_area": 0.8405,
+   "ratio": 0.839
+  },
+  {
+   "image_id": "411530",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.3171,
+   "box_area": 0.14,
+   "ratio": 2.264
+  },
+  {
+   "image_id": "411530",
+   "word": "skis",
+   "category": "skis",
+   "attention_in_box": 0.0345,
+   "box_area": 0.0219,
+   "ratio": 1.577
+  },
+  {
+   "image_id": "145665",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.6787,
+   "box_area": 0.2751,
+   "ratio": 2.467
+  },
+  {
+   "image_id": "145665",
+   "word": "skateboard",
+   "category": "skateboard",
+   "attention_in_box": 0.0271,
+   "box_area": 0.0085,
+   "ratio": 3.2
+  },
+  {
+   "image_id": "402992",
+   "word": "cows",
+   "category": "cow",
+   "attention_in_box": 0.8254,
+   "box_area": 0.5825,
+   "ratio": 1.417
+  },
+  {
+   "image_id": "189226",
+   "word": "hydrant",
+   "category": "fire hydrant",
+   "attention_in_box": 0.3927,
+   "box_area": 0.1055,
+   "ratio": 3.724
+  },
+  {
+   "image_id": "246308",
+   "word": "computer",
+   "category": "laptop",
+   "attention_in_box": 0.1434,
+   "box_area": 0.0729,
+   "ratio": 1.966
+  },
+  {
+   "image_id": "246308",
+   "word": "laptop",
+   "category": "laptop",
+   "attention_in_box": 0.143,
+   "box_area": 0.0729,
+   "ratio": 1.96
+  },
+  {
+   "image_id": "348045",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.4781,
+   "box_area": 0.2054,
+   "ratio": 2.327
+  },
+  {
+   "image_id": "348045",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.4255,
+   "box_area": 0.2054,
+   "ratio": 2.071
+  },
+  {
+   "image_id": "348045",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.4119,
+   "box_area": 0.2054,
+   "ratio": 2.005
+  },
+  {
+   "image_id": "266981",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.5306,
+   "box_area": 0.1994,
+   "ratio": 2.661
+  },
+  {
+   "image_id": "493772",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.2082,
+   "box_area": 0.0194,
+   "ratio": 10.749
+  },
+  {
+   "image_id": "82807",
+   "word": "dog",
+   "category": "dog",
+   "attention_in_box": 0.5584,
+   "box_area": 0.4424,
+   "ratio": 1.262
+  },
+  {
+   "image_id": "82807",
+   "word": "table",
+   "category": "dining table",
+   "attention_in_box": 0.5027,
+   "box_area": 0.308,
+   "ratio": 1.632
+  },
+  {
+   "image_id": "197022",
+   "word": "pizza",
+   "category": "pizza",
+   "attention_in_box": 0.8976,
+   "box_area": 0.7523,
+   "ratio": 1.193
+  },
+  {
+   "image_id": "372718",
+   "word": "vase",
+   "category": "vase",
+   "attention_in_box": 0.1589,
+   "box_area": 0.0801,
+   "ratio": 1.984
+  },
+  {
+   "image_id": "376264",
+   "word": "laptop,",
+   "category": "laptop",
+   "attention_in_box": 0.2883,
+   "box_area": 0.2406,
+   "ratio": 1.199
+  },
+  {
+   "image_id": "376264",
+   "word": "notebook.",
+   "category": "laptop",
+   "attention_in_box": 0.2944,
+   "box_area": 0.2406,
+   "ratio": 1.224
+  },
+  {
+   "image_id": "183648",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.4269,
+   "box_area": 0.4172,
+   "ratio": 1.023
+  },
+  {
+   "image_id": "183648",
+   "word": "elephant.",
+   "category": "elephant",
+   "attention_in_box": 1.0,
+   "box_area": 1.0,
+   "ratio": 1.0
+  },
+  {
+   "image_id": "507037",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.2834,
+   "box_area": 0.2159,
+   "ratio": 1.313
+  },
+  {
+   "image_id": "507037",
+   "word": "bicycle.",
+   "category": "bicycle",
+   "attention_in_box": 0.2538,
+   "box_area": 0.1323,
+   "ratio": 1.918
+  },
+  {
+   "image_id": "505638",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.8865,
+   "box_area": 0.8743,
+   "ratio": 1.014
+  },
+  {
+   "image_id": "505638",
+   "word": "train",
+   "category": "train",
+   "attention_in_box": 0.8485,
+   "box_area": 0.8743,
+   "ratio": 0.971
+  },
+  {
+   "image_id": "463690",
+   "word": "person",
+   "category": "person",
+   "attention_in_box": 0.6526,
+   "box_area": 0.497,
+   "ratio": 1.313
+  },
+  {
+   "image_id": "23666",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.3005,
+   "box_area": 0.0452,
+   "ratio": 6.648
+  },
+  {
+   "image_id": "39956",
+   "word": "bed",
+   "category": "bed",
+   "attention_in_box": 0.4087,
+   "box_area": 0.2677,
+   "ratio": 1.527
+  },
+  {
+   "image_id": "39956",
+   "word": "bed",
+   "category": "bed",
+   "attention_in_box": 0.3821,
+   "box_area": 0.2677,
+   "ratio": 1.427
+  },
+  {
+   "image_id": "94326",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.7317,
+   "box_area": 0.3659,
+   "ratio": 2.0
+  },
+  {
+   "image_id": "94326",
+   "word": "bench.",
+   "category": "bench",
+   "attention_in_box": 0.494,
+   "box_area": 0.3061,
+   "ratio": 1.614
+  },
+  {
+   "image_id": "336658",
+   "word": "cars",
+   "category": "car",
+   "attention_in_box": 0.0121,
+   "box_area": 0.0085,
+   "ratio": 1.417
+  },
+  {
+   "image_id": "356968",
+   "word": "horse",
+   "category": "horse",
+   "attention_in_box": 0.9457,
+   "box_area": 0.6889,
+   "ratio": 1.373
+  },
+  {
+   "image_id": "107226",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.3913,
+   "box_area": 0.4004,
+   "ratio": 0.977
+  },
+  {
+   "image_id": "107226",
+   "word": "people",
+   "category": "person",
+   "attention_in_box": 0.3406,
+   "box_area": 0.4004,
+   "ratio": 0.851
+  },
+  {
+   "image_id": "379441",
+   "word": "couch",
+   "category": "couch",
+   "attention_in_box": 0.2886,
+   "box_area": 0.1845,
+   "ratio": 1.564
+  },
+  {
+   "image_id": "209757",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.5654,
+   "box_area": 0.2864,
+   "ratio": 1.974
+  },
+  {
+   "image_id": "209757",
+   "word": "skateboard",
+   "category": "skateboard",
+   "attention_in_box": 0.0682,
+   "box_area": 0.0267,
+   "ratio": 2.555
+  },
+  {
+   "image_id": "217285",
+   "word": "player",
+   "category": "person",
+   "attention_in_box": 0.6714,
+   "box_area": 0.815,
+   "ratio": 0.824
+  },
+  {
+   "image_id": "217285",
+   "word": "bat.",
+   "category": "baseball bat",
+   "attention_in_box": 0.0188,
+   "box_area": 0.0193,
+   "ratio": 0.971
+  },
+  {
+   "image_id": "385719",
+   "word": "laptop",
+   "category": "laptop",
+   "attention_in_box": 0.1465,
+   "box_area": 0.0833,
+   "ratio": 1.759
+  },
+  {
+   "image_id": "385719",
+   "word": "mouse.",
+   "category": "mouse",
+   "attention_in_box": 0.0049,
+   "box_area": 0.0075,
+   "ratio": 0.653
+  },
+  {
+   "image_id": "513688",
+   "word": "laptop",
+   "category": "laptop",
+   "attention_in_box": 0.1664,
+   "box_area": 0.1371,
+   "ratio": 1.214
+  },
+  {
+   "image_id": "513688",
+   "word": "chair",
+   "category": "chair",
+   "attention_in_box": 0.5122,
+   "box_area": 0.6081,
+   "ratio": 0.842
+  },
+  {
+   "image_id": "513688",
+   "word": "chair",
+   "category": "chair",
+   "attention_in_box": 0.5158,
+   "box_area": 0.6081,
+   "ratio": 0.848
+  },
+  {
+   "image_id": "56350",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.6803,
+   "box_area": 0.4778,
+   "ratio": 1.424
+  },
+  {
+   "image_id": "56350",
+   "word": "toilet.",
+   "category": "toilet",
+   "attention_in_box": 0.202,
+   "box_area": 0.0669,
+   "ratio": 3.021
+  },
+  {
+   "image_id": "524456",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.7798,
+   "box_area": 0.691,
+   "ratio": 1.128
+  },
+  {
+   "image_id": "524456",
+   "word": "laptop",
+   "category": "laptop",
+   "attention_in_box": 0.381,
+   "box_area": 0.3747,
+   "ratio": 1.017
+  },
+  {
+   "image_id": "524456",
+   "word": "computer",
+   "category": "laptop",
+   "attention_in_box": 0.4039,
+   "box_area": 0.3747,
+   "ratio": 1.078
+  },
+  {
+   "image_id": "524456",
+   "word": "mouse.",
+   "category": "mouse",
+   "attention_in_box": 0.1755,
+   "box_area": 0.0682,
+   "ratio": 2.575
+  },
+  {
+   "image_id": "281447",
+   "word": "horse",
+   "category": "horse",
+   "attention_in_box": 0.7669,
+   "box_area": 0.4484,
+   "ratio": 1.71
+  },
+  {
+   "image_id": "357888",
+   "word": "man",
+   "category": "person",
+   "attention_in_box": 0.632,
+   "box_area": 0.3473,
+   "ratio": 1.82
+  },
+  {
+   "image_id": "357888",
+   "word": "kite",
+   "category": "kite",
+   "attention_in_box": 0.2586,
+   "box_area": 0.1135,
+   "ratio": 2.279
+  },
+  {
+   "image_id": "241602",
+   "word": "toilet",
+   "category": "toilet",
+   "attention_in_box": 0.1504,
+   "box_area": 0.0257,
+   "ratio": 5.858
+  }
+ ],
+ "run": "xattn_lora_s0",
+ "split": "test"
+}

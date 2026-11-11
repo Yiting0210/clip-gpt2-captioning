@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+
+# data and checkpoints are large: regenerate with src/data.py and src/train.py
+data/
+runs/*
+!runs/.gitkeep
+*.pt
+*.zip
+logs/*
+!logs/.gitkeep
+
+# keep results/ (metrics.csv, captions json, figures) under version control
+# ... except the Stable Diffusion images of the caption -> image cycle (500 files, ~40 MB);
+# results/cycle/ keeps summary.json, cycle.csv and the gallery; rerun src/cycle.py to regenerate the images
+results/cycle/*/
+# local Hugging Face cache link (cluster) and the blind rating sheet's copied images
+.hf_cache
+results/human_eval/images/

@@ -1,0 +1,4 @@
+base: base.yaml
+experiment: xattn_frozen
+injection: cross_attention
+finetune: prefix

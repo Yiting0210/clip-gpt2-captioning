@@ -1,0 +1,46 @@
+{
+ "settings": {
+  "sd_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "steps": 30,
+  "guidance": 7.5,
+  "n_images": 100,
+  "similarity": "cosine of CLIP ViT-B/32 image embeddings, regenerated vs original"
+ },
+ "sources": {
+  "reference": {
+   "mean_similarity": 0.7042,
+   "lo": 0.6854,
+   "hi": 0.7229,
+   "n": 100,
+   "nsfw_flagged": 0
+  },
+  "prefix_full_s0:beam_w3": {
+   "mean_similarity": 0.6944,
+   "lo": 0.6759,
+   "hi": 0.7133,
+   "n": 100,
+   "nsfw_flagged": 0
+  },
+  "prefix_lora_s0:beam_w3": {
+   "mean_similarity": 0.6908,
+   "lo": 0.6703,
+   "hi": 0.7109,
+   "n": 100,
+   "nsfw_flagged": 0
+  },
+  "baseline_blip2:blip2": {
+   "mean_similarity": 0.7143,
+   "lo": 0.6984,
+   "hi": 0.7311,
+   "n": 100,
+   "nsfw_flagged": 0
+  },
+  "baseline_retrieval:retrieval": {
+   "mean_similarity": 0.676,
+   "lo": 0.6564,
+   "hi": 0.6967,
+   "n": 100,
+   "nsfw_flagged": 0
+  }
+ }
+}

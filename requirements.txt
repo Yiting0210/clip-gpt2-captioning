@@ -1,0 +1,22 @@
+# PyTorch: install the build for your machine first (CUDA on Colab/HPC, CPU locally), see pytorch.org
+torch>=2.2
+transformers>=4.44,<5
+peft>=0.11
+pycocotools>=2.0.7
+pycocoevalcap>=1.2       # METEOR and the PTB tokenizer call Java: needs a Java runtime (e.g. conda install -c conda-forge openjdk)
+pyyaml>=6.0
+matplotlib>=3.8
+pandas>=2.0
+pillow>=10.0
+requests>=2.31
+tqdm>=4.66
+numpy>=1.26
+pytest>=8.0
+nbconvert>=7.0           # scripts/report.sbatch executes notebooks/03_evaluation.ipynb
+ipykernel>=6.0
+huggingface-hub>=0.34,<1.0   # transformers < 5 breaks with hub 1.x / 2.x
+diffusers>=0.30,<1       # Stable Diffusion for the image -> caption -> image cycle (src/cycle.py, GPU)
+accelerate>=0.30
+# optional: BLIP-2 baseline in 8-bit on a GPU
+# bitsandbytes>=0.43
+# accelerate>=0.30

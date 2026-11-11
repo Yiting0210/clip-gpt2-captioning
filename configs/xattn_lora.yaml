@@ -1,0 +1,4 @@
+base: base.yaml
+experiment: xattn_lora
+injection: cross_attention
+finetune: lora
