@@ -1,0 +1,1490 @@
+{
+ "created": "2026-11-11T11:36:28+00:00",
+ "host": "c0584",
+ "code": {
+  "git_commit": "aa9ac3bd6393644579fef34192848b7e9b0826e5",
+  "files": {
+   "src/__init__.py": "0fdfdf7c14fcb07e9a33df49dd67ab7bd35a4175887cce93bc05d5c450e90351",
+   "src/attention.py": "2d950152df8799ab788d86378ff8177f98b360fbd0c730eb9404a119a24079c8",
+   "src/cycle.py": "e513fda1f4779991507e2a7879afed89325b90acbec0e4ff5e08017928807cf3",
+   "src/data.py": "1afba6d2b1cb8140cb979258467c802254819dae445626f922cebbc2bc909025",
+   "src/decode.py": "4b951606bb8f52130909f1a988714271b922e4ee94ab1d42df054ad398563a32",
+   "src/evaluate.py": "210ee2e6a352bf89c1adcdf930337ffa214ed66bd6afc37ddc0bebbe80c0f8a8",
+   "src/human_eval.py": "c7862aea6283a6217d9a1057c89133de4c5fcf17ab7f40ea44a7dd0345dc7160",
+   "src/manifest.py": "0363eadd216be0230e686110d04c4e9929285c599169d71a8d18e875cacec033",
+   "src/model.py": "a553afe8144cabf91a90d44b74305bad844f7b4e0072b238c13cd7988a96ca2e",
+   "src/train.py": "2b3f02cdb8a01e51d1862c113bdd2222f84fd9d6aae474e87c6e61616b5e6d33",
+   "configs/base.yaml": "0479f7944cd108ca3d8312061dc244df90bd7d075ec852c93ad3edc8c6376695",
+   "configs/prefix_frozen.yaml": "5901bd36d8b13b288bbf15ad3c9921bf55f2b98b4284ed520a329b71e8312f31",
+   "configs/prefix_full.yaml": "bc68d45350be3b6263f081c6a3f8a249a502b8c27578ee589a7e9351bd2e099b",
+   "configs/prefix_lora.yaml": "fe861480eb1a61c3a2518f78b34167d53ecf16385b29c98057b5fc0b092fcca5",
+   "configs/xattn_frozen.yaml": "6263acda589102d8d902789d018fcb38e6d9150bfec84d4936ded544c1827431",
+   "configs/xattn_full.yaml": "3e70b03221a2a039296ff4281f97961bfe32eaac1f7de76d531cff24bc214b2b",
+   "configs/xattn_lora.yaml": "fb1e911435cfb2048fbeed44eb72f4eadecd0d674e229cbb0a296fecabc96335",
+   "scripts/analysis.sbatch": "45458b920c6d5cdc6899c37108c3d4bba85953329e3688a9841bc4d323b4c189",
+   "scripts/baseline.sbatch": "e8a5a9241186d37a275d99fda8e333c31f63f4dc5cad84df05ae8ab1ddfa4560",
+   "scripts/env_update.sbatch": "b4cc972eaf9457cc2c8ed0a860dac7fdd1fed1e00947109e869059706ca5b095",
+   "scripts/eval.sbatch": "c3f168f7a7a50ba2abb871f9884ab36298135082900d58165277df16842f5f3b",
+   "scripts/experiment.sbatch": "5f2d65da64e5fc4c4e8ecf9d9a7b2d8a9cb5a1aa60f72ac4ae97e82c55308057",
+   "scripts/free_home_space.sh": "c03fd06a398fa4a26bb2c857f9af95c753b707bd1ba6a4069cd6c7414201ea7e",
+   "scripts/pipeline.sh": "56a164323cd9d35ce086789f3383ab579018a795e35f5110f8b042752ed90917",
+   "scripts/report.sbatch": "656aad15a7b3d2a392f19a52e1bfcc665e6174f4d0f9d6d0622c030f58bef6d7",
+   "scripts/round2.sh": "6d4edc4b0a645b12106f967f13bf8d848658affadf7f2497c26c4495481b3342",
+   "scripts/stage1.sbatch": "d62503a385ee3dfbff9e14e2cf646fa90382258e4fb40cb61e5b8b06a0749fbf",
+   "scripts/train.sbatch": "8f1888535512fc169f4b5c88efc5a95e852a417d6056171db9211f323ce241bf"
+  }
+ },
+ "data": {
+  "data/processed/captions.json": "25a7ba77c808967df1991557e58f6e73655887a28dfbd35aa92e07d863cbd5d1",
+  "data/processed/splits.json": "7dd1c830465de595e131af5e5cdf0ea405c64bb903f72f9cfec0be0b7500812e",
+  "data/processed/clip_clip-vit-base-patch32.pt": "d949d4e3505834ac45d21d129914e73141ffbcec3f59f2f8306b9482cf4dd78f"
+ },
+ "environment": {
+  "python": "3.12.12",
+  "torch": "2.14.1+cu126",
+  "transformers": "4.57.6",
+  "peft": "0.21.2",
+  "huggingface-hub": "0.36.2",
+  "pycocoevalcap": "1.2",
+  "diffusers": "0.39.0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1"
+ },
+ "metrics_csv_sha256": "1d5fc937ffe5be839103a11f145ffadb3c0ca010cb70e9f4840ed42002841042",
+ "runs": {
+  "prefix_frozen": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "prefix",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 42,
+    "epochs_max": 10,
+    "patience": 2,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "582bea1f14165ffb4403fda743c866c96e314c295224cda6ec61bec2de2ac2f0",
+   "checkpoint": {
+    "file": "runs/prefix_frozen/best.pt",
+    "sha256": "a0b5e294079346357535528eafe52a3c0b7853a917b712ffe97bcbd0655caa2d",
+    "bytes": 125877439
+   },
+   "training": {
+    "epochs_run": 10,
+    "best_val_loss": 2.466209833050244,
+    "trainable": 31468800,
+    "total": 155908608,
+    "mean_epoch_time_s": 5.2,
+    "peak_mem_gb": 3.17415189743042,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11728697",
+    "log": "logs/train_11728697.out",
+    "gpu": null
+   },
+   "results": {
+    "results/prefix_frozen/beam_w10_test.json": "4ad4a3423aca2e254876eb928302ad4c207cbf5b133fe4c1475e171dba03e694",
+    "results/prefix_frozen/beam_w1_test.json": "732f11a3652c045b0771d2586a43fb43742cc7b9e325518a42e0308f292b8907",
+    "results/prefix_frozen/beam_w3_test.json": "c9c250632a4ea28c7d11a2f4f9b4ee59a9e062b819829bf6aabbd89028757b53",
+    "results/prefix_frozen/beam_w5_test.json": "e1b8a7ef4835983b23f7b505b08dc515e47459f5be2cbe58a6153e65f1339d47",
+    "results/prefix_frozen/greedy_test.json": "732f11a3652c045b0771d2586a43fb43742cc7b9e325518a42e0308f292b8907",
+    "results/prefix_frozen/nucleus_p0.5_t1.0_test.json": "78c3e0ab126b7114290a1327359d8e948123f068566b6da0e03237c71fe32819",
+    "results/prefix_frozen/nucleus_p0.8_t1.0_test.json": "1ad9f4866e25e164db3184fa3921b80de62764de0f1528ad0c2586a3fe7838a5",
+    "results/prefix_frozen/nucleus_p0.95_t1.0_test.json": "aba1a768b32d70e747b2e1c00555afad80e57ce8d972dbaaa970bc8ce8a9fc4e",
+    "results/prefix_frozen/nucleus_p0.9_t0.3_test.json": "3985609c37b76a13ab1dedb38eb43773bfa5c0bd87d70f75772bfc1779472df6",
+    "results/prefix_frozen/nucleus_p0.9_t0.5_test.json": "84394892e23c4a85dce0d54bf95c4e6300a1944be6b2adee81a5775117842963",
+    "results/prefix_frozen/nucleus_p0.9_t0.7_test.json": "1f8c16aacb07346e32eecf20e25d3f7701f896e720e3a5fe14c599e2b843c7f9",
+    "results/prefix_frozen/nucleus_p0.9_t1.0_test.json": "e1f462c01624901baad6af707e4a994588d0d1be7ebf4365a5e11b3abdd9bf94"
+   }
+  },
+  "prefix_frozen_debug": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "prefix",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 42,
+    "epochs_max": 10,
+    "patience": 2,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "582bea1f14165ffb4403fda743c866c96e314c295224cda6ec61bec2de2ac2f0",
+   "checkpoint": {
+    "file": "runs/prefix_frozen_debug/best.pt",
+    "sha256": "7c840df15ad7aab148bc8a8fd5d25fb78976c6090edf4269b374005cc803ae43",
+    "bytes": 125877439
+   },
+   "training": {
+    "epochs_run": 1,
+    "best_val_loss": 5.3701583960259605,
+    "trainable": 31468800,
+    "total": 155908608,
+    "mean_epoch_time_s": 0.4,
+    "peak_mem_gb": 1.3878021240234375,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11728636",
+    "log": "logs/stage1_11728636.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {}
+  },
+  "prefix_frozen_s0": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "prefix",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 0,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "c74b63c091625e3be1785d97a7dda30b25d67f5a8db0725b6550c74de32abc6b",
+   "checkpoint": {
+    "file": "runs/prefix_frozen_s0/best.pt",
+    "sha256": "dc9973bc8cf19e7922baa5ae69ea74f07bfe9a535ffa5aa71bf194ffa51c38d5",
+    "bytes": 125877439
+   },
+   "training": {
+    "epochs_run": 17,
+    "best_val_loss": 2.4553721014330807,
+    "trainable": 31468800,
+    "total": 155908608,
+    "mean_epoch_time_s": 5.1,
+    "peak_mem_gb": 0.8282232284545898,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813436",
+    "log": "logs/exp_11813436.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_frozen_s0/beam_w3_nr3_test.json": "64cbeafe05a251ba2a57388237d0533248b3f9bbca77ae4591a2e98f8a467c6f",
+    "results/prefix_frozen_s0/beam_w3_test.json": "9fda677c958835f5e9322714115f08df8db9fe3b2e5bd857f271f25676ee9968",
+    "results/prefix_frozen_s0/greedy_nr3_test.json": "a548cb617392ffa9085c4e98a80d485e33eb0bee760c010f2d87ae24d71d5120",
+    "results/prefix_frozen_s0/greedy_test.json": "a038397463572205308e8b159b75876ff189376bfb3b61f92c8f5f2ae6293131",
+    "results/prefix_frozen_s0/nucleus_p0.9_t0.7_test.json": "db39c2a6c1b942dfa0049feb8f6d78f93661228d3f13348c8a5695b63b4b4e13"
+   }
+  },
+  "prefix_frozen_s1": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "prefix",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 1,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "9125a6bb7e1b715502ac7c0a613de3c37c137af34ab40ec91358ef64bbb2ae8d",
+   "checkpoint": {
+    "file": "runs/prefix_frozen_s1/best.pt",
+    "sha256": "ea8eed00ec515896e27f5dd4ba23d09516a48566403bf6f9f2e44de4a8f3b072",
+    "bytes": 125877439
+   },
+   "training": {
+    "epochs_run": 17,
+    "best_val_loss": 2.4474356822294023,
+    "trainable": 31468800,
+    "total": 155908608,
+    "mean_epoch_time_s": 5.1,
+    "peak_mem_gb": 3.173091411590576,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813436",
+    "log": "logs/exp_11813436.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_frozen_s1/beam_w3_nr3_test.json": "b2996221baa95f4c218de7286f240d4ce208c51f1c2ee58dc06d5bef37c18413",
+    "results/prefix_frozen_s1/beam_w3_test.json": "145b5fa0adf8204130e927b352f06c5fb7756c55ba15411cbe5dd0b4bd2ace84",
+    "results/prefix_frozen_s1/greedy_nr3_test.json": "d2de9dc3ef4eed1ea12f027447fdd098db3365202692c65762ebb2f8f44c831f",
+    "results/prefix_frozen_s1/greedy_test.json": "50ea93e8b32ea8cab790a18c1ed845214ea8cd30d13dfb32c59cd8006a086d0c",
+    "results/prefix_frozen_s1/nucleus_p0.9_t0.7_test.json": "568424fb404613eabf6dcc4bc8620749f5a2faf2465b432214f9d5a06cc3ed93"
+   }
+  },
+  "prefix_frozen_s2": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "prefix",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 2,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "7648a439895728897b634400a9163c08241cb8b62c34af12b7b88979bae8628d",
+   "checkpoint": {
+    "file": "runs/prefix_frozen_s2/best.pt",
+    "sha256": "ff1df604629118a4697ce2e6cea6c735c7c4c6f62462dcb462863c66562e6fde",
+    "bytes": 125877439
+   },
+   "training": {
+    "epochs_run": 14,
+    "best_val_loss": 2.458532487225173,
+    "trainable": 31468800,
+    "total": 155908608,
+    "mean_epoch_time_s": 5.1,
+    "peak_mem_gb": 3.173091411590576,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813436",
+    "log": "logs/exp_11813436.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_frozen_s2/beam_w3_nr3_test.json": "7cefd278dcf7d9d89c65b487b2af1de79b1b4073d5a1e288f9cfdeedbf8ba548",
+    "results/prefix_frozen_s2/beam_w3_test.json": "e2b552d4dbf0fe240f155ae799ee98c03294c5b69908c4b895b819143d187f3c",
+    "results/prefix_frozen_s2/greedy_nr3_test.json": "727875714bd918dfdda1c8e8539c8a67693c60305208dbe20c86318da78f16fd",
+    "results/prefix_frozen_s2/greedy_test.json": "d39c4b133f3403d171c3da5fba7c77814b7f66a6a6ca05e2e99d03b08db3c13e",
+    "results/prefix_frozen_s2/nucleus_p0.9_t0.7_test.json": "ad6766864d770b8a90f08cc180c9b311907742320378ff78381df68063c80115"
+   }
+  },
+  "prefix_full": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "full",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 42,
+    "epochs_max": 10,
+    "patience": 2,
+    "lr": 0.0001,
+    "gpt_lr": 2e-05
+   },
+   "config_sha256": "fce1160e3798efbff8732e8cff1d918c45d5f924acdd354418788874aa20f067",
+   "checkpoint": {
+    "file": "runs/prefix_full/best.pt",
+    "sha256": "8167402bb0a7d1df78d32df26048fea27e77d9ccddb46631b6311e7fc8e9a587",
+    "bytes": 623671861
+   },
+   "training": {
+    "epochs_run": 10,
+    "best_val_loss": 2.271621694427959,
+    "trainable": 155908608,
+    "total": 155908608,
+    "mean_epoch_time_s": 9.4,
+    "peak_mem_gb": 4.72806453704834,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11728743",
+    "log": "logs/train_11728743.out",
+    "gpu": null
+   },
+   "results": {
+    "results/prefix_full/beam_w3_test.json": "25ec1987c88ff4d012cf03aef111d1edc5711ef9408b96d1bb624d37ec50cabe",
+    "results/prefix_full/greedy_test.json": "05404592c6889334c5fe6a89f95e1819b6a8c86b532803c7c070b12348644574",
+    "results/prefix_full/nucleus_p0.9_t0.7_test.json": "6af9820835baafa9ca19dd1ca070c11953cd616f735dbb057e63c24c5b9ac794"
+   }
+  },
+  "prefix_full_s0": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "full",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 0,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": 2e-05
+   },
+   "config_sha256": "2d8ddd211bddcc0973b0c8e6696606906d24fa7b031b7133db84347aa76dcc58",
+   "checkpoint": {
+    "file": "runs/prefix_full_s0/best.pt",
+    "sha256": "26b318e47e2ff38ba8b6e30dda5e030a7eb52b0957f49641a2e9487d7b7113df",
+    "bytes": 623671861
+   },
+   "training": {
+    "epochs_run": 13,
+    "best_val_loss": 2.26193209940281,
+    "trainable": 155908608,
+    "total": 155908608,
+    "mean_epoch_time_s": 8.7,
+    "peak_mem_gb": 1.757838249206543,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813438",
+    "log": "logs/exp_11813438.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_full_s0/beam_w3_nr3_test.json": "7494234e8b3c37eabce6607d466cea986642ca845c6b6e9f8da44279a5d97819",
+    "results/prefix_full_s0/beam_w3_test.json": "9782fe4f07333095adabde7bc450764c8913ab3ec5a831bc86b2a6cf2ef38480",
+    "results/prefix_full_s0/greedy_nr3_test.json": "d1bdc882c2af8258657ad955f048da7e3ee8592b0f24f9b17fcab79ad35ac56f",
+    "results/prefix_full_s0/greedy_test.json": "4ddedbe518e968c6a357afd09587fe016c67dbf805207a1ef47f682a24cdf3a0",
+    "results/prefix_full_s0/nucleus_p0.9_t0.7_test.json": "58c35a6c3d38bb96332348048363d863b3142a72d10657ed79dd77459029f96b"
+   }
+  },
+  "prefix_full_s1": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "full",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 1,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": 2e-05
+   },
+   "config_sha256": "e8f74e9ae1ece41bb37760fd193f9a27b3489849969b2b272b73ea6d6369817d",
+   "checkpoint": {
+    "file": "runs/prefix_full_s1/best.pt",
+    "sha256": "61eb208b91b60c78b8208380c2579bf9994662ba66e2443d0974f9083746497f",
+    "bytes": 623681487
+   },
+   "training": {
+    "epochs_run": 15,
+    "best_val_loss": 2.271191142887239,
+    "trainable": 155908608,
+    "total": 155908608,
+    "mean_epoch_time_s": 8.4,
+    "peak_mem_gb": 4.743648529052734,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813636",
+    "log": "logs/exp_11813636.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_full_s1/beam_w3_nr3_test.json": "c035854aca2c7a21a41e0ebe6fa0fbebbd93173707cf90de875497192f8c50bc",
+    "results/prefix_full_s1/beam_w3_test.json": "d58a554c15421f3b4c22a189cb0c8db598520c03bf58aab8eb034efe287d6252",
+    "results/prefix_full_s1/greedy_nr3_test.json": "ecd6f23dbf66e9c991f8207bd9988e9468aa3e25d9a3707d2c51e948483018a9",
+    "results/prefix_full_s1/greedy_test.json": "f4725b8c65e5c88458ed1bde33378c6c31affb2e22db7fe0752740a89ece1a9e",
+    "results/prefix_full_s1/nucleus_p0.9_t0.7_test.json": "677966ca0189bfd83eedf75736ae529f3f4b2141cfb2c1095e8a233a9f3667ca"
+   }
+  },
+  "prefix_full_s2": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "full",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 2,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": 2e-05
+   },
+   "config_sha256": "4c410e30f2cac3b7bde17adfab756415006a91cad421726720d6d855337e0b34",
+   "checkpoint": {
+    "file": "runs/prefix_full_s2/best.pt",
+    "sha256": "7cc78efc27ec96a953355d133d8994093f28d79b1192881389a14caac7c1a5ba",
+    "bytes": 623681487
+   },
+   "training": {
+    "epochs_run": 14,
+    "best_val_loss": 2.261036091884432,
+    "trainable": 155908608,
+    "total": 155908608,
+    "mean_epoch_time_s": 8.3,
+    "peak_mem_gb": 4.726757049560547,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813636",
+    "log": "logs/exp_11813636.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_full_s2/beam_w3_nr3_test.json": "06a764b978d31609f560a9ca91e49198571d9f387e62d3a112bf845c21762c44",
+    "results/prefix_full_s2/beam_w3_test.json": "2b0e0943c3b0edac70b195b48d37ccb532005a678988cc7c5e4d5f59c8109272",
+    "results/prefix_full_s2/greedy_nr3_test.json": "050c316d2c2aab3453d6f7a616958be3363ed9fbbcd94a3918fb3f2acebef251",
+    "results/prefix_full_s2/greedy_test.json": "df3e87a936c1ac49e6e4ca762edb8cb92bf7aa0f96a5897907893b44ca157346",
+    "results/prefix_full_s2/nucleus_p0.9_t0.7_test.json": "fb16a60448810a79b9fec387c84ee54acdb3bb2399c90e5b5f76f049395164cb"
+   }
+  },
+  "prefix_lora": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 42,
+    "epochs_max": 10,
+    "patience": 2,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "0862862b0eca10c1c367870ad793e391d8d7b91a0d544a20a480e1841b99515a",
+   "checkpoint": {
+    "file": "runs/prefix_lora/best.pt",
+    "sha256": "4ca7d77cd9cc67c46ffbb11e7888e807795ca139c2af99ae46c56475401a9c4d",
+    "bytes": 127659673
+   },
+   "training": {
+    "epochs_run": 10,
+    "best_val_loss": 2.3875171607041357,
+    "trainable": 31911168,
+    "total": 156350976,
+    "mean_epoch_time_s": 6.1,
+    "peak_mem_gb": 3.2643885612487793,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11728741",
+    "log": "logs/train_11728741.out",
+    "gpu": null
+   },
+   "results": {
+    "results/prefix_lora/beam_w3_test.json": "9a549223251e55bac49cd36d139a2cb96078025deecc96955820bbac95f5c1e0",
+    "results/prefix_lora/greedy_test.json": "5c7dd2147fbe946a4be9a2cf0b41185136a89a85890b01b696228f64750f8937",
+    "results/prefix_lora/nucleus_p0.9_t0.7_test.json": "0808ef59b40e1048cdb94439f3fc8d92c18ea4bc0c05442b7d6edcb2674a8d04"
+   }
+  },
+  "prefix_lora_n1000_s0": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 1000,
+    "seed": 0,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "0af3460acd39bee75f7efc7ae15ac5653e7a919e5a0eeb8a42f633b9b6a5d235",
+   "checkpoint": {
+    "file": "runs/prefix_lora_n1000_s0/best.pt",
+    "sha256": "64eadb3d7c46c5bc340d9cd2310cee75febaa42d051714c6b3e129a5f76d727a",
+    "bytes": 127662599
+   },
+   "training": {
+    "epochs_run": 18,
+    "best_val_loss": 2.53616564071243,
+    "trainable": 31911168,
+    "total": 156350976,
+    "mean_epoch_time_s": 1.7,
+    "peak_mem_gb": 3.0208959579467773,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813635",
+    "log": "logs/exp_11813635.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_lora_n1000_s0/beam_w3_test.json": "2d755e52d7607fd947cae4bf10bb711d2de04c73ac278227446b467ab2af05ec"
+   }
+  },
+  "prefix_lora_n1000_s1": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 1000,
+    "seed": 1,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "16a3e4d3bf59fc081c89fa93ba906b53f776131d109b404b53324e2c3d08805f",
+   "checkpoint": {
+    "file": "runs/prefix_lora_n1000_s1/best.pt",
+    "sha256": "fd02bf87a6320f275c12cabc9ac4ed5fbdcd0da5a80f72e51581fb630454a1cb",
+    "bytes": 127662599
+   },
+   "training": {
+    "epochs_run": 18,
+    "best_val_loss": 2.527528892769041,
+    "trainable": 31911168,
+    "total": 156350976,
+    "mean_epoch_time_s": 1.6,
+    "peak_mem_gb": 3.02188777923584,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813635",
+    "log": "logs/exp_11813635.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_lora_n1000_s1/beam_w3_test.json": "051669c8e57ba36e5430ee563aa516a3877f31bf3872be00ff5f1157a6150cb2"
+   }
+  },
+  "prefix_lora_n1000_s2": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 1000,
+    "seed": 2,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "48c1d896aa4626a931d90b0fe6b2e32cb74e0fc45fd5ac0eea18fa303ff25ec9",
+   "checkpoint": {
+    "file": "runs/prefix_lora_n1000_s2/best.pt",
+    "sha256": "72f587c8c11d7420d995e96b904bf91b065ecd8ebc73495e50cd7c0ed941751b",
+    "bytes": 127662599
+   },
+   "training": {
+    "epochs_run": 16,
+    "best_val_loss": 2.5242607871853098,
+    "trainable": 31911168,
+    "total": 156350976,
+    "mean_epoch_time_s": 1.6,
+    "peak_mem_gb": 3.01993465423584,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813635",
+    "log": "logs/exp_11813635.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_lora_n1000_s2/beam_w3_test.json": "40258617c09a2cac3a19bf3244ee88e783bbf45c148f0d505ec84a5ead8043e2"
+   }
+  },
+  "prefix_lora_n2000_s0": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 2000,
+    "seed": 0,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "fd2d1dcc0e737832b1835adf19671d4046e150e3c7ff0e2270e1d00236572e59",
+   "checkpoint": {
+    "file": "runs/prefix_lora_n2000_s0/best.pt",
+    "sha256": "6e02f477a9513ca0e4b6c99f2619919b10c525cb15844fd49d0ef8a709f323db",
+    "bytes": 127662599
+   },
+   "training": {
+    "epochs_run": 17,
+    "best_val_loss": 2.4529335777783117,
+    "trainable": 31911168,
+    "total": 156350976,
+    "mean_epoch_time_s": 3.2,
+    "peak_mem_gb": 3.265449047088623,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813635",
+    "log": "logs/exp_11813635.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_lora_n2000_s0/beam_w3_test.json": "97cf63bc83bfdce9d6e6d9c85e1a1bc31f6861bf63597a34e40091b9f1c12d1e"
+   }
+  },
+  "prefix_lora_n2000_s1": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 2000,
+    "seed": 1,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "a414381e9a33cfa06e870bcaef80dfd84593fc410b85aa1074929ca333594321",
+   "checkpoint": {
+    "file": "runs/prefix_lora_n2000_s1/best.pt",
+    "sha256": "a3a6816a8ff6b0338807d594a882a0dd5a04813372533de91e051df66a1af769",
+    "bytes": 127662599
+   },
+   "training": {
+    "epochs_run": 14,
+    "best_val_loss": 2.450722081049657,
+    "trainable": 31911168,
+    "total": 156350976,
+    "mean_epoch_time_s": 3.1,
+    "peak_mem_gb": 3.2643885612487793,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813635",
+    "log": "logs/exp_11813635.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_lora_n2000_s1/beam_w3_test.json": "16349cc848d719c02efb121b15e13ba2eaa61d3536801ba3bd79da30a7f87d9c"
+   }
+  },
+  "prefix_lora_n2000_s2": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 2000,
+    "seed": 2,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "4d04e99861bb17f3bfda48f3c0363ae1f475803b16651f43cb64c7dcfbc6f29b",
+   "checkpoint": {
+    "file": "runs/prefix_lora_n2000_s2/best.pt",
+    "sha256": "ef1ce9cd6baf633514e070982f6170c470bcfcfe0724c389dd8164b4beba8dd9",
+    "bytes": 127662599
+   },
+   "training": {
+    "epochs_run": 16,
+    "best_val_loss": 2.4503332215070994,
+    "trainable": 31911168,
+    "total": 156350976,
+    "mean_epoch_time_s": 3.2,
+    "peak_mem_gb": 3.2643885612487793,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813635",
+    "log": "logs/exp_11813635.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_lora_n2000_s2/beam_w3_test.json": "dda2dcc09a9f033bb0f492b03c84a084d468f30788b3dd3663609c105ec62cfd"
+   }
+  },
+  "prefix_lora_s0": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 0,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "9705ee668ee04667989e16c3b8878e60dd17c9572a4247c0bbe0a3f9ec01b1e9",
+   "checkpoint": {
+    "file": "runs/prefix_lora_s0/best.pt",
+    "sha256": "f4c4dbb2018db060f8a37e42b112e61b7f677495881df8aafcc8606959e30d95",
+    "bytes": 127659673
+   },
+   "training": {
+    "epochs_run": 19,
+    "best_val_loss": 2.3773983619170864,
+    "trainable": 31911168,
+    "total": 156350976,
+    "mean_epoch_time_s": 6.1,
+    "peak_mem_gb": 0.8331670761108398,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813437",
+    "log": "logs/exp_11813437.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_lora_s0/beam_w10_nr3_test.json": "eae7221d6bef56d0ad9aa5117f884fc2ded92a182450bf6c4d34b3b36aeb786f",
+    "results/prefix_lora_s0/beam_w10_test.json": "f923454b6f74dc2d0705d3315c3b6d6de6c7100fe8b97a5b459ab5773d0a5569",
+    "results/prefix_lora_s0/beam_w1_test.json": "ab2d69383777291bc5198cf4c03868e5060f1b49dd341f82628ccbc6a93178fa",
+    "results/prefix_lora_s0/beam_w3_nr3_test.json": "de3c7b9e0e872b7d8356ef92d218f2aa3a7697558eff7d2cdf9748de9c35b58c",
+    "results/prefix_lora_s0/beam_w3_test.json": "6bc5f4b76b612bf44571830dd34c3f57bd9f4dc194728564e8f4eab79f1abb2d",
+    "results/prefix_lora_s0/beam_w5_nr3_test.json": "563a08573c046376280a94753a0ce61ddbc2122c1171bcb5be717910442a5ad2",
+    "results/prefix_lora_s0/beam_w5_test.json": "22000911a79da30b993ae1434de4cdd9bfe5a8b609462bfc41e6c7cbb13cc990",
+    "results/prefix_lora_s0/greedy_nr3_test.json": "2eebffa8fe690196610b37b74e3c61809c59f8cbb8699ade340d2cfd9a08c07f",
+    "results/prefix_lora_s0/greedy_test.json": "ab2d69383777291bc5198cf4c03868e5060f1b49dd341f82628ccbc6a93178fa",
+    "results/prefix_lora_s0/nucleus_p0.5_t1.0_test.json": "7c46e9e4ede3f015b28e39581fc16653c457e4e9affa2e2b335590c4ecbe9dfb",
+    "results/prefix_lora_s0/nucleus_p0.8_t1.0_test.json": "80d6ccaa0a706316bce3b3d551a36f6c38023aacda2741b00607d3041dec91d8",
+    "results/prefix_lora_s0/nucleus_p0.95_t1.0_test.json": "c7d9a2a0f2f8169b3c53732d874c334201808e911c6bd95e0324af933153a3d6",
+    "results/prefix_lora_s0/nucleus_p0.9_t0.3_test.json": "e2f7c9585fceb9c3ba881729250aae6d41917ade81d2e999242acb646311fdf8",
+    "results/prefix_lora_s0/nucleus_p0.9_t0.5_test.json": "5fc663728233c63409819b19710dadc4895663f13da5c8cc77b25d516f4cf3c7",
+    "results/prefix_lora_s0/nucleus_p0.9_t0.7_test.json": "37f9f5197e9528d02001b6c68d90b89b261ed8ab02d9cda3860abc96c55ea095",
+    "results/prefix_lora_s0/nucleus_p0.9_t1.0_test.json": "e1c98d667a0c01a3e8a9846be65de64f091617d6d7d9a007a7ea4be78f327e44"
+   }
+  },
+  "prefix_lora_s1": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 1,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "f31a655a509407d881483a19f83de48be4c64d117d32e29df1d37a82125c4008",
+   "checkpoint": {
+    "file": "runs/prefix_lora_s1/best.pt",
+    "sha256": "95b7d204ab7d971e399d1dbd6db4cbf2a495a9d52ccb6620cc773eb62f9e3542",
+    "bytes": 127659673
+   },
+   "training": {
+    "epochs_run": 18,
+    "best_val_loss": 2.367312115389431,
+    "trainable": 31911168,
+    "total": 156350976,
+    "mean_epoch_time_s": 6.4,
+    "peak_mem_gb": 3.2643885612487793,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813437",
+    "log": "logs/exp_11813437.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_lora_s1/beam_w3_nr3_test.json": "8022d1c06fa75f1dd2125db396b6b0b9ef3c199c38377f18eacbcc1b76bcb9eb",
+    "results/prefix_lora_s1/beam_w3_test.json": "a65f9463250b5998d41bdf47490513e330ad9a597295f4d8bbe3a122ec780acd",
+    "results/prefix_lora_s1/greedy_nr3_test.json": "6d4876d0dcce58cf633ce6d77980f7aebb4ccbb64cb0ad1bc5ffbf91496f560d",
+    "results/prefix_lora_s1/greedy_test.json": "36dd5b3c2edeb87ca476521161b5de2957bab1b4335033e2f8b37fd87a50d38a",
+    "results/prefix_lora_s1/nucleus_p0.9_t0.7_test.json": "9b5ba5cf9f8acc21c637154e13f45114f1aeb6c629969c8d9fa96943e22ac663"
+   }
+  },
+  "prefix_lora_s2": {
+   "config": {
+    "injection": "prefix",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 2,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "7d78b6beae0af2d53a091fc414ec7ac4513334493b903eda40494c6624522ede",
+   "checkpoint": {
+    "file": "runs/prefix_lora_s2/best.pt",
+    "sha256": "084715fb20d1db6e624f95730f9b852bd9ebb831230ba1cc1e332205ea87330f",
+    "bytes": 127659673
+   },
+   "training": {
+    "epochs_run": 14,
+    "best_val_loss": 2.364186519661789,
+    "trainable": 31911168,
+    "total": 156350976,
+    "mean_epoch_time_s": 6.4,
+    "peak_mem_gb": 3.2643885612487793,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813437",
+    "log": "logs/exp_11813437.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/prefix_lora_s2/beam_w3_nr3_test.json": "310ae1aa165f1f455499f052f5ca6c29f99b94f1d57b38b30d4124b76cabe612",
+    "results/prefix_lora_s2/beam_w3_test.json": "0c76eafa8ed2bf777271df5c7b0db3980c8af74dbc852f7b7a9d4d07db93971d",
+    "results/prefix_lora_s2/greedy_nr3_test.json": "70a5b2917a1dde2858595127c7a4a19c8d8dccc5dd55b198dc9dbe8fb88804c6",
+    "results/prefix_lora_s2/greedy_test.json": "b8a1ac7df833261433746df48e4d4b0fe69b581ac24ea1778c81eec1a3633d6b",
+    "results/prefix_lora_s2/nucleus_p0.9_t0.7_test.json": "ee640d4e476099792a1bcc75ecc18f12e80cae729f8190c38fbe524defee5fd1"
+   }
+  },
+  "xattn_frozen": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "prefix",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 42,
+    "epochs_max": 10,
+    "patience": 2,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "f8a7edc3dee2eddd829ab7e1be0f13d25bdcc45dd996d9d9e83ed07586382abf",
+   "checkpoint": {
+    "file": "runs/xattn_frozen/best.pt",
+    "sha256": "0e3b262fece1bd801b37c3d983042760a9832fcb5bb7557cccd27e26bc562497",
+    "bytes": 115861753
+   },
+   "training": {
+    "epochs_run": 10,
+    "best_val_loss": 2.3697603985939435,
+    "trainable": 28958976,
+    "total": 153398784,
+    "mean_epoch_time_s": 7.8,
+    "peak_mem_gb": 2.963253974914551,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11728745",
+    "log": "logs/train_11728745.out",
+    "gpu": null
+   },
+   "results": {
+    "results/xattn_frozen/beam_w3_test.json": "4ff5191df62d76762cc4b0ca53b0e72284cdc7d3009de7a3f2bdfdbadbefd4a4",
+    "results/xattn_frozen/greedy_test.json": "cd711ca444d6e6192820c10b4efa2e91e3948e02300f568d9a12abacce5479b1",
+    "results/xattn_frozen/nucleus_p0.9_t0.7_test.json": "0125100ff6911601d97ba63b30beb4879e3e6bb8eb1c8429ab4817ab599ea755"
+   }
+  },
+  "xattn_frozen_s0": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "prefix",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 0,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "21a45987a0aea23e800f3129b79141628157324ef8abeaddb86ae5e1f5126b2d",
+   "checkpoint": {
+    "file": "runs/xattn_frozen_s0/best.pt",
+    "sha256": "4a48e50ad83a82ed29db3220b4953f8f5d5705bd9e9fe39425151d16e3a6fa31",
+    "bytes": 115861753
+   },
+   "training": {
+    "epochs_run": 18,
+    "best_val_loss": 2.3392043252684473,
+    "trainable": 28958976,
+    "total": 153398784,
+    "mean_epoch_time_s": 6.5,
+    "peak_mem_gb": 2.9661011695861816,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813439",
+    "log": "logs/exp_11813439.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_frozen_s0/beam_w3_nr3_test.json": "3538ff94a1cd3af1a281aa62f44e118bb3a59113b81dd6be6bf72a4bf92c0d6f",
+    "results/xattn_frozen_s0/beam_w3_test.json": "5f53f80fae223e109e4de92b735e008975ae751cc755fbbf96e79e7bca7794f3",
+    "results/xattn_frozen_s0/greedy_nr3_test.json": "140cc370fac8c4a72c92fe0cd2b608003496b10c2f2ed86655bf0cd563c18bd4",
+    "results/xattn_frozen_s0/greedy_test.json": "9bf92e80ff7dea6493dd1c83a22d90c1b6414b01e01142d39a3e09dcee070663",
+    "results/xattn_frozen_s0/nucleus_p0.9_t0.7_test.json": "ebd24305467faf4c590476e82728b7814f78916049695d63861c994e6842d044"
+   }
+  },
+  "xattn_frozen_s1": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "prefix",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 1,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "727430330d96ee87f7970a8bd87a4de7193c4d9d7552bca9d6201b3a7ffeb625",
+   "checkpoint": {
+    "file": "runs/xattn_frozen_s1/best.pt",
+    "sha256": "a95ec8a507653dfc95c109b140d08d32b056c0c6fa4b7cc97f36308114494f90",
+    "bytes": 115867895
+   },
+   "training": {
+    "epochs_run": 18,
+    "best_val_loss": 2.3330902431867746,
+    "trainable": 28958976,
+    "total": 153398784,
+    "mean_epoch_time_s": 6.4,
+    "peak_mem_gb": 2.963351249694824,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813637",
+    "log": "logs/exp_11813637.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_frozen_s1/beam_w3_nr3_test.json": "265fe1e914fbca27cd74038f852e3544e9b7abf85496f9c1d6085e93e6b1b531",
+    "results/xattn_frozen_s1/beam_w3_test.json": "1a0cd680d7d55162a7d45fb45adf89b6d7e0d6d82031ab5ffb8f04f2b27aafa2",
+    "results/xattn_frozen_s1/greedy_nr3_test.json": "b1ae74b95ac51bbb6aaad811b14ee65e4a1d29e58fbec4b48ec06af7c2c70161",
+    "results/xattn_frozen_s1/greedy_test.json": "e78a16ed2f491fc97da25b4296af905c9e5dc0f27bd9e5b4488e5a9dd7bccb24",
+    "results/xattn_frozen_s1/nucleus_p0.9_t0.7_test.json": "8f7766f5e0a686b144263df3b4505c84dd78dd7ea0bc36b83eaed98e44870ee5"
+   }
+  },
+  "xattn_frozen_s2": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "prefix",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 2,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "68960bdf173996dd0aa43fc66c852bade6ceec99652df65c9043ee141ffe7dd8",
+   "checkpoint": {
+    "file": "runs/xattn_frozen_s2/best.pt",
+    "sha256": "f43406cd94712ccf0493ebee68e8f618e013400df18e9194d3576d3e94db48cf",
+    "bytes": 115867895
+   },
+   "training": {
+    "epochs_run": 16,
+    "best_val_loss": 2.332066495446052,
+    "trainable": 28958976,
+    "total": 153398784,
+    "mean_epoch_time_s": 6.4,
+    "peak_mem_gb": 2.963253974914551,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813637",
+    "log": "logs/exp_11813637.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_frozen_s2/beam_w3_nr3_test.json": "3c90f0097cf4b7e63af0e26ab27bc372725ba611d81d09c2418e692a73f1d82e",
+    "results/xattn_frozen_s2/beam_w3_test.json": "692a8aaf4584d8f0cb9a313609a8b755a36b47f62405df4611f1888e95ced2ab",
+    "results/xattn_frozen_s2/greedy_nr3_test.json": "2f6005991fc89f5852bfc9bb388efc3a5b3bf819832c779889f0b008d41d83da",
+    "results/xattn_frozen_s2/greedy_test.json": "cb5a0d0abe10d74bd1e1f443d34d4867f93e90105a22be29e1426c8a0961245b",
+    "results/xattn_frozen_s2/nucleus_p0.9_t0.7_test.json": "66f221c54f8a3eda61e6a657eebb1fe0871028eaff08a0bdfd55d2f400d02ad1"
+   }
+  },
+  "xattn_full": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "full",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 42,
+    "epochs_max": 10,
+    "patience": 2,
+    "lr": 0.0001,
+    "gpt_lr": 2e-05
+   },
+   "config_sha256": "3ed35bf00187f46f0f97f25fcf55fcc1db310ca9dd911fd78140f3d49c924690",
+   "checkpoint": {
+    "file": "runs/xattn_full/best.pt",
+    "sha256": "5b407b1ebc48ef03a0d7cf96eb466b5f4cc655e9e395ce5475c7a8f4eac72d8e",
+    "bytes": 613657045
+   },
+   "training": {
+    "epochs_run": 10,
+    "best_val_loss": 2.3024313434539434,
+    "trainable": 153398784,
+    "total": 153398784,
+    "mean_epoch_time_s": 9.4,
+    "peak_mem_gb": 4.525973796844482,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11728821",
+    "log": "logs/train_11728821.out",
+    "gpu": null
+   },
+   "results": {
+    "results/xattn_full/beam_w3_test.json": "6e7d0a36d4f49fec516435365f4c15568eabaf5ba71be4bcd5691f914218fde4",
+    "results/xattn_full/greedy_test.json": "468a23ebcb1fd332eeced0abe200e18065ff407dd58814997c0d29927491f5cd",
+    "results/xattn_full/nucleus_p0.9_t0.7_test.json": "ae8a0ec7ab56e410eeb1ffd45420bad1bfc24e02f539f82f72222fd614272c9d"
+   }
+  },
+  "xattn_full_s0": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "full",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 0,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": 2e-05
+   },
+   "config_sha256": "fbac9a127b14cc10973db5f66a7a1424ed24123be0d39cc66827bb035baed552",
+   "checkpoint": {
+    "file": "runs/xattn_full_s0/best.pt",
+    "sha256": "4abef7b375164aa3014f349a20715f541f8650de7bd1e837b0cf9b1407d3e8c0",
+    "bytes": 613673103
+   },
+   "training": {
+    "epochs_run": 12,
+    "best_val_loss": 2.3117588389434514,
+    "trainable": 153398784,
+    "total": 153398784,
+    "mean_epoch_time_s": 9.4,
+    "peak_mem_gb": 4.534533977508545,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813639",
+    "log": "logs/exp_11813639.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_full_s0/beam_w3_nr3_test.json": "e6017454d83f67eee15ef559867cf6d66c78b43a8df15c0b1d55075f34581584",
+    "results/xattn_full_s0/beam_w3_test.json": "3e03def57878d6d79b4c194e8e8508e0e1dc0670ee87f620c8b7693e7ccb23f7",
+    "results/xattn_full_s0/greedy_nr3_test.json": "5f5981595448730777b5a450c5d69d27be4401115ace3308b007b56494b2ef5d",
+    "results/xattn_full_s0/greedy_test.json": "5ca7eb976887563ff046ef7fd4c8b052f7a35178fcf00689a5110849e2aab967",
+    "results/xattn_full_s0/nucleus_p0.9_t0.7_test.json": "96d15e1683130601b6c942664284e1e7caf90f11b4f8bf1a5b23be56644e3874"
+   }
+  },
+  "xattn_full_s1": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "full",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 1,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": 2e-05
+   },
+   "config_sha256": "9d1f3d2581cd3c05cdd8ad91c45df73f515f2b79e52d12cb45296103e77a79cf",
+   "checkpoint": {
+    "file": "runs/xattn_full_s1/best.pt",
+    "sha256": "9a54cd16564882c3aea4ae32a8a515850258519068c4c389b428d32daeeb3601",
+    "bytes": 613673103
+   },
+   "training": {
+    "epochs_run": 12,
+    "best_val_loss": 2.2929532131130754,
+    "trainable": 153398784,
+    "total": 153398784,
+    "mean_epoch_time_s": 9.3,
+    "peak_mem_gb": 4.519766330718994,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813639",
+    "log": "logs/exp_11813639.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_full_s1/beam_w3_nr3_test.json": "658da0c0e68764723691e25d47285140fa986eea037005b670db6ae6fc0338a1",
+    "results/xattn_full_s1/beam_w3_test.json": "64e805c98e704a84fc11b3194cdcc7f6d95236291bee634ae2e65bf18d261277",
+    "results/xattn_full_s1/greedy_nr3_test.json": "7e3740b9f2ddb2451490972a78478789f0c17d69bc1791c1bf4025798ad561e3",
+    "results/xattn_full_s1/greedy_test.json": "e5a017061dc41ef475c250cfc9c6d953bbc6eeb493dbdc25e2169c0fad307ad2",
+    "results/xattn_full_s1/nucleus_p0.9_t0.7_test.json": "a61d0066292e256876f58e32bd59f42623724ad1acf92008374328d1e4a653ca"
+   }
+  },
+  "xattn_full_s2": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "full",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 2,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": 2e-05
+   },
+   "config_sha256": "a95ea0315aa8a83ab5f30a19b6fd37b88d19dab43728948064bcdc6a6a77f9c5",
+   "checkpoint": {
+    "file": "runs/xattn_full_s2/best.pt",
+    "sha256": "d7a74ec308d70dcbb453b77e6c18131d6500f6bb5ca85d1a32be973f3dd3717d",
+    "bytes": 613673103
+   },
+   "training": {
+    "epochs_run": 14,
+    "best_val_loss": 2.304878692469958,
+    "trainable": 153398784,
+    "total": 153398784,
+    "mean_epoch_time_s": 9.2,
+    "peak_mem_gb": 4.52296781539917,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813639",
+    "log": "logs/exp_11813639.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_full_s2/beam_w3_nr3_test.json": "e12b4b29c29b7cedb8d8e13576d0e4f26785ca9fc0e6c10fc58a36671f300db5",
+    "results/xattn_full_s2/beam_w3_test.json": "a984d878d91f80584ca4758d270bd296bc35dfa408197e9e057045978a33ebc2",
+    "results/xattn_full_s2/greedy_nr3_test.json": "f8e7f7a388ba967061259d0ba4304d8d4b3fa73edf312df7341e1ad935a644b9",
+    "results/xattn_full_s2/greedy_test.json": "2ffd480c0f6611d86764f308c31fbea59736c6ce22223859bfe70d70b2d0e89e",
+    "results/xattn_full_s2/nucleus_p0.9_t0.7_test.json": "677134dc9f7ef7ff46c65c9f4c94735cdd35beeff238e8b2629b09bb6a7ba23f"
+   }
+  },
+  "xattn_lora": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 42,
+    "epochs_max": 10,
+    "patience": 2,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "ce53697492b2747a388260aaf2c69435b9d6c18f4c3927968fa3c31c763ab7bc",
+   "checkpoint": {
+    "file": "runs/xattn_lora/best.pt",
+    "sha256": "d1c154c92add3c49d99634b4f0b130c5924ff76623e95a21c23f8bda81c3ce93",
+    "bytes": 117646409
+   },
+   "training": {
+    "epochs_run": 10,
+    "best_val_loss": 2.3594961859291987,
+    "trainable": 29401344,
+    "total": 153841152,
+    "mean_epoch_time_s": 9.1,
+    "peak_mem_gb": 3.048603057861328,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11728747",
+    "log": "logs/train_11728747.out",
+    "gpu": null
+   },
+   "results": {
+    "results/xattn_lora/beam_w3_test.json": "e50112dcab9f2a31a8fb54876d43bac50e995da70939b6ac5729b0e831fc966e",
+    "results/xattn_lora/greedy_test.json": "e2601130cd067f289284ef73a378eb5b852d85eef48787a5e3151704c3fc3040",
+    "results/xattn_lora/nucleus_p0.9_t0.7_test.json": "579d7d57bd7d6c8f164dec08b7dcd1840ab23103c802bc1fd21ef229bd6ebf0c"
+   }
+  },
+  "xattn_lora_n1000_s0": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 1000,
+    "seed": 0,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "6b4967b8a75a73b5b4ce090d10878460321488b9b5e69f45b1b29ca5290c266f",
+   "checkpoint": {
+    "file": "runs/xattn_lora_n1000_s0/best.pt",
+    "sha256": "f88cdb243aff601cca2b413cd603a9bdfdbde40239b34a9035876dd50949420f",
+    "bytes": 117655767
+   },
+   "training": {
+    "epochs_run": 20,
+    "best_val_loss": 2.5232936002163395,
+    "trainable": 29401344,
+    "total": 153841152,
+    "mean_epoch_time_s": 2.0,
+    "peak_mem_gb": 2.8047428131103516,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813638",
+    "log": "logs/exp_11813638.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_lora_n1000_s0/beam_w3_test.json": "c73cc1c1a9ff4c56a52108c2fdabc62173efbdfd99966ee83065a4407b146e7c"
+   }
+  },
+  "xattn_lora_n1000_s1": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 1000,
+    "seed": 1,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "d8448fa4198f286baad873ce4f59a37e8c9d1dcdc0ffa57a68ef0c7d8d806680",
+   "checkpoint": {
+    "file": "runs/xattn_lora_n1000_s1/best.pt",
+    "sha256": "081922427778e1bb84a3bddb3da97d22b85c37897d41f7b887eaf40068f75ac9",
+    "bytes": 117655767
+   },
+   "training": {
+    "epochs_run": 18,
+    "best_val_loss": 2.5294524440384274,
+    "trainable": 29401344,
+    "total": 153841152,
+    "mean_epoch_time_s": 2.0,
+    "peak_mem_gb": 2.810007095336914,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813638",
+    "log": "logs/exp_11813638.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_lora_n1000_s1/beam_w3_test.json": "511d1c8a95283774c659fb25ff203a8e1eaa36b8fec281dbee5ef39254923055"
+   }
+  },
+  "xattn_lora_n1000_s2": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 1000,
+    "seed": 2,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "befd90563de57ddd8a82c2d57fefb298486185c641ea670bb1cbef894cce11e3",
+   "checkpoint": {
+    "file": "runs/xattn_lora_n1000_s2/best.pt",
+    "sha256": "3f262bf21551287a9931a1ac5648c56ac46a1cc484e915292c262e96c30ca1b2",
+    "bytes": 117655767
+   },
+   "training": {
+    "epochs_run": 21,
+    "best_val_loss": 2.529581211067093,
+    "trainable": 29401344,
+    "total": 153841152,
+    "mean_epoch_time_s": 2.0,
+    "peak_mem_gb": 2.806802749633789,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813638",
+    "log": "logs/exp_11813638.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_lora_n1000_s2/beam_w3_test.json": "e513ede7383120ca9617f772fecca3db52fac19d038676a2772fab36a009ab70"
+   }
+  },
+  "xattn_lora_n2000_s0": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 2000,
+    "seed": 0,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "28b33a9986372b27484c2292d3ce342687c57a0d5e042b6a59447d8db5dfd377",
+   "checkpoint": {
+    "file": "runs/xattn_lora_n2000_s0/best.pt",
+    "sha256": "daf9117077944b22f14777c2325be3290f4e1b2d259d816bc023a819818f5684",
+    "bytes": 117655767
+   },
+   "training": {
+    "epochs_run": 14,
+    "best_val_loss": 2.4343855758618083,
+    "trainable": 29401344,
+    "total": 153841152,
+    "mean_epoch_time_s": 3.9,
+    "peak_mem_gb": 2.8841075897216797,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813638",
+    "log": "logs/exp_11813638.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_lora_n2000_s0/beam_w3_test.json": "74d8bac3035160312a3909759aca547c60589fda90b0c59d4272484c8a17c55c"
+   }
+  },
+  "xattn_lora_n2000_s1": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 2000,
+    "seed": 1,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "027fdb26555ed044fa6c7e409e8850530533e324591d7335bc748030b099c10c",
+   "checkpoint": {
+    "file": "runs/xattn_lora_n2000_s1/best.pt",
+    "sha256": "25d28544a51641174ef417ca41b0dadfd42a97e2333c39c27c912292d4513cb3",
+    "bytes": 117655767
+   },
+   "training": {
+    "epochs_run": 18,
+    "best_val_loss": 2.425081951367746,
+    "trainable": 29401344,
+    "total": 153841152,
+    "mean_epoch_time_s": 4.0,
+    "peak_mem_gb": 3.044483184814453,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813638",
+    "log": "logs/exp_11813638.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_lora_n2000_s1/beam_w3_test.json": "713546ed56a8ba41bfbde7f49655246538531a59b889ed2e589aa7cc0e6bae08"
+   }
+  },
+  "xattn_lora_n2000_s2": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": 2000,
+    "seed": 2,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "57c1ccbced9543df8aa0b638f1b659e9e3ff96ee306fbbe96bdecbb57d407759",
+   "checkpoint": {
+    "file": "runs/xattn_lora_n2000_s2/best.pt",
+    "sha256": "2e1b0bb0a268b16cc7d04fae8ac1b8632601cec922bb7b7957279f5506a616c3",
+    "bytes": 117655767
+   },
+   "training": {
+    "epochs_run": 14,
+    "best_val_loss": 2.4279821219385473,
+    "trainable": 29401344,
+    "total": 153841152,
+    "mean_epoch_time_s": 3.9,
+    "peak_mem_gb": 3.048145294189453,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813638",
+    "log": "logs/exp_11813638.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_lora_n2000_s2/beam_w3_test.json": "5b6a945e6704f7355442f62f4955fe5d92562d4ca82978e005bd5d4cb577beeb"
+   }
+  },
+  "xattn_lora_s0": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 0,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "ab46705e7ac78cc629710dfdc40addf1acf5fd8a0465cf1e6a7044dcebd135cc",
+   "checkpoint": {
+    "file": "runs/xattn_lora_s0/best.pt",
+    "sha256": "d9816eaacd4b97c48d1461dd8d9958fd4312a2c4f69c4e4bfbd0e1e7acb5d804",
+    "bytes": 117655767
+   },
+   "training": {
+    "epochs_run": 17,
+    "best_val_loss": 2.355724184330928,
+    "trainable": 29401344,
+    "total": 153841152,
+    "mean_epoch_time_s": 8.0,
+    "peak_mem_gb": 3.056415557861328,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813638",
+    "log": "logs/exp_11813638.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_lora_s0/beam_w3_nr3_test.json": "05c5f046800f604c44c52c75f7a6dd50f2f65db4ead168481c7af26b044cb64f",
+    "results/xattn_lora_s0/beam_w3_test.json": "64b704bd9121b9bb4384f1ec1d9d33daf457a513d2b3a0613c65bac4d8700eed",
+    "results/xattn_lora_s0/greedy_nr3_test.json": "390556fcbc72e06aae1cd18027671345e66209dd546316d99c9df3e10f891a18",
+    "results/xattn_lora_s0/greedy_test.json": "dec3e822fc19c853679dca39f7750a52a040c0dc024e25703d35d67b419606b0",
+    "results/xattn_lora_s0/nucleus_p0.9_t0.7_test.json": "a39188f52885a51ee3fcb80d0686d4198e1382b80fc8b176ddff212e8d881f77"
+   }
+  },
+  "xattn_lora_s1": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 1,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "d22692a64ec1af653f15c91172792bded3b94ed4d362cf4ec5e525d53d8cbc13",
+   "checkpoint": {
+    "file": "runs/xattn_lora_s1/best.pt",
+    "sha256": "625d81028856aa0af2364bd8a4d97cd38aedde256569529f1ce481c7155c1db3",
+    "bytes": 117655767
+   },
+   "training": {
+    "epochs_run": 18,
+    "best_val_loss": 2.3242995306880943,
+    "trainable": 29401344,
+    "total": 153841152,
+    "mean_epoch_time_s": 8.0,
+    "peak_mem_gb": 3.0496559143066406,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813638",
+    "log": "logs/exp_11813638.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_lora_s1/beam_w3_nr3_test.json": "e62a1260896574e8832da315817b3da2902d2ce9544471b7081293ced8647df0",
+    "results/xattn_lora_s1/beam_w3_test.json": "165fc4a75ea0254c8d3252ccc31f97dfba92398a49ecc1c7eb0db4a01d600116",
+    "results/xattn_lora_s1/greedy_nr3_test.json": "06f82c7ac8254bc130c630a986c4e6b3dd2a7964601e41ebbc8f608fc3500d45",
+    "results/xattn_lora_s1/greedy_test.json": "a441b37ae039efe4d5da10e5ec06b31bcacbd0f637bfee677378fa5268f65024",
+    "results/xattn_lora_s1/nucleus_p0.9_t0.7_test.json": "814bdbd7a92fe9175d04da51689ae80293a2a4a04f4b2203d745b9f2f0b994eb"
+   }
+  },
+  "xattn_lora_s2": {
+   "config": {
+    "injection": "cross_attention",
+    "finetune": "lora",
+    "prefix_length": 10,
+    "train_images": null,
+    "seed": 2,
+    "epochs_max": 40,
+    "patience": 3,
+    "lr": 0.0001,
+    "gpt_lr": null
+   },
+   "config_sha256": "aead3556fe0be649ccf5bca313220e15312a8dbea5a76cbb892d1a16e0cef8d9",
+   "checkpoint": {
+    "file": "runs/xattn_lora_s2/best.pt",
+    "sha256": "54cd9d2c97b752e0163397ca36a69298b92906912afc78e8ad435585e1d03a15",
+    "bytes": 117655767
+   },
+   "training": {
+    "epochs_run": 16,
+    "best_val_loss": 2.332080818726162,
+    "trainable": 29401344,
+    "total": 153841152,
+    "mean_epoch_time_s": 7.9,
+    "peak_mem_gb": 3.046222686767578,
+    "device": "cuda"
+   },
+   "slurm": {
+    "job": "11813638",
+    "log": "logs/exp_11813638.out",
+    "gpu": "Tesla V100-SXM2-32GB"
+   },
+   "results": {
+    "results/xattn_lora_s2/beam_w3_nr3_test.json": "31da52918d14b80b2673703d1a4549cc8324c718acab3d0a41956c7b149f76b2",
+    "results/xattn_lora_s2/beam_w3_test.json": "b69684d962e3f70d16baca4079d26486296355767170ce9a91c4fcf0aa52a18f",
+    "results/xattn_lora_s2/greedy_nr3_test.json": "5d0444b3e5d7ba9032f074be05e810f20f5ebd3d88f3af1d4f42d3d613105098",
+    "results/xattn_lora_s2/greedy_test.json": "83ceb8a5f1332343339374900b77915ac2dc8759e3ab97bc25c50fa1fbd8a426",
+    "results/xattn_lora_s2/nucleus_p0.9_t0.7_test.json": "3c87ec214e3c9f168b57280348c4e594962782e4040548db5547e5cd09f8d244"
+   }
+  }
+ }
+}
