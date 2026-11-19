@@ -271,7 +271,7 @@ def blip2_captions(ids, caps, model_name: str = "Salesforce/blip2-opt-2.7b", bat
     from transformers import Blip2ForConditionalGeneration, Blip2Processor
 
     if not torch.cuda.is_available():
-        raise RuntimeError("BLIP-2 baseline needs a GPU (run it on Colab or the HPC)")
+        raise RuntimeError("BLIP-2 baseline needs a GPU (run it on the HPC cluster)")
     kw = {"device_map": "auto"}
     try:
         from transformers import BitsAndBytesConfig

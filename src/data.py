@@ -4,6 +4,7 @@ Usage (from the repo root):
     python -m src.data download [--limit 64]      # annotations + images (limit = only N images, for debugging)
     python -m src.data prepare  [--limit 64]      # clean captions, verify images, train/val/test split
     python -m src.data embed    [--device cuda]   # CLIP image embeddings -> data/processed/clip_*.pt
+    python -m src.data embed-text                 # CLIP text embeddings of every caption + caption-image check
     python -m src.data stats                      # caption length statistics in GPT-2 tokens
 """
 from __future__ import annotations
@@ -216,6 +217,89 @@ def embed(clip_model: str = "openai/clip-vit-base-patch32", device: str | None =
     return path
 
 
+def text_embedding_path(clip_model: str, proc_dir: Path = PROC_DIR) -> Path:
+    return Path(proc_dir) / f"clip_text_{clip_model.split('/')[-1]}.pt"
+
+
+def caption_image_check(text: torch.Tensor, owner: list[int], image: torch.Tensor, flag_rank: int = 100) -> dict:
+    """How well each caption's CLIP text embedding matches its own image's embedding.
+
+    text   (C, d) caption embeddings;  owner[c] = row of caption c's image in `image` (I, d).
+    rank   = 1 + number of images more similar to the caption than its own image (1 = own image is the best match).
+    A caption is flagged when its own image is not among its `flag_rank` best-matching images.
+    """
+    t = torch.nn.functional.normalize(text.float(), dim=-1)
+    im = torch.nn.functional.normalize(image.float(), dim=-1)
+    own_idx = torch.tensor(owner)
+    sim = t @ im.T                                            # (C, I)
+    own = sim[torch.arange(len(owner)), own_idx]
+    rank = (sim > own[:, None]).sum(1) + 1
+    others = (sim.sum(1) - own) / (sim.shape[1] - 1)
+    return {"own_sim": own, "mean_other_sim": others, "rank": rank, "flagged": rank > flag_rank}
+
+
+@torch.no_grad()
+def embed_text(clip_model: str = "openai/clip-vit-base-patch32", device: str | None = None, batch_size: int = 256,
+               image_embeddings: str | None = None, flag_rank: int = 100, report_dir: Path = Path("results")) -> Path:
+    """Embed every cleaned caption with the CLIP text encoder (a 12-layer Transformer) and check it against its image.
+
+    Writes data/processed/clip_text_*.pt (one 512-d vector per caption) and results/caption_check.json.
+    Flagged captions are listed for review; none are removed, so training data and earlier results are unchanged.
+    """
+    from transformers import CLIPModel, CLIPTokenizerFast
+
+    device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+    records = load_captions()
+    ids = sorted(records, key=int)
+    keys = [(i, j) for i in ids for j in range(len(records[i]["captions"]))]
+    texts = [records[i]["captions"][j] for i, j in keys]
+    model = CLIPModel.from_pretrained(clip_model).to(device).eval()
+    tok = CLIPTokenizerFast.from_pretrained(clip_model)
+
+    out = []
+    for s in tqdm(range(0, len(texts), batch_size), desc="CLIP text"):
+        t = tok(texts[s:s + batch_size], padding=True, truncation=True, max_length=77, return_tensors="pt").to(device)
+        out.append(model.get_text_features(**t).float().cpu().half())
+    emb = torch.cat(out)
+    path = text_embedding_path(clip_model)
+    torch.save({"keys": keys, "clip_model": clip_model, "text": emb}, path)
+    print(f"saved {path}: text {tuple(emb.shape)}")
+
+    img_path = Path(image_embeddings) if image_embeddings else embedding_path(clip_model)
+    if not img_path.exists():
+        print(f"no image embeddings at {img_path}; run `embed` first to get the caption-image check")
+        return path
+    img = torch.load(img_path, map_location="cpu")
+    row = {iid: k for k, iid in enumerate(img["image_ids"])}
+    chk = caption_image_check(emb, [row[i] for i, _ in keys], img["pooled"], flag_rank)
+    own, other, rank, flagged = chk["own_sim"], chk["mean_other_sim"], chk["rank"], chk["flagged"]
+    q = lambda x, p: round(float(torch.quantile(x.float(), p)), 3)
+    per_image = {}
+    for (i, _), f in zip(keys, flagged.tolist()):
+        per_image[i] = per_image.get(i, 0) + f
+    order = torch.argsort(rank, descending=True)
+    report = {
+        "clip_model": clip_model, "n_captions": len(keys), "n_images": len(ids), "flag_rule": f"own image not in top {flag_rank}",
+        "own_sim": {"mean": round(float(own.mean()), 3), "p05": q(own, 0.05), "p50": q(own, 0.5), "p95": q(own, 0.95)},
+        "mean_other_sim": round(float(other.mean()), 3),
+        "own_higher_than_mean_other": round(float((own > other).float().mean()), 4),
+        "own_image_rank": {"top1": round(float((rank == 1).float().mean()), 4),
+                           "top10": round(float((rank <= 10).float().mean()), 4),
+                           "median": int(rank.median())},
+        "captions_with_rank_over": {str(k): int((rank > k).sum()) for k in (100, 500, 1000, 2000)},
+        "flagged_captions": int(flagged.sum()), "flagged_share": round(float(flagged.float().mean()), 4),
+        "images_with_flagged_caption": sum(v > 0 for v in per_image.values()),
+        "images_all_captions_flagged": sum(per_image[i] == len(records[i]["captions"]) for i in ids),
+        "action": "flagged for review; no caption removed",
+        "flagged": [{"image_id": keys[c][0], "caption": texts[c], "rank": int(rank[c]), "own_sim": round(float(own[c]), 3)}
+                    for c in order.tolist() if flagged[c]],
+    }
+    report_dir.mkdir(parents=True, exist_ok=True)
+    (report_dir / "caption_check.json").write_text(json.dumps(report, indent=1, ensure_ascii=False), encoding="utf-8")
+    print(json.dumps({k: v for k, v in report.items() if k != "flagged"}, indent=1))
+    return path
+
+
 # --------------------------------------------------------------------------- torch dataset
 class CaptionDataset(Dataset):
     """Pairs a precomputed CLIP feature with a tokenized caption.
@@ -280,6 +364,11 @@ def main():
     e.add_argument("--clip-model", default="openai/clip-vit-base-patch32")
     e.add_argument("--device"); e.add_argument("--batch-size", type=int, default=64)
     e.add_argument("--no-patch", action="store_true", help="skip patch features (cross-attention needs them)")
+    et = sub.add_parser("embed-text")
+    et.add_argument("--clip-model", default="openai/clip-vit-base-patch32")
+    et.add_argument("--device"); et.add_argument("--batch-size", type=int, default=256)
+    et.add_argument("--image-embeddings", help="image embedding file (default: the one `embed` writes)")
+    et.add_argument("--flag-rank", type=int, default=100)
     s = sub.add_parser("stats"); s.add_argument("--gpt2-model", default="gpt2"); s.add_argument("--max-tokens", type=int, default=40)
     a = p.parse_args()
 
@@ -289,6 +378,8 @@ def main():
         prepare(a.limit, a.seed)
     elif a.cmd == "embed":
         embed(a.clip_model, a.device, a.batch_size, not a.no_patch)
+    elif a.cmd == "embed-text":
+        embed_text(a.clip_model, a.device, a.batch_size, a.image_embeddings, a.flag_rank)
     elif a.cmd == "stats":
         from transformers import GPT2TokenizerFast
         tok = GPT2TokenizerFast.from_pretrained(a.gpt2_model)

@@ -1,4 +1,4 @@
-# PyTorch: install the build for your machine first (CUDA on Colab/HPC, CPU locally), see pytorch.org
+# PyTorch: install the build for your machine first (CUDA build on the HPC cluster, CPU build on a laptop without an NVIDIA GPU), see pytorch.org
 torch>=2.2
 transformers>=4.44,<5
 peft>=0.11

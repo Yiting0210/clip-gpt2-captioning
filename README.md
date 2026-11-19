@@ -60,7 +60,7 @@ python -m src.data embed
 python -m src.train --config configs/prefix_frozen.yaml --overfit-batch   # loss → ~0, captions memorised
 python -m src.train --config configs/prefix_frozen.yaml --debug           # whole pipeline in a minute
 
-# 3. train (locally, on Colab, or on the cluster)
+# 3. train (locally or on the cluster)
 python -m src.train --config configs/prefix_frozen.yaml
 sbatch scripts/train.sbatch configs/prefix_lora.yaml                      # one job
 

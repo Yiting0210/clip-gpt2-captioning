@@ -1,0 +1,6290 @@
+{
+ "clip_model": "openai/clip-vit-base-patch32",
+ "n_captions": 25000,
+ "n_images": 5000,
+ "flag_rule": "own image not in top 100",
+ "own_sim": {
+  "mean": 0.305,
+  "p05": 0.249,
+  "p50": 0.305,
+  "p95": 0.359
+ },
+ "mean_other_sim": 0.151,
+ "own_higher_than_mean_other": 0.9991,
+ "own_image_rank": {
+  "top1": 0.3052,
+  "top10": 0.6635,
+  "median": 4
+ },
+ "captions_with_rank_over": {
+  "100": 1043,
+  "500": 110,
+  "1000": 58,
+  "2000": 28
+ },
+ "flagged_captions": 1043,
+ "flagged_share": 0.0417,
+ "images_with_flagged_caption": 736,
+ "images_all_captions_flagged": 4,
+ "action": "flagged for review; no caption removed",
+ "flagged": [
+  {
+   "image_id": "35279",
+   "caption": "Unable to see this image in this particular hit.",
+   "rank": 4804,
+   "own_sim": 0.182
+  },
+  {
+   "image_id": "521956",
+   "caption": "I am unable to see an image above.",
+   "rank": 4741,
+   "own_sim": 0.175
+  },
+  {
+   "image_id": "133645",
+   "caption": "There is no image to be reviewed on this hit.",
+   "rank": 4492,
+   "own_sim": 0.153
+  },
+  {
+   "image_id": "344029",
+   "caption": "No image again there are a lot of these lately.",
+   "rank": 4487,
+   "own_sim": 0.159
+  },
+  {
+   "image_id": "486104",
+   "caption": "A photo of a person being taken in this picture.",
+   "rank": 4485,
+   "own_sim": 0.185
+  },
+  {
+   "image_id": "38118",
+   "caption": "I am unable to see the image above.",
+   "rank": 4432,
+   "own_sim": 0.183
+  },
+  {
+   "image_id": "229747",
+   "caption": "A photo of an outside with various things in the scene.",
+   "rank": 4241,
+   "own_sim": 0.198
+  },
+  {
+   "image_id": "52017",
+   "caption": "I am unable to see an image above.",
+   "rank": 4188,
+   "own_sim": 0.184
+  },
+  {
+   "image_id": "5600",
+   "caption": "There are some appealing support ready to expend.",
+   "rank": 4006,
+   "own_sim": 0.19
+  },
+  {
+   "image_id": "197022",
+   "caption": "There is an image of man doing things on the table.",
+   "rank": 3748,
+   "own_sim": 0.186
+  },
+  {
+   "image_id": "425906",
+   "caption": "A person is taken in this very picture.",
+   "rank": 3670,
+   "own_sim": 0.187
+  },
+  {
+   "image_id": "67534",
+   "caption": "A young man is taking a \"selfie\" of himself.",
+   "rank": 3360,
+   "own_sim": 0.183
+  },
+  {
+   "image_id": "426268",
+   "caption": "I am unable to see an image above.",
+   "rank": 3123,
+   "own_sim": 0.193
+  },
+  {
+   "image_id": "425227",
+   "caption": "There is no image to describe for this question.",
+   "rank": 3123,
+   "own_sim": 0.189
+  },
+  {
+   "image_id": "544565",
+   "caption": "There is no image here to provide a caption for.",
+   "rank": 3004,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "99024",
+   "caption": "There is a person in the picture by itself.",
+   "rank": 2934,
+   "own_sim": 0.196
+  },
+  {
+   "image_id": "85682",
+   "caption": "There is a picture of an outside territory.",
+   "rank": 2923,
+   "own_sim": 0.204
+  },
+  {
+   "image_id": "160556",
+   "caption": "Individual is doing something at the moment that is intriguing.",
+   "rank": 2778,
+   "own_sim": 0.204
+  },
+  {
+   "image_id": "425361",
+   "caption": "An individual is capture in the stillness of the picture.",
+   "rank": 2707,
+   "own_sim": 0.209
+  },
+  {
+   "image_id": "95069",
+   "caption": "A european city in nice a sunny bright day.",
+   "rank": 2563,
+   "own_sim": 0.132
+  },
+  {
+   "image_id": "166478",
+   "caption": "I am unable to see an image above.",
+   "rank": 2431,
+   "own_sim": 0.198
+  },
+  {
+   "image_id": "565877",
+   "caption": "There is no image here to provide a caption for.",
+   "rank": 2422,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "198928",
+   "caption": "The woman is standing by the stop light.",
+   "rank": 2378,
+   "own_sim": 0.175
+  },
+  {
+   "image_id": "508586",
+   "caption": "There is no image here to provide a caption for.",
+   "rank": 2349,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "516143",
+   "caption": "The signs states all directions and points up.",
+   "rank": 2340,
+   "own_sim": 0.188
+  },
+  {
+   "image_id": "425227",
+   "caption": "A being is doing something as of right now that is splendid.",
+   "rank": 2325,
+   "own_sim": 0.201
+  },
+  {
+   "image_id": "261061",
+   "caption": "A WOMAN IS STANDING LOOKING AT SOMETHING.",
+   "rank": 2217,
+   "own_sim": 0.212
+  },
+  {
+   "image_id": "525322",
+   "caption": "A picture of an open air zone that looks incredible.",
+   "rank": 2206,
+   "own_sim": 0.192
+  },
+  {
+   "image_id": "334417",
+   "caption": "An individual is taken in this very picture.",
+   "rank": 1982,
+   "own_sim": 0.215
+  },
+  {
+   "image_id": "300276",
+   "caption": "People are at an outdoor lunch table in a park.",
+   "rank": 1744,
+   "own_sim": 0.175
+  },
+  {
+   "image_id": "67315",
+   "caption": "Somebody is in the photograph not certain who that individual is.",
+   "rank": 1688,
+   "own_sim": 0.207
+  },
+  {
+   "image_id": "87875",
+   "caption": "Their is a hadron and their in this lot,.",
+   "rank": 1650,
+   "own_sim": 0.208
+  },
+  {
+   "image_id": "398742",
+   "caption": "Two men hold up a man holding a soccer ball and all the men have on orange shirts.",
+   "rank": 1636,
+   "own_sim": 0.173
+  },
+  {
+   "image_id": "161397",
+   "caption": "A couple of thigs are sitting on a wood table.",
+   "rank": 1626,
+   "own_sim": 0.203
+  },
+  {
+   "image_id": "405205",
+   "caption": "A number of vehicles stops in a traffic jam.",
+   "rank": 1588,
+   "own_sim": 0.191
+  },
+  {
+   "image_id": "139883",
+   "caption": "The animal food tray and cage is empty.",
+   "rank": 1544,
+   "own_sim": 0.191
+  },
+  {
+   "image_id": "46872",
+   "caption": "This is a man spraying a trick with water.",
+   "rank": 1411,
+   "own_sim": 0.193
+  },
+  {
+   "image_id": "388927",
+   "caption": "A hand holding a gray and blue clock and some peoples legs.",
+   "rank": 1386,
+   "own_sim": 0.198
+  },
+  {
+   "image_id": "113867",
+   "caption": "A picture of an open air zone that looks incredible.",
+   "rank": 1384,
+   "own_sim": 0.203
+  },
+  {
+   "image_id": "459634",
+   "caption": "A back end of a vehicle with a metal rack and an antennae.",
+   "rank": 1347,
+   "own_sim": 0.189
+  },
+  {
+   "image_id": "288042",
+   "caption": "A man standing on a street with a umbrella.",
+   "rank": 1331,
+   "own_sim": 0.17
+  },
+  {
+   "image_id": "251824",
+   "caption": "A person sitting at a wooden table holding an electronic device.",
+   "rank": 1326,
+   "own_sim": 0.201
+  },
+  {
+   "image_id": "110042",
+   "caption": "There is an old toilet sitting under a sign for this picture.",
+   "rank": 1311,
+   "own_sim": 0.199
+  },
+  {
+   "image_id": "243989",
+   "caption": "THERE ARE PEOPLE STADING ON THE STREET WITH SKATE BOARD.",
+   "rank": 1294,
+   "own_sim": 0.185
+  },
+  {
+   "image_id": "127092",
+   "caption": "A sign letting readers know that there is a train.",
+   "rank": 1279,
+   "own_sim": 0.185
+  },
+  {
+   "image_id": "121591",
+   "caption": "An incredible picture of an individual in the stillness movement.",
+   "rank": 1240,
+   "own_sim": 0.215
+  },
+  {
+   "image_id": "65288",
+   "caption": "A yellow and green object with a brown bird perched on top of it.",
+   "rank": 1229,
+   "own_sim": 0.187
+  },
+  {
+   "image_id": "360393",
+   "caption": "A thing is in the outline and it shows up like something.",
+   "rank": 1201,
+   "own_sim": 0.196
+  },
+  {
+   "image_id": "201418",
+   "caption": "An individual is taken in this very picture.",
+   "rank": 1196,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "397303",
+   "caption": "A man sitting in front of a computer on top of a desk.",
+   "rank": 1144,
+   "own_sim": 0.168
+  },
+  {
+   "image_id": "453001",
+   "caption": "A young beautiful woman in a short jean skirt.",
+   "rank": 1127,
+   "own_sim": 0.194
+  },
+  {
+   "image_id": "229659",
+   "caption": "A menu is displayed in front of a restaurant.",
+   "rank": 1117,
+   "own_sim": 0.192
+  },
+  {
+   "image_id": "320232",
+   "caption": "The parking attendant is waiting for the fees to be paid.",
+   "rank": 1116,
+   "own_sim": 0.208
+  },
+  {
+   "image_id": "478393",
+   "caption": "A picture stacked with various things all inside.",
+   "rank": 1115,
+   "own_sim": 0.215
+  },
+  {
+   "image_id": "332455",
+   "caption": "A picture of a comment that is open.",
+   "rank": 1114,
+   "own_sim": 0.199
+  },
+  {
+   "image_id": "404128",
+   "caption": "A plan is shown sitting on the pavement.",
+   "rank": 1106,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "336658",
+   "caption": "A photograph of an outside with numerous things in the scene.",
+   "rank": 1026,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "415727",
+   "caption": "A couple of men standing next to each other.",
+   "rank": 1010,
+   "own_sim": 0.207
+  },
+  {
+   "image_id": "398742",
+   "caption": "A couple of men are holding up a team member.",
+   "rank": 997,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "157365",
+   "caption": "There is no image here to provide a caption for.",
+   "rank": 994,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "514508",
+   "caption": "A man is holdng a mic while looking onto a screen.",
+   "rank": 937,
+   "own_sim": 0.207
+  },
+  {
+   "image_id": "440336",
+   "caption": "A group of people throwing around a freez be.",
+   "rank": 898,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "554838",
+   "caption": "I do not know what this is supposed to be.",
+   "rank": 888,
+   "own_sim": 0.207
+  },
+  {
+   "image_id": "571598",
+   "caption": "Those look like remote or game controls in their hands.",
+   "rank": 878,
+   "own_sim": 0.205
+  },
+  {
+   "image_id": "329323",
+   "caption": "A group of people that are standing up outside.",
+   "rank": 802,
+   "own_sim": 0.205
+  },
+  {
+   "image_id": "537506",
+   "caption": "A group of people standing on the side of a road.",
+   "rank": 801,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "350122",
+   "caption": "A bunch of people in a building doing different things.",
+   "rank": 783,
+   "own_sim": 0.204
+  },
+  {
+   "image_id": "388903",
+   "caption": "An individual enjoying itself on a sunny day.",
+   "rank": 738,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "235778",
+   "caption": "A little kid that is playing with stuff.",
+   "rank": 734,
+   "own_sim": 0.212
+  },
+  {
+   "image_id": "197004",
+   "caption": "A white plate of food on a table.",
+   "rank": 730,
+   "own_sim": 0.203
+  },
+  {
+   "image_id": "168593",
+   "caption": "A kitcken that has two different refigeratator in it.",
+   "rank": 728,
+   "own_sim": 0.216
+  },
+  {
+   "image_id": "161781",
+   "caption": "The lady is coming down the hill on her skies.",
+   "rank": 719,
+   "own_sim": 0.214
+  },
+  {
+   "image_id": "398203",
+   "caption": "A group of people who are standing in the grass.",
+   "rank": 702,
+   "own_sim": 0.202
+  },
+  {
+   "image_id": "212226",
+   "caption": "The reflection of a women in a mirror.",
+   "rank": 694,
+   "own_sim": 0.201
+  },
+  {
+   "image_id": "56127",
+   "caption": "A room with a fire extinguisher, mugs hanging from a shelf and several lights.",
+   "rank": 689,
+   "own_sim": 0.205
+  },
+  {
+   "image_id": "507975",
+   "caption": "A couple of people are riding horses outside.",
+   "rank": 686,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "162092",
+   "caption": "A lady is posing for the camera while many others look on.",
+   "rank": 680,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "243989",
+   "caption": "A boy is looking to skate on his skateboard.",
+   "rank": 669,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "565853",
+   "caption": "Individual having an astounding time and getting a charge out of some life.",
+   "rank": 650,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "349480",
+   "caption": "A group of elephants on a grass surface.",
+   "rank": 650,
+   "own_sim": 0.18
+  },
+  {
+   "image_id": "319184",
+   "caption": "Children playing and standing around in a green field.",
+   "rank": 644,
+   "own_sim": 0.196
+  },
+  {
+   "image_id": "563604",
+   "caption": "A street with a mechanical sign with directions.",
+   "rank": 638,
+   "own_sim": 0.2
+  },
+  {
+   "image_id": "175438",
+   "caption": "A large cock sitting in the middle of a street.",
+   "rank": 636,
+   "own_sim": 0.195
+  },
+  {
+   "image_id": "82688",
+   "caption": "Some people are enjoying themselves playing game.",
+   "rank": 633,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "160556",
+   "caption": "A girl talks on her cell phone next to a computer and a microwave.",
+   "rank": 631,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "389566",
+   "caption": "The encompassing of an outside town in the picture.",
+   "rank": 630,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "115870",
+   "caption": "A few people are sitting on a long coach together.",
+   "rank": 626,
+   "own_sim": 0.202
+  },
+  {
+   "image_id": "343149",
+   "caption": "Outside view of people walking in front of a store.",
+   "rank": 615,
+   "own_sim": 0.212
+  },
+  {
+   "image_id": "203095",
+   "caption": "A table that has all kinds of food on it.",
+   "rank": 609,
+   "own_sim": 0.211
+  },
+  {
+   "image_id": "46872",
+   "caption": "Two males a truck some cars and trees.",
+   "rank": 605,
+   "own_sim": 0.179
+  },
+  {
+   "image_id": "114884",
+   "caption": "A group of people standing in a large building.",
+   "rank": 574,
+   "own_sim": 0.199
+  },
+  {
+   "image_id": "263425",
+   "caption": "A couple of people standing in a yard.",
+   "rank": 573,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "183965",
+   "caption": "Two plates of food sitting on a dining table.",
+   "rank": 568,
+   "own_sim": 0.216
+  },
+  {
+   "image_id": "230362",
+   "caption": "Nice open stretches of land that is alive.",
+   "rank": 565,
+   "own_sim": 0.205
+  },
+  {
+   "image_id": "134886",
+   "caption": "A playing flying over a van with multiple people around it.",
+   "rank": 557,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "336658",
+   "caption": "The buses are parked next to the pole.",
+   "rank": 554,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "60102",
+   "caption": "A man hitting a soccer ball with his head.",
+   "rank": 551,
+   "own_sim": 0.218
+  },
+  {
+   "image_id": "379441",
+   "caption": "Somebody left a lap top plugged into the wall on a bench.",
+   "rank": 544,
+   "own_sim": 0.182
+  },
+  {
+   "image_id": "1000",
+   "caption": "The people are posing for a group photo.",
+   "rank": 543,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "67616",
+   "caption": "A restaurant with patrons in the outdoor eating area.",
+   "rank": 542,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "157767",
+   "caption": "A couple of people that are eating some food.",
+   "rank": 540,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "423123",
+   "caption": "Two people point at what's in a mini fridge.",
+   "rank": 524,
+   "own_sim": 0.203
+  },
+  {
+   "image_id": "375278",
+   "caption": "A person's hand is wrapped around the head of a puppy.",
+   "rank": 521,
+   "own_sim": 0.186
+  },
+  {
+   "image_id": "379476",
+   "caption": "Many tables next to each other in a row.",
+   "rank": 511,
+   "own_sim": 0.201
+  },
+  {
+   "image_id": "263425",
+   "caption": "A hunk of something being brushed with a broom.",
+   "rank": 509,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "541634",
+   "caption": "A bowl that has food inside of it.",
+   "rank": 509,
+   "own_sim": 0.205
+  },
+  {
+   "image_id": "142472",
+   "caption": "A car stops while people cross in front of it.",
+   "rank": 505,
+   "own_sim": 0.212
+  },
+  {
+   "image_id": "342006",
+   "caption": "The enveloping of an outside town in the picture.",
+   "rank": 505,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "313454",
+   "caption": "A man in a suit is talking to a group.",
+   "rank": 502,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "348216",
+   "caption": "Your guess is as good as mine as to what these objects are.",
+   "rank": 501,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "310200",
+   "caption": "A piece of food sits on the plate on the table.",
+   "rank": 500,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "320642",
+   "caption": "A group of people are gathered together for an event.",
+   "rank": 499,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "133969",
+   "caption": "An athlete is performing on a sports field.",
+   "rank": 490,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "75612",
+   "caption": "Some people are playing a game and having some fun.",
+   "rank": 489,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "154431",
+   "caption": "A statue of a bodt stting on a cart with wheels.",
+   "rank": 488,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "395801",
+   "caption": "A woman sits on a bench as people walk down a sidewalk.",
+   "rank": 486,
+   "own_sim": 0.223
+  },
+  {
+   "image_id": "521259",
+   "caption": "A couple of people that are playing with a frisbee.",
+   "rank": 484,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "438774",
+   "caption": "A group of people that are standing in front of a island.",
+   "rank": 484,
+   "own_sim": 0.195
+  },
+  {
+   "image_id": "255912",
+   "caption": "Two plates full of food sitting on a table next to a bottle.",
+   "rank": 482,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "350388",
+   "caption": "A close up of food on a plate on a table.",
+   "rank": 473,
+   "own_sim": 0.223
+  },
+  {
+   "image_id": "125129",
+   "caption": "A person on a cell phone sitting at a table.",
+   "rank": 469,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "492362",
+   "caption": "A skateboarder riding his board down the sidewalk.",
+   "rank": 465,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "34071",
+   "caption": "A double telescope for seeing things that are far away.",
+   "rank": 462,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "329323",
+   "caption": "A group of people who are standing together.",
+   "rank": 460,
+   "own_sim": 0.218
+  },
+  {
+   "image_id": "140203",
+   "caption": "Woman is walking with a dog in her hands.",
+   "rank": 459,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "540928",
+   "caption": "There is a room with distinctive things in the picture.",
+   "rank": 459,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "121497",
+   "caption": "A handlebar controlled device mounted to an acrylic stand.",
+   "rank": 457,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "341828",
+   "caption": "A man talking on a cellphone sitting at a table.",
+   "rank": 450,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "356428",
+   "caption": "The people are walking down the aisles at the super market.",
+   "rank": 443,
+   "own_sim": 0.183
+  },
+  {
+   "image_id": "314709",
+   "caption": "An individual is in the open view in the picture.",
+   "rank": 443,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "162732",
+   "caption": "THERE ARE PEOPLE PLAYING A SOCCER GAME ON THE FIELD.",
+   "rank": 441,
+   "own_sim": 0.201
+  },
+  {
+   "image_id": "318908",
+   "caption": "A white dog sitting on red table next to metal object.",
+   "rank": 435,
+   "own_sim": 0.208
+  },
+  {
+   "image_id": "332901",
+   "caption": "A few animals that are in side a fence.",
+   "rank": 434,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "78032",
+   "caption": "Two bench's sitting on the ground near a fence.",
+   "rank": 432,
+   "own_sim": 0.199
+  },
+  {
+   "image_id": "440336",
+   "caption": "Five guys with a white Frisbee in mid air.",
+   "rank": 431,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "125572",
+   "caption": "People moving around on the streets surrounding an old castle.",
+   "rank": 426,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "514508",
+   "caption": "A man in a jacket standing near a giant tv.",
+   "rank": 421,
+   "own_sim": 0.218
+  },
+  {
+   "image_id": "2685",
+   "caption": "A group of people standing around each other.",
+   "rank": 416,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "259640",
+   "caption": "Very well decorated and fruits in a very big box.",
+   "rank": 413,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "368294",
+   "caption": "A woman sitting with a washcloth on her head and scissors in her hands.",
+   "rank": 412,
+   "own_sim": 0.209
+  },
+  {
+   "image_id": "496571",
+   "caption": "A woman taking a picture of a man eating.",
+   "rank": 403,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "515579",
+   "caption": "A man holding a ball while standing next to a gate.",
+   "rank": 402,
+   "own_sim": 0.223
+  },
+  {
+   "image_id": "118921",
+   "caption": "A woman is wearing a pink and black jacket is sking.",
+   "rank": 397,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "572462",
+   "caption": "A group of people standing inside of a moving tram.",
+   "rank": 395,
+   "own_sim": 0.2
+  },
+  {
+   "image_id": "109441",
+   "caption": "This is a traffic light at an intersection.",
+   "rank": 390,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "243989",
+   "caption": "A group of young men holding skateboards in front of a building.",
+   "rank": 387,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "205324",
+   "caption": "A couple of men standing on top of a grass covered field.",
+   "rank": 381,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "514508",
+   "caption": "A man looking at a picture of a TV screen.",
+   "rank": 376,
+   "own_sim": 0.218
+  },
+  {
+   "image_id": "34071",
+   "caption": "A close up of what appears to be two traffic machines.",
+   "rank": 375,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "509451",
+   "caption": "A group of hipsters kneeling down next to each other.",
+   "rank": 375,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "60102",
+   "caption": "Two men jumping up to head a soccer ball.",
+   "rank": 375,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "343149",
+   "caption": "People on a sidewalk next to building with clock.",
+   "rank": 374,
+   "own_sim": 0.212
+  },
+  {
+   "image_id": "399764",
+   "caption": "An old man walking a big brown cow around.",
+   "rank": 373,
+   "own_sim": 0.207
+  },
+  {
+   "image_id": "66135",
+   "caption": "A train comes to a stop on the tracks next to the sidewalk.",
+   "rank": 371,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "60932",
+   "caption": "A group of people standing in a room.",
+   "rank": 368,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "144300",
+   "caption": "A motorcycle and people looking a travel vehicles.",
+   "rank": 368,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "369771",
+   "caption": "THERE IS SOME SORT OF VEGETABLES IN A BOWL.",
+   "rank": 367,
+   "own_sim": 0.213
+  },
+  {
+   "image_id": "170099",
+   "caption": "A man wearing a red tie with his long sleeve shirt and pants.",
+   "rank": 367,
+   "own_sim": 0.195
+  },
+  {
+   "image_id": "414638",
+   "caption": "A white plate with a sliced up piece of food on top of it.",
+   "rank": 367,
+   "own_sim": 0.209
+  },
+  {
+   "image_id": "395801",
+   "caption": "A woman waiting on a bench on the sidewalk as people go by.",
+   "rank": 365,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "60102",
+   "caption": "Two opponents are playing during a soccor game.",
+   "rank": 365,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "383842",
+   "caption": "A lady that has a wii remote in her hand.",
+   "rank": 364,
+   "own_sim": 0.218
+  },
+  {
+   "image_id": "568213",
+   "caption": "A couple of men standing on top of a field together.",
+   "rank": 362,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "453860",
+   "caption": "Two black bags placed standing on the ground.",
+   "rank": 362,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "170474",
+   "caption": "A man serving a neon green tennis ball.",
+   "rank": 361,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "336658",
+   "caption": "A city road with buses and people on the sidewalk.",
+   "rank": 361,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "56127",
+   "caption": "A room that has a fire extinguisher in it.",
+   "rank": 361,
+   "own_sim": 0.218
+  },
+  {
+   "image_id": "201646",
+   "caption": "A man is staring at something in his hand.",
+   "rank": 358,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "326970",
+   "caption": "Three people are sitting and waiting on a planter.",
+   "rank": 356,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "140203",
+   "caption": "A woman carrying her dog on a busy city street.",
+   "rank": 354,
+   "own_sim": 0.203
+  },
+  {
+   "image_id": "453722",
+   "caption": "A small roomw ith a televisiona nd some furniture in it.",
+   "rank": 353,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "274219",
+   "caption": "Talk about a bad hair day, his is frightful.",
+   "rank": 353,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "259830",
+   "caption": "A moped is parked next to bicycles on a sidewalk.",
+   "rank": 352,
+   "own_sim": 0.196
+  },
+  {
+   "image_id": "224724",
+   "caption": "A woman is leaving a building in a city.",
+   "rank": 352,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "138241",
+   "caption": "Three plates of food showing a meal in the shape of log covered with vegetables.",
+   "rank": 351,
+   "own_sim": 0.208
+  },
+  {
+   "image_id": "33221",
+   "caption": "A woman holding a tennis racquet in the air.",
+   "rank": 351,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "323751",
+   "caption": "A man waiting for the next train to come.",
+   "rank": 350,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "415716",
+   "caption": "The cabinet has a various assortment of decorations on it.",
+   "rank": 347,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "361103",
+   "caption": "A couple of traffic lights sitting on the side of a road.",
+   "rank": 343,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "564336",
+   "caption": "A man sitting in front of a laptop computer.",
+   "rank": 342,
+   "own_sim": 0.216
+  },
+  {
+   "image_id": "142585",
+   "caption": "A couple of vehicles are side by side.",
+   "rank": 338,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "392722",
+   "caption": "This is people standing in the sidewalk near a bus.",
+   "rank": 338,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "226147",
+   "caption": "A woman that is sitting down in front of a table.",
+   "rank": 337,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "366884",
+   "caption": "A man sitting at a computer desk in front of a monitor.",
+   "rank": 336,
+   "own_sim": 0.203
+  },
+  {
+   "image_id": "327592",
+   "caption": "A person holding a plate with food on it in one hand and a spoon in the other.",
+   "rank": 335,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "93717",
+   "caption": "A kid skateboarding while other kids stand and watch.",
+   "rank": 334,
+   "own_sim": 0.223
+  },
+  {
+   "image_id": "533493",
+   "caption": "There are a group of friends laughing together and licking out there tongue.",
+   "rank": 334,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "224675",
+   "caption": "A man and a lady on the street with an umbrella.",
+   "rank": 328,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "279730",
+   "caption": "A person holding a sandwich next to a cup of coffee.",
+   "rank": 327,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "530146",
+   "caption": "A white plate contains various exotic food items.",
+   "rank": 325,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "512776",
+   "caption": "A person standing next to a person getting ready to catch a ball.",
+   "rank": 325,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "257169",
+   "caption": "Someone steaming the wrinkles out of a garment.",
+   "rank": 324,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "581206",
+   "caption": "A plate of food that is on a table.",
+   "rank": 322,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "463802",
+   "caption": "A man shouting with a tennis racquet in hand.",
+   "rank": 322,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "508639",
+   "caption": "The horse stands attached to an empty carriage.",
+   "rank": 321,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "287874",
+   "caption": "A train traveling down train tracks under parking lights.",
+   "rank": 321,
+   "own_sim": 0.192
+  },
+  {
+   "image_id": "514508",
+   "caption": "There are many people sitting inside a screen for love tv.",
+   "rank": 318,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "200162",
+   "caption": "A yellow and red train is on the tracks.",
+   "rank": 316,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "8021",
+   "caption": "An audience is looking at an film of a man taking that is projected onto a wall.",
+   "rank": 314,
+   "own_sim": 0.213
+  },
+  {
+   "image_id": "319607",
+   "caption": "A man is riding on bicycle alongside a new construction building.",
+   "rank": 311,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "313454",
+   "caption": "A man is speaking at a panel in front of a crowd.",
+   "rank": 309,
+   "own_sim": 0.205
+  },
+  {
+   "image_id": "24919",
+   "caption": "A number of horses standing near one another.",
+   "rank": 308,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "526392",
+   "caption": "There are many cars that are along this street.",
+   "rank": 308,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "433980",
+   "caption": "There is a woman taking a photo of herself in the mirror.",
+   "rank": 306,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "572555",
+   "caption": "A long train is going down the train tracks.",
+   "rank": 305,
+   "own_sim": 0.214
+  },
+  {
+   "image_id": "546964",
+   "caption": "A tour group is guided through a museum.",
+   "rank": 305,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "162092",
+   "caption": "There are many people who are gathered at a get together or a party.",
+   "rank": 305,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "63047",
+   "caption": "A person walking with a bad and a cup.",
+   "rank": 304,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "51961",
+   "caption": "A coin meter that has paint all over it.",
+   "rank": 301,
+   "own_sim": 0.2
+  },
+  {
+   "image_id": "198928",
+   "caption": "A woman at a crosswalk that has a green light.",
+   "rank": 298,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "569976",
+   "caption": "A group of people stare up at something out of the frame.",
+   "rank": 298,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "515579",
+   "caption": "A man throwing a ball while smiling and on a field.",
+   "rank": 297,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "101762",
+   "caption": "A ca walking with its tail straight up.",
+   "rank": 297,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "243989",
+   "caption": "A young skateboarder is standing in front of two others.",
+   "rank": 297,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "522156",
+   "caption": "A close up of a plate with food.",
+   "rank": 296,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "561465",
+   "caption": "A close up picture of a table with some good food on it.",
+   "rank": 294,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "187734",
+   "caption": "A group of young people standing next to each other.",
+   "rank": 294,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "184384",
+   "caption": "A plate of food attractively arranged on a table.",
+   "rank": 290,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "25986",
+   "caption": "A bunch of items that are on a counter.",
+   "rank": 290,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "475387",
+   "caption": "A train traveling down tracks near a train station.",
+   "rank": 289,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "54164",
+   "caption": "A man that is standing on a motorcycle in the water.",
+   "rank": 288,
+   "own_sim": 0.213
+  },
+  {
+   "image_id": "270297",
+   "caption": "A white and black train in train docking area.",
+   "rank": 286,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "224724",
+   "caption": "There is a woman standing on a city street.",
+   "rank": 286,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "366884",
+   "caption": "An image of a dog sitting on a sitting.",
+   "rank": 285,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "549167",
+   "caption": "A plate that has food inside of it.",
+   "rank": 285,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "308793",
+   "caption": "A man in skies is walking in the snow.",
+   "rank": 284,
+   "own_sim": 0.218
+  },
+  {
+   "image_id": "61658",
+   "caption": "A picture of some food on a plate.",
+   "rank": 284,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "471991",
+   "caption": "A room with black and white tiled flooring.",
+   "rank": 283,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "180487",
+   "caption": "A person they sitting down in a chair.",
+   "rank": 281,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "231580",
+   "caption": "A man stands and holds his hands out in front of him.",
+   "rank": 279,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "25181",
+   "caption": "The train is traveling down the railroad tracks.",
+   "rank": 278,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "412894",
+   "caption": "Dozens of people walking around a metro area.",
+   "rank": 278,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "373705",
+   "caption": "A skinny red fire hydrogen by some people.",
+   "rank": 278,
+   "own_sim": 0.209
+  },
+  {
+   "image_id": "283318",
+   "caption": "There is a sign showing a street running one direction.",
+   "rank": 272,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "226883",
+   "caption": "An animal grazing on a lush field of green grass.",
+   "rank": 271,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "29596",
+   "caption": "A small room with living room and dining room stuff.",
+   "rank": 270,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "537153",
+   "caption": "A couple of people sitting on top of a wooden bench.",
+   "rank": 269,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "32941",
+   "caption": "Cars, truck and a bus stopped at a red light.",
+   "rank": 269,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "428280",
+   "caption": "A laptop on a table with some chairs.",
+   "rank": 269,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "100238",
+   "caption": "Some people posting in front of a camera for a picture.",
+   "rank": 268,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "154644",
+   "caption": "A woman is talking on her phone while dragging on a cigarette.",
+   "rank": 267,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "412894",
+   "caption": "People are walking across the street at an intersection.",
+   "rank": 266,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "259830",
+   "caption": "Some bicycles and a scooter are parked nearby each other.",
+   "rank": 266,
+   "own_sim": 0.205
+  },
+  {
+   "image_id": "363666",
+   "caption": "A couple of people sitting around a table.",
+   "rank": 266,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "253835",
+   "caption": "A woman standing on the side walk with her child.",
+   "rank": 266,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "171757",
+   "caption": "A group of people listening to music or possible playing video games.",
+   "rank": 265,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "283318",
+   "caption": "A fire hydrant and some cars on the side of the street.",
+   "rank": 264,
+   "own_sim": 0.212
+  },
+  {
+   "image_id": "560474",
+   "caption": "Many different items are lined out for display on a table.",
+   "rank": 264,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "26690",
+   "caption": "A person being photographed while on a skateboard.",
+   "rank": 263,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "142472",
+   "caption": "Some people some buildings cars and a red double decker bus.",
+   "rank": 262,
+   "own_sim": 0.216
+  },
+  {
+   "image_id": "242060",
+   "caption": "A dish of Flan sits on a table next two drink glasses.",
+   "rank": 261,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "571313",
+   "caption": "A small fridge in a efficiency hotel room.",
+   "rank": 261,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "252294",
+   "caption": "A guy peeks out from behind a curtain.",
+   "rank": 261,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "304365",
+   "caption": "This is a train station waiting for a passenger.",
+   "rank": 261,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "177714",
+   "caption": "A serving of food on a white plate.",
+   "rank": 259,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "369771",
+   "caption": "Two plastic containers sitting on top of a wooden table.",
+   "rank": 257,
+   "own_sim": 0.212
+  },
+  {
+   "image_id": "256941",
+   "caption": "A bike with a basket attached to it is parked.",
+   "rank": 257,
+   "own_sim": 0.202
+  },
+  {
+   "image_id": "119365",
+   "caption": "A couple of people with a laptop at a table.",
+   "rank": 256,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "10707",
+   "caption": "A man holding a motion controlled video game controller.",
+   "rank": 256,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "320232",
+   "caption": "A picture of a public parking booth.",
+   "rank": 256,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "287527",
+   "caption": "A guy and a girl posing for a picture.",
+   "rank": 255,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "22935",
+   "caption": "Two girls are playing soccer with the ball in the air.",
+   "rank": 255,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "521259",
+   "caption": "A man holding one frisbee and throwing another.",
+   "rank": 254,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "82812",
+   "caption": "Pedestrians standing outside a train station waiting for the train.",
+   "rank": 253,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "433204",
+   "caption": "A person riding a motorcycle on a city road with a sky background.",
+   "rank": 253,
+   "own_sim": 0.213
+  },
+  {
+   "image_id": "529528",
+   "caption": "A big bowl with some mix inside of it.",
+   "rank": 253,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "306893",
+   "caption": "A sidewalk under a pedestrian overpass walkway near a public transit passenger train terminal.",
+   "rank": 253,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "416269",
+   "caption": "A passenger sign on the tracks at a station.",
+   "rank": 252,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "431545",
+   "caption": "A man that is standing next to a base.",
+   "rank": 252,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "574823",
+   "caption": "The men are playing baseball in the field.",
+   "rank": 251,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "95899",
+   "caption": "A red stop sign next to a blue street sign.",
+   "rank": 251,
+   "own_sim": 0.214
+  },
+  {
+   "image_id": "322959",
+   "caption": "A variety of different types of food on a table.",
+   "rank": 250,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "1425",
+   "caption": "A meal is lying on a plate on a table.",
+   "rank": 250,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "287527",
+   "caption": "A couple standing together and posing for a photo.",
+   "rank": 249,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "275727",
+   "caption": "A train is moving along the tracks past a traffic signal.",
+   "rank": 249,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "138639",
+   "caption": "BRICK PAVED STREET WITH A VERY UNIQUE DESIGN.",
+   "rank": 248,
+   "own_sim": 0.182
+  },
+  {
+   "image_id": "219440",
+   "caption": "Here is a image of an zoo animals.",
+   "rank": 248,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "117492",
+   "caption": "A group of moms and kids sitting out in a field.",
+   "rank": 247,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "283318",
+   "caption": "There is a street sign on the corner by a building.",
+   "rank": 246,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "150649",
+   "caption": "A man riding a skateboard up the side of a ramp.",
+   "rank": 246,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "338428",
+   "caption": "Truck viewed from the back with vans and trucks visible in the background of the image.",
+   "rank": 246,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "57232",
+   "caption": "A picture of some toys and a box.",
+   "rank": 245,
+   "own_sim": 0.213
+  },
+  {
+   "image_id": "37670",
+   "caption": "A man holding holding a giant remote control.",
+   "rank": 245,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "15751",
+   "caption": "A bird flies away from three others that are sitting.",
+   "rank": 245,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "2153",
+   "caption": "There is a male tennis player that is at base.",
+   "rank": 244,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "175535",
+   "caption": "A white plate topped with two pieces of food next to white dishes.",
+   "rank": 242,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "158744",
+   "caption": "A split photo of a person standing on a street corner.",
+   "rank": 241,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "216636",
+   "caption": "A viw of a cake with pieces cut off of it.",
+   "rank": 240,
+   "own_sim": 0.214
+  },
+  {
+   "image_id": "139",
+   "caption": "A person standing at a table in a room.",
+   "rank": 240,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "391140",
+   "caption": "The boy is playing a video game and making a funny face.",
+   "rank": 239,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "2431",
+   "caption": "A tray of food on the top of a table.",
+   "rank": 239,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "361586",
+   "caption": "Several people are purchasing tickets at a bus station.",
+   "rank": 235,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "347163",
+   "caption": "A red stop sign sitting above a no parking sign.",
+   "rank": 235,
+   "own_sim": 0.212
+  },
+  {
+   "image_id": "312489",
+   "caption": "A woman standing on top of a sandy beach with a surfboard.",
+   "rank": 235,
+   "own_sim": 0.218
+  },
+  {
+   "image_id": "494913",
+   "caption": "A man relaxing on the couch watching television.",
+   "rank": 233,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "163640",
+   "caption": "A man has stick, which is holding some bread, between his fingers.",
+   "rank": 232,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "563604",
+   "caption": "A electric sign sits next to a park.",
+   "rank": 231,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "254368",
+   "caption": "A person with a piece of pizza over a plate.",
+   "rank": 230,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "346232",
+   "caption": "Three men who are walking in the sand.",
+   "rank": 230,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "546823",
+   "caption": "A small pony a with two smaller ponies standing in front of it.",
+   "rank": 229,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "89556",
+   "caption": "Some cars a yellow fire hydrant and some buildings.",
+   "rank": 229,
+   "own_sim": 0.191
+  },
+  {
+   "image_id": "29596",
+   "caption": "An entertainment room set up with a table for two for coffee.",
+   "rank": 228,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "86582",
+   "caption": "A laptop computer sitting on top of a desk.",
+   "rank": 227,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "414385",
+   "caption": "A man walking down a street next to a road filled with cars.",
+   "rank": 227,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "198928",
+   "caption": "A woman stands next to a traffic light.",
+   "rank": 227,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "342971",
+   "caption": "A boy outside reaching to catch a frisbee.",
+   "rank": 226,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "142472",
+   "caption": "A city filled with lots of vehicles and pedestrian traffic.",
+   "rank": 226,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "172946",
+   "caption": "A large group of people posing for a picture.",
+   "rank": 226,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "448410",
+   "caption": "THERE IS A TRAIN COMING DOWN ON THE TRACKS.",
+   "rank": 225,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "119516",
+   "caption": "A beautiful woman standing on the side of a rad next to a street.",
+   "rank": 222,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "377486",
+   "caption": "A horse with a person riding on top of it.",
+   "rank": 222,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "341058",
+   "caption": "An umbrella is opened over an outdoor table.",
+   "rank": 222,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "465836",
+   "caption": "A group of men standing next to each other.",
+   "rank": 222,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "256195",
+   "caption": "The train is on the tracks in the station.",
+   "rank": 222,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "107339",
+   "caption": "A young girl is using a video game remote control.",
+   "rank": 221,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "3934",
+   "caption": "A young girl in the foreground and a woman in a bridal dress and other adults in the background.",
+   "rank": 221,
+   "own_sim": 0.215
+  },
+  {
+   "image_id": "347265",
+   "caption": "A man is walking in skies in the snow.",
+   "rank": 221,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "91921",
+   "caption": "A pair of animals living in a habitat.",
+   "rank": 221,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "172547",
+   "caption": "Some animals are grazing in a large field.",
+   "rank": 221,
+   "own_sim": 0.262
+  },
+  {
+   "image_id": "148999",
+   "caption": "A biilboard with a railcar in front of it.",
+   "rank": 220,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "510329",
+   "caption": "A couple of men holding a black umbrella.",
+   "rank": 220,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "523033",
+   "caption": "A group of people that are inside of the water.",
+   "rank": 219,
+   "own_sim": 0.215
+  },
+  {
+   "image_id": "300842",
+   "caption": "A lower shot of someone riding their skateboard.",
+   "rank": 217,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "511760",
+   "caption": "Adult showing little kid how to fly the kite.",
+   "rank": 217,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "255747",
+   "caption": "A picture of two plates of food on a table.",
+   "rank": 217,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "572555",
+   "caption": "A contemporary light-rail train seen from the front is stopped in a station.",
+   "rank": 216,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "520832",
+   "caption": "A person walking by a shop with umbrellas in the window.",
+   "rank": 214,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "139871",
+   "caption": "Someone has crawled under the plane to check that everything is operational.",
+   "rank": 213,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "422998",
+   "caption": "A plate that has food on it on a table.",
+   "rank": 212,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "127092",
+   "caption": "A big building perched atop a hill with a sign in the foreground.",
+   "rank": 211,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "530146",
+   "caption": "A white plate topped with a sandwich and sliced veggies.",
+   "rank": 211,
+   "own_sim": 0.213
+  },
+  {
+   "image_id": "72281",
+   "caption": "A man that is in the air with a surfboard.",
+   "rank": 211,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "170474",
+   "caption": "A man who is about to server a tennis ball.",
+   "rank": 211,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "296634",
+   "caption": "Sliced sausage in a bowl with assorted vegetables.",
+   "rank": 211,
+   "own_sim": 0.202
+  },
+  {
+   "image_id": "499266",
+   "caption": "A hand holding a cell phone using the internet.",
+   "rank": 211,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "255483",
+   "caption": "Person holding up a piece of paper with scissors on it.",
+   "rank": 211,
+   "own_sim": 0.21
+  },
+  {
+   "image_id": "278749",
+   "caption": "A man holding a street sign giving directions on a city road.",
+   "rank": 210,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "352491",
+   "caption": "The train is traveling down the railroad tracks.",
+   "rank": 210,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "275791",
+   "caption": "Covered boats are in the water by the shore.",
+   "rank": 208,
+   "own_sim": 0.211
+  },
+  {
+   "image_id": "395801",
+   "caption": "A street lined with cones with people up and down the sidewalk.",
+   "rank": 208,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "78032",
+   "caption": "A couple of park benches on some concrete.",
+   "rank": 207,
+   "own_sim": 0.212
+  },
+  {
+   "image_id": "386134",
+   "caption": "An open white Styrofoam flip top container of food.",
+   "rank": 207,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "376625",
+   "caption": "A rail car that is next to a building.",
+   "rank": 207,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "279714",
+   "caption": "A baseball bat is in a window looking out over the street.",
+   "rank": 206,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "545219",
+   "caption": "A neon double decker bus is driving by a few pedestrians.",
+   "rank": 206,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "64495",
+   "caption": "A road sign sitting in front so a billboard.",
+   "rank": 205,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "312406",
+   "caption": "A couple of different types of food on the table.",
+   "rank": 204,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "255917",
+   "caption": "Traffic stopped at an intersection waiting for the light to turn green.",
+   "rank": 204,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "234779",
+   "caption": "A sandwich is sitting in a white plate on top of a wood table.",
+   "rank": 203,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "322864",
+   "caption": "Two guiding signs are pictured in front of a busy street.",
+   "rank": 203,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "571313",
+   "caption": "A computer is on a desk across from a bed.",
+   "rank": 203,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "142472",
+   "caption": "A bunch of pedestrians as well as cars are on a busy city street.",
+   "rank": 202,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "426268",
+   "caption": "A large long train with man inside on the track.",
+   "rank": 202,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "481573",
+   "caption": "A man riding a skateboard on a ramp.",
+   "rank": 202,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "136915",
+   "caption": "A man looking down at a baseball bat that he is holding in his hands.",
+   "rank": 202,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "446005",
+   "caption": "The lid to the dishwasher is open in the kitchen.",
+   "rank": 201,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "196754",
+   "caption": "Group of street signs posted to a concrete post by a stage.",
+   "rank": 201,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "147205",
+   "caption": "Some food that is on a glass plate.",
+   "rank": 201,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "398742",
+   "caption": "A guy being held up with a ball in his hands.",
+   "rank": 201,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "241602",
+   "caption": "A mirror that is hanging above a sink.",
+   "rank": 199,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "541291",
+   "caption": "There are several sinks and soap dispensers in the bathroom.",
+   "rank": 199,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "435206",
+   "caption": "A group of people getting ready to go in the water, near horses.",
+   "rank": 199,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "98018",
+   "caption": "A garage area with some appliances inside of it.",
+   "rank": 199,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "343149",
+   "caption": "People stand outside of a series of stores.",
+   "rank": 198,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "129062",
+   "caption": "A picture of a store by a street.",
+   "rank": 198,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "366199",
+   "caption": "I am not sure what this image is.",
+   "rank": 197,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "520832",
+   "caption": "A person walking down a street in front of a building.",
+   "rank": 197,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "127092",
+   "caption": "A city street with a road sign next to some buildings.",
+   "rank": 197,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "549167",
+   "caption": "A bunch of food is on a white plate.",
+   "rank": 197,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "481386",
+   "caption": "A person behind a table in front of many dishes.",
+   "rank": 197,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "572462",
+   "caption": "A white train traveling through a train station.",
+   "rank": 197,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "297681",
+   "caption": "The two signs give directions to upcoming cars.",
+   "rank": 196,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "15751",
+   "caption": "Three birds perched and one flying towards the viewer.",
+   "rank": 196,
+   "own_sim": 0.223
+  },
+  {
+   "image_id": "395801",
+   "caption": "People are walking down the sidewalk in a city.",
+   "rank": 196,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "213605",
+   "caption": "A congested road where different vehicles are running.",
+   "rank": 194,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "295231",
+   "caption": "A group of animals standing on top of a grass covered field.",
+   "rank": 192,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "59635",
+   "caption": "Woman in wet suit considers waves near forested coastline.",
+   "rank": 191,
+   "own_sim": 0.223
+  },
+  {
+   "image_id": "329323",
+   "caption": "A group of people are all gathered together outside.",
+   "rank": 190,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "60102",
+   "caption": "Soccer players try to gain possession of the ball.",
+   "rank": 190,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "561335",
+   "caption": "A green coat flipped upside down on top of a beach.",
+   "rank": 190,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "93717",
+   "caption": "A boy on a bike watches a boy on a skateboard go over a ramp.",
+   "rank": 190,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "313783",
+   "caption": "The meal on the dish is ready to be eaten.",
+   "rank": 189,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "544565",
+   "caption": "A plate filled with pastry on a table.",
+   "rank": 189,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "8021",
+   "caption": "People watch a man delivering a lecture on a screen.",
+   "rank": 189,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "443498",
+   "caption": "A large city bus driving down a street.",
+   "rank": 188,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "560911",
+   "caption": "A person sitting down with a cell phone.",
+   "rank": 188,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "44699",
+   "caption": "Several lamp are seen at the top of a treeless hill.",
+   "rank": 188,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "347163",
+   "caption": "Graffiti and stickers are plastered on the stop sign and street sign.",
+   "rank": 188,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "42178",
+   "caption": "An extensive network of wires are required to operate the railroad.",
+   "rank": 187,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "153510",
+   "caption": "A close shot of a unique looking plate of food.",
+   "rank": 187,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "148508",
+   "caption": "People standing on the sidewalk waiting for a parade to start.",
+   "rank": 185,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "287874",
+   "caption": "A train pulling up to an out door train depot.",
+   "rank": 185,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "564336",
+   "caption": "Man using a personal laptop computer next to an open breezy window.",
+   "rank": 185,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "59635",
+   "caption": "A group of people with surf boards near a big wave.",
+   "rank": 184,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "431896",
+   "caption": "Front view of train with lights on next to a sidewalk.",
+   "rank": 184,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "266768",
+   "caption": "A small cooler is on a wood table.",
+   "rank": 184,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "292456",
+   "caption": "A person riding a motorcycle in the reflection.",
+   "rank": 183,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "172083",
+   "caption": "Fancy designed sink in a bathroom with stained glass window pattern.",
+   "rank": 183,
+   "own_sim": 0.209
+  },
+  {
+   "image_id": "382030",
+   "caption": "A table full of many diffrent house hold items.",
+   "rank": 182,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "527220",
+   "caption": "A red car next to a gas station sign and parked blue and silver motorcycles.",
+   "rank": 182,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "288042",
+   "caption": "A man holding an umbrella next to a waterway.",
+   "rank": 182,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "194216",
+   "caption": "An outdoor area with a large bear and two smaller bears facing the wooded tree area.",
+   "rank": 181,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "205514",
+   "caption": "A flat screen mounted to a wall in a living room.",
+   "rank": 181,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "373353",
+   "caption": "People are crossing the street in both directions.",
+   "rank": 181,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "568981",
+   "caption": "A man pokes his head through a wall to photograph boys skateboarding.",
+   "rank": 181,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "50811",
+   "caption": "A person is sitting next to a brown table.",
+   "rank": 180,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "504000",
+   "caption": "A blue jet is sitting next to a sign.",
+   "rank": 179,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "7888",
+   "caption": "A poll that has a clock on the top of it.",
+   "rank": 179,
+   "own_sim": 0.216
+  },
+  {
+   "image_id": "494913",
+   "caption": "A person sitting a the couch in a living room.",
+   "rank": 179,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "559543",
+   "caption": "A cute girl in pink is playing a video game.",
+   "rank": 179,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "290248",
+   "caption": "Several people are grouped together in a public area.",
+   "rank": 178,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "141821",
+   "caption": "Gourmet food on a picnic table with drinks.",
+   "rank": 178,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "418696",
+   "caption": "A traffic light hanging from a wire above a street.",
+   "rank": 177,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "458325",
+   "caption": "A man in blue shirt on skateboard next to cars.",
+   "rank": 177,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "243989",
+   "caption": "Three men, one caring a skateboard, are wearing matching t-shirts.",
+   "rank": 177,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "510095",
+   "caption": "A man leans back, preparing to swing a bat.",
+   "rank": 176,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "319369",
+   "caption": "A group of people handing out with lawn chairs under two colorful umbrellas.",
+   "rank": 176,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "187249",
+   "caption": "A TV with a man and a woman on it's display.",
+   "rank": 176,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "315187",
+   "caption": "On the road a bus and a car are going.",
+   "rank": 176,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "135410",
+   "caption": "A coin meter that is next to a ladder with balls on it.",
+   "rank": 175,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "130386",
+   "caption": "A sign that is on the side of a pole.",
+   "rank": 174,
+   "own_sim": 0.216
+  },
+  {
+   "image_id": "78266",
+   "caption": "A room with a bunch of stainless steel items and other accessories.",
+   "rank": 173,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "405972",
+   "caption": "An adult giraffe standing next to a small elephant.",
+   "rank": 173,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "475387",
+   "caption": "A passanger train stopped to pick up passangers at a station.",
+   "rank": 173,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "488592",
+   "caption": "A very tall and big room with some people.",
+   "rank": 173,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "8899",
+   "caption": "A fire hydrant on the side of the street.",
+   "rank": 173,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "475387",
+   "caption": "A train in the station with people waiting.",
+   "rank": 172,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "236599",
+   "caption": "Several kits are tied to a wood fence in this fake picture.",
+   "rank": 171,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "256941",
+   "caption": "Someone mounted an umbrella and a basket on that bicycle.",
+   "rank": 171,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "309964",
+   "caption": "The people are sitting outside under a large umbrella.",
+   "rank": 171,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "259854",
+   "caption": "Two street signs are sitting on top of the pole.",
+   "rank": 170,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "245311",
+   "caption": "A cheerful couple wait in line at the donut shop.",
+   "rank": 170,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "362520",
+   "caption": "A person holding onto a skateboard during a jump.",
+   "rank": 169,
+   "own_sim": 0.266
+  },
+  {
+   "image_id": "488664",
+   "caption": "A train traveling on raised tracks near a town.",
+   "rank": 169,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "512248",
+   "caption": "A large clock on a pole near a building.",
+   "rank": 169,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "288862",
+   "caption": "A man standing on one hand holding onto a skateboard.",
+   "rank": 169,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "512248",
+   "caption": "A clock outside a building says the time is 4:30.",
+   "rank": 169,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "233727",
+   "caption": "A bus with destination signs drives around a curve where children stand.",
+   "rank": 169,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "563653",
+   "caption": "A large shadow is cast upon a busy street.",
+   "rank": 169,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "246308",
+   "caption": "A wooden desk topped with a laptop and monitor.",
+   "rank": 168,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "343149",
+   "caption": "People walking and standing in front of a building with a clock on it.",
+   "rank": 168,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "297698",
+   "caption": "The skier takes off down the steep hill.",
+   "rank": 167,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "466602",
+   "caption": "A person standing in the snow on skies.",
+   "rank": 167,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "263796",
+   "caption": "A red toilet in a very small bathroom.",
+   "rank": 167,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "73702",
+   "caption": "A couple of men standing next to each other on a tennis court.",
+   "rank": 167,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "308793",
+   "caption": "A person walking in the snow with skis on their back.",
+   "rank": 167,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "104782",
+   "caption": "A red stop sign with a green street sign posted above it.",
+   "rank": 167,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "328683",
+   "caption": "A parking meter sitting on the sidewalk in front of a building.",
+   "rank": 167,
+   "own_sim": 0.223
+  },
+  {
+   "image_id": "172083",
+   "caption": "Counter top inside a house designed with different colors.",
+   "rank": 167,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "186624",
+   "caption": "Someone is standing near a train that is parked.",
+   "rank": 166,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "60102",
+   "caption": "A close up of two people playing soccer.",
+   "rank": 166,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "393115",
+   "caption": "Nan or woman is enjoying a day of surfboarding on a brown/orange board.",
+   "rank": 166,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "221754",
+   "caption": "An urban intersection with stoplights on a cloudy day.",
+   "rank": 166,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "393226",
+   "caption": "A man who is walking across the street.",
+   "rank": 166,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "556498",
+   "caption": "Two black signs that are on the side of a pole.",
+   "rank": 165,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "273715",
+   "caption": "A couple of people with some skis in the snow.",
+   "rank": 165,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "329614",
+   "caption": "A bus that is sitting in front of a building.",
+   "rank": 165,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "451435",
+   "caption": "A tennis player preparing to swing at a ball.",
+   "rank": 165,
+   "own_sim": 0.28
+  },
+  {
+   "image_id": "328683",
+   "caption": "A couple of parking meters on a street.",
+   "rank": 164,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "302882",
+   "caption": "The man is taking a photo of him self with his cellphone.",
+   "rank": 164,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "133000",
+   "caption": "There is a train that is coming towards us on the rail.",
+   "rank": 164,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "526392",
+   "caption": "A busy traffic area on a street during the day.",
+   "rank": 164,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "362520",
+   "caption": "Small child and protective gear jumping on a skateboard.",
+   "rank": 163,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "323751",
+   "caption": "A passenger train that is traveling down railroad tracks.",
+   "rank": 163,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "63047",
+   "caption": "Man with food items walking on sidewalk while listening to audio.",
+   "rank": 163,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "133969",
+   "caption": "Some baseball players a batter catcher and an umpire.",
+   "rank": 163,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "468332",
+   "caption": "A group of people sitting at a table.",
+   "rank": 162,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "283520",
+   "caption": "A man throwing a frisbee on a course as another looks on.",
+   "rank": 162,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "189775",
+   "caption": "Competior preparing to return volley during tennis match.",
+   "rank": 162,
+   "own_sim": 0.265
+  },
+  {
+   "image_id": "201646",
+   "caption": "An extremely focused man playing with the Wii.",
+   "rank": 162,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "379476",
+   "caption": "The table is very long and dimly lit.",
+   "rank": 162,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "553221",
+   "caption": "A man is suspended from cables and has skis on his feet.",
+   "rank": 161,
+   "own_sim": 0.259
+  },
+  {
+   "image_id": "417285",
+   "caption": "A partially-eaten pastry, a glass Arizona tea and another piece of pastry.",
+   "rank": 161,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "304984",
+   "caption": "A couple of sandwiches are on a white plate.",
+   "rank": 161,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "514376",
+   "caption": "A bus drives through a city street with a building in the background.",
+   "rank": 161,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "62554",
+   "caption": "A picture of a bunch food sitting on a table.",
+   "rank": 161,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "435208",
+   "caption": "A woman sitting on a cushion in front of a white table.",
+   "rank": 161,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "184978",
+   "caption": "A person riding a snow board on a snowy surface.",
+   "rank": 161,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "579970",
+   "caption": "Some stairs a couch a table and a television.",
+   "rank": 160,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "169076",
+   "caption": "A television is on a tv stand next to a bureau.",
+   "rank": 160,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "286553",
+   "caption": "A copse of men sitting next to each other at a table.",
+   "rank": 160,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "516804",
+   "caption": "A building and a street sign are by a road.",
+   "rank": 159,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "203580",
+   "caption": "A bench outdoors with an open umbrella.",
+   "rank": 159,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "421060",
+   "caption": "Competitive spirit during a competition in mid air.",
+   "rank": 159,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "571313",
+   "caption": "A small room with different types of furniture and appliances that it makes it hard to tell what type of room it is.",
+   "rank": 159,
+   "own_sim": 0.265
+  },
+  {
+   "image_id": "163257",
+   "caption": "A man holding and dancing with an umbrella.",
+   "rank": 159,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "29596",
+   "caption": "A room with a couch, table set with dinnerware and a television.",
+   "rank": 159,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "110042",
+   "caption": "A sign for a ball game over an old toilet.",
+   "rank": 158,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "563653",
+   "caption": "Some buildings some trees people and cars and signs.",
+   "rank": 157,
+   "own_sim": 0.206
+  },
+  {
+   "image_id": "187734",
+   "caption": "The people was looking at the balls and chair.",
+   "rank": 157,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "57597",
+   "caption": "A group of women running after a soccer ball.",
+   "rank": 157,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "507797",
+   "caption": "Two buses parked next to each other in front of a building.",
+   "rank": 157,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "5037",
+   "caption": "A bus stops to pick up some passengers.",
+   "rank": 156,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "13923",
+   "caption": "Some red chairs are sitting around a small table.",
+   "rank": 156,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "332901",
+   "caption": "Two sheep that are inside of a gate.",
+   "rank": 156,
+   "own_sim": 0.205
+  },
+  {
+   "image_id": "130386",
+   "caption": "A large sign with neon green wording sitting on the side of a road.",
+   "rank": 156,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "563882",
+   "caption": "An image of a person on their cellular phone.",
+   "rank": 156,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "256195",
+   "caption": "A train with no cars sitting on the train tracks.",
+   "rank": 156,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "79588",
+   "caption": "An old stone and brick building three stories high.",
+   "rank": 155,
+   "own_sim": 0.208
+  },
+  {
+   "image_id": "221754",
+   "caption": "A four cross street of a downtown area.",
+   "rank": 155,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "105912",
+   "caption": "A WOMAN IS STANDIG ON THE PAVEMENT LOOKING.",
+   "rank": 155,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "180878",
+   "caption": "A table topped with a smart phone next to a white bag.",
+   "rank": 155,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "200152",
+   "caption": "A street sign on a street corner outside of a building.",
+   "rank": 155,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "426836",
+   "caption": "THIS IS A BREATHTAKING PHOTO OF SOMEONE FLYING A KITE.",
+   "rank": 155,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "10707",
+   "caption": "Man with video game controller in living room with onlooker seated nearby.",
+   "rank": 155,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "352684",
+   "caption": "A professionally dressed man poses for the camera.",
+   "rank": 155,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "553990",
+   "caption": "There is a woman jockey riding a hose over the hurdle.",
+   "rank": 154,
+   "own_sim": 0.201
+  },
+  {
+   "image_id": "10583",
+   "caption": "A white plate sitting on a table filled with food.",
+   "rank": 153,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "554156",
+   "caption": "A tennis player preparing for the incoming ball.",
+   "rank": 153,
+   "own_sim": 0.271
+  },
+  {
+   "image_id": "98018",
+   "caption": "Group of old ornaments sitting on the ground of an old building.",
+   "rank": 153,
+   "own_sim": 0.214
+  },
+  {
+   "image_id": "120420",
+   "caption": "Individual is doing something at the moment that is intriguing.",
+   "rank": 153,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "15660",
+   "caption": "Several para-gliders can be seen in the blue sky.",
+   "rank": 153,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "114049",
+   "caption": "A group of people sitting and standing on top of a train.",
+   "rank": 153,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "98287",
+   "caption": "A person standing in a field with a bat.",
+   "rank": 152,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "266409",
+   "caption": "A person riding skis on top of a snow covered slope.",
+   "rank": 152,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "186449",
+   "caption": "A person with a cane and a roller bag sitting on a bench.",
+   "rank": 152,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "297698",
+   "caption": "The skier is leaning forward while jumping through the air.",
+   "rank": 152,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "371699",
+   "caption": "A dog lies near the table next to bookshelves.",
+   "rank": 152,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "235784",
+   "caption": "A kid stands in the snow on his skiis.",
+   "rank": 151,
+   "own_sim": 0.25
+  },
+  {
+   "image_id": "369812",
+   "caption": "A city street with cars and street signs giving directions.",
+   "rank": 151,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "170474",
+   "caption": "A tennis player with a ball and a racket.",
+   "rank": 151,
+   "own_sim": 0.268
+  },
+  {
+   "image_id": "300842",
+   "caption": "A person that is standing on a skateboard.",
+   "rank": 151,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "190923",
+   "caption": "Some people a trash can and a stop and go light.",
+   "rank": 151,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "139684",
+   "caption": "A cat is perched on the back of a sofa in a multi colored room.",
+   "rank": 150,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "294350",
+   "caption": "A cook in the kitchen is making something very good to eat.",
+   "rank": 150,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "19402",
+   "caption": "A woman eating a piece of pizza standing next to a man.",
+   "rank": 150,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "275727",
+   "caption": "A train engine carrying carts down a track into a station.",
+   "rank": 150,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "212072",
+   "caption": "A street sign on metal pole next to a street on a sidewalk.",
+   "rank": 150,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "127530",
+   "caption": "A tennis player swinging a racket at a ball.",
+   "rank": 150,
+   "own_sim": 0.276
+  },
+  {
+   "image_id": "351823",
+   "caption": "A man taking a swing at a tennis ball.",
+   "rank": 150,
+   "own_sim": 0.268
+  },
+  {
+   "image_id": "435208",
+   "caption": "A young woman sitting cross legged on an apartment sofa.",
+   "rank": 150,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "356428",
+   "caption": "People walking in front of an outdoor fruit market.",
+   "rank": 150,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "447465",
+   "caption": "A person on skis with ski poles standing at the top of a hill.",
+   "rank": 149,
+   "own_sim": 0.265
+  },
+  {
+   "image_id": "368456",
+   "caption": "A large long train on a steel track.",
+   "rank": 149,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "367680",
+   "caption": "Cars, truck and carriages are traveling on the road.",
+   "rank": 149,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "567825",
+   "caption": "The sandwich is decorated in a very unusual way.",
+   "rank": 149,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "15335",
+   "caption": "A group of people sitting at a table with food.",
+   "rank": 149,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "241297",
+   "caption": "A train with a gold front is going down the tracks.",
+   "rank": 149,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "362520",
+   "caption": "A man flying through the air on top of a skateboard.",
+   "rank": 148,
+   "own_sim": 0.27
+  },
+  {
+   "image_id": "507037",
+   "caption": "A group of people standing outside of a building.",
+   "rank": 148,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "203629",
+   "caption": "A group of people gathered inside of a room.",
+   "rank": 148,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "386134",
+   "caption": "A close up of a foam box of food.",
+   "rank": 148,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "197658",
+   "caption": "A man getting ready to catch a baseball.",
+   "rank": 148,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "361586",
+   "caption": "People waiting in line with luggage at a ticket counter.",
+   "rank": 148,
+   "own_sim": 0.223
+  },
+  {
+   "image_id": "231580",
+   "caption": "The man is talking to the crowd of people.",
+   "rank": 147,
+   "own_sim": 0.218
+  },
+  {
+   "image_id": "512776",
+   "caption": "A man standing next to a base on a baseball field.",
+   "rank": 147,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "292456",
+   "caption": "A woman is sitting on a scooter outside.",
+   "rank": 147,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "275198",
+   "caption": "A woman standing next to a table covered with plates of mostly eaten food.",
+   "rank": 147,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "163746",
+   "caption": "People on the beach really close to the water.",
+   "rank": 147,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "216296",
+   "caption": "Competitor with referee looking on green tennis court.",
+   "rank": 147,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "259830",
+   "caption": "A building has many bikes pared outside of it.",
+   "rank": 146,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "441247",
+   "caption": "A woman in a blue dress some black chairs and another person looking in an oven.",
+   "rank": 146,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "507223",
+   "caption": "A man that is standing in the dirt with a bat.",
+   "rank": 146,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "90155",
+   "caption": "A train with several cars riding on the track.",
+   "rank": 146,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "191614",
+   "caption": "A horse standing in a lush green grass field.",
+   "rank": 146,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "575970",
+   "caption": "The living room is nicely cleaned and organized.",
+   "rank": 146,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "457559",
+   "caption": "A group of young men playing a game of soccer.",
+   "rank": 146,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "46872",
+   "caption": "A man standing next to a truck with some stuff on it.",
+   "rank": 146,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "551820",
+   "caption": "A group of people on a court playing tennis.",
+   "rank": 146,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "104612",
+   "caption": "The dinner on the plate is ready to eat.",
+   "rank": 146,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "369675",
+   "caption": "A train that is going by some rocks in the day time.",
+   "rank": 146,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "520832",
+   "caption": "THERE IS A WOMAN WALKING THE SIDE WALK.",
+   "rank": 146,
+   "own_sim": 0.221
+  },
+  {
+   "image_id": "554266",
+   "caption": "A bunch of stuff in a home living room.",
+   "rank": 145,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "98853",
+   "caption": "A pro tennis player playing a game.",
+   "rank": 145,
+   "own_sim": 0.28
+  },
+  {
+   "image_id": "138954",
+   "caption": "A white plate on top of a table topped with fruits and vegetables.",
+   "rank": 144,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "10707",
+   "caption": "A man standing in a living room holding a Nintendo Wii game controller.",
+   "rank": 144,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "275791",
+   "caption": "A large long train on a steel track.",
+   "rank": 144,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "245320",
+   "caption": "A person riding a skateboard on the side of the road.",
+   "rank": 144,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "5037",
+   "caption": "A bus is traveling down the city street.",
+   "rank": 144,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "341828",
+   "caption": "A man holds phone up to his ear while eating.",
+   "rank": 144,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "178469",
+   "caption": "An open laptop computer sitting on top of a wooden table.",
+   "rank": 144,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "79408",
+   "caption": "A stop sgn with a branch in front of it.",
+   "rank": 143,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "188906",
+   "caption": "Food that has been neatly prepared for a presentation.",
+   "rank": 143,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "127494",
+   "caption": "A white plate of food on a table.",
+   "rank": 143,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "182021",
+   "caption": "A man holding a baseball bat while standing on a baseball field.",
+   "rank": 143,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "241297",
+   "caption": "A train traveling down tracks next to a lush forest.",
+   "rank": 143,
+   "own_sim": 0.208
+  },
+  {
+   "image_id": "187144",
+   "caption": "THERE IS A BUS PARKED ON THE SIDE OF THE STREET.",
+   "rank": 143,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "431896",
+   "caption": "A passanger train stopped on the railroad tracks.",
+   "rank": 143,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "98853",
+   "caption": "A tennis player in the air after a play in a tennis court.",
+   "rank": 143,
+   "own_sim": 0.266
+  },
+  {
+   "image_id": "560279",
+   "caption": "A white toilet in a small tile walled bathroom.",
+   "rank": 142,
+   "own_sim": 0.264
+  },
+  {
+   "image_id": "130386",
+   "caption": "A shopping center sign right by a road and a big red building.",
+   "rank": 142,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "521259",
+   "caption": "The man is playing Frisbee with the young boy.",
+   "rank": 142,
+   "own_sim": 0.25
+  },
+  {
+   "image_id": "551820",
+   "caption": "A tennis plare takes a swing very close to the net.",
+   "rank": 142,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "185473",
+   "caption": "A herd of cattle grazing on a lush green field.",
+   "rank": 142,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "485027",
+   "caption": "A tennis player get ready to serve the ball.",
+   "rank": 141,
+   "own_sim": 0.285
+  },
+  {
+   "image_id": "259625",
+   "caption": "THERE ARE ZOO ANIMALS WALKING IN THEIR DEN.",
+   "rank": 141,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "421060",
+   "caption": "A person is skiing on a slope covered in snow.",
+   "rank": 141,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "29596",
+   "caption": "A nicely decorated living room and dining area.",
+   "rank": 141,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "38210",
+   "caption": "A skier is prepared to go down a mountain.",
+   "rank": 141,
+   "own_sim": 0.266
+  },
+  {
+   "image_id": "197004",
+   "caption": "A sandwich lunch is displayed on a table.",
+   "rank": 141,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "576654",
+   "caption": "This is a man and a woman on a sandy beach.",
+   "rank": 141,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "553990",
+   "caption": "A man riding on a horse as it jumps over a pole.",
+   "rank": 141,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "191580",
+   "caption": "Some food is laying on a white plate.",
+   "rank": 140,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "389684",
+   "caption": "A man walks down a sidewalk as a vehicle passes.",
+   "rank": 140,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "551820",
+   "caption": "Men and women playing tennis vehemently on tennis court.",
+   "rank": 140,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "454067",
+   "caption": "A person with a remote in a room.",
+   "rank": 140,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "92124",
+   "caption": "There is a tub, a toilet, and a sink in the bathroom.",
+   "rank": 140,
+   "own_sim": 0.264
+  },
+  {
+   "image_id": "362716",
+   "caption": "A man swinging a tennis racquet at a ball on a court.",
+   "rank": 140,
+   "own_sim": 0.268
+  },
+  {
+   "image_id": "409358",
+   "caption": "The corner of a bathroom, showing the sink and toilet.",
+   "rank": 140,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "457559",
+   "caption": "THERE ARE PEOPLE RUNNING IN THE GRASS PLAYING SOCCER.",
+   "rank": 140,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "371699",
+   "caption": "A room full of shelving and many supplies.",
+   "rank": 139,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "366141",
+   "caption": "A cat laying on top of a chair in the living room.",
+   "rank": 139,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "224724",
+   "caption": "There is a woman walking down the sidewalk in the city.",
+   "rank": 139,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "34205",
+   "caption": "The meal is prepared and ready to be eaten.",
+   "rank": 139,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "510095",
+   "caption": "A man is holding a baseball bat.",
+   "rank": 139,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "183104",
+   "caption": "Two zebras stare at the camera in a zoo.",
+   "rank": 139,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "433980",
+   "caption": "A woman holding up a phone to take a picture of herself in a mirror.",
+   "rank": 139,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "11149",
+   "caption": "A person standing by a bicycle as a motorcycle drives by.",
+   "rank": 139,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "102707",
+   "caption": "Cooking utensils are on the backdrop of a stove.",
+   "rank": 139,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "521956",
+   "caption": "A man swinging his racket at a ball.",
+   "rank": 139,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "475387",
+   "caption": "An old train is pulled up to a passenger terminal.",
+   "rank": 138,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "386352",
+   "caption": "A tennis player who has just made a shot.",
+   "rank": 138,
+   "own_sim": 0.278
+  },
+  {
+   "image_id": "242060",
+   "caption": "A plate of cupcakes on a napkin with spoons and drink glasses.",
+   "rank": 138,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "139",
+   "caption": "A woman standing in a kitchen by a window.",
+   "rank": 138,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "221754",
+   "caption": "There is very little traffic at this city intersection.",
+   "rank": 138,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "37670",
+   "caption": "Someone holding up a remote with six buttons.",
+   "rank": 138,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "347693",
+   "caption": "A room with some big window on the side of it.",
+   "rank": 138,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "121586",
+   "caption": "A room that has a tv, window, and books, in it.",
+   "rank": 138,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "262227",
+   "caption": "A picture of a screen in the living room.",
+   "rank": 138,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "248616",
+   "caption": "A man swings at a tennis ball on a tennis court.",
+   "rank": 138,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "88848",
+   "caption": "A couple of pictures that have some people and some fire hyrdons.",
+   "rank": 138,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "210388",
+   "caption": "Some people are walking in the snow and having fun.",
+   "rank": 138,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "142585",
+   "caption": "A couple of people sit on a motorcycle next to a white car.",
+   "rank": 138,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "581062",
+   "caption": "A boy on a skate board riding on concrete.",
+   "rank": 137,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "7888",
+   "caption": "We are looking up at a large square clock on a pole.",
+   "rank": 137,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "163118",
+   "caption": "The two men are jumping to get the frisbee.",
+   "rank": 137,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "303305",
+   "caption": "There is a white and a red bus that is stopped on this street.",
+   "rank": 137,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "514376",
+   "caption": "A city bus driving down a street next to a hotel.",
+   "rank": 137,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "289222",
+   "caption": "Street sign in the shape of a person riding a horse with a person under.",
+   "rank": 137,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "258793",
+   "caption": "A parking meter sitting next to a street with a very odd looking building next to it.",
+   "rank": 137,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "500423",
+   "caption": "A train parked next to a railway platform.",
+   "rank": 137,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "301718",
+   "caption": "A table topped with a plate of food next to eating utensils.",
+   "rank": 136,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "287649",
+   "caption": "A colorful cat is next to a keyoard.",
+   "rank": 136,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "39405",
+   "caption": "A tennis player serving the ball during a doubles tennis game.",
+   "rank": 136,
+   "own_sim": 0.276
+  },
+  {
+   "image_id": "179112",
+   "caption": "A woman holding a smart phone in a room.",
+   "rank": 136,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "284445",
+   "caption": "A light post leans towards a crowd on a busy city street.",
+   "rank": 136,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "281409",
+   "caption": "The umpire, catcher, and batter as soon as the batter had swung.",
+   "rank": 136,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "485027",
+   "caption": "Player about to serve in a tennis game on a dirt court.",
+   "rank": 136,
+   "own_sim": 0.276
+  },
+  {
+   "image_id": "563604",
+   "caption": "There is an electronic sign next to a road sign.",
+   "rank": 136,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "175535",
+   "caption": "A meal is on a plate on a dining table.",
+   "rank": 136,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "136715",
+   "caption": "A man on a motorbike rides down the street.",
+   "rank": 136,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "5037",
+   "caption": "A passenger bus pulling up to the side of a street.",
+   "rank": 136,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "25593",
+   "caption": "A stop sign on a post at a public street.",
+   "rank": 136,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "369310",
+   "caption": "A toddler boy is on a white pad playing a video game.",
+   "rank": 135,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "116362",
+   "caption": "A bowl of food sits prepared with eating utensils.",
+   "rank": 135,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "341196",
+   "caption": "The person is riding the waves in the water.",
+   "rank": 135,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "335800",
+   "caption": "A street sign with a traffic light underneath.",
+   "rank": 134,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "290179",
+   "caption": "A tall tower with a clock on top with buildings near by.",
+   "rank": 134,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "294783",
+   "caption": "A room with pillows, sheets, bookshelves, and hanging lights.",
+   "rank": 134,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "397133",
+   "caption": "A person standing by a stove in a kitchen.",
+   "rank": 134,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "261888",
+   "caption": "A bike with horses in background of the rider.",
+   "rank": 134,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "157767",
+   "caption": "Several people at a gathering where there is food present.",
+   "rank": 134,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "170474",
+   "caption": "A guy tossing a tennis ball up and preparing to serve.",
+   "rank": 134,
+   "own_sim": 0.277
+  },
+  {
+   "image_id": "127530",
+   "caption": "A man in blue shirt and white shorts playing tennis.",
+   "rank": 134,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "307074",
+   "caption": "A traffic light hanging over a road at a cross walk.",
+   "rank": 134,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "435206",
+   "caption": "Several people standing out at a watery ledge with horses.",
+   "rank": 134,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "67616",
+   "caption": "Cars parked on the side of the road while people eat at tables outside.",
+   "rank": 134,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "335954",
+   "caption": "A close up of two cups of fruits on a counter.",
+   "rank": 134,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "82812",
+   "caption": "A group of people wait for the subway.",
+   "rank": 133,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "488166",
+   "caption": "A slice of pizza sitting next to a coffee cup on an outdoor table.",
+   "rank": 133,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "541291",
+   "caption": "The old, dilapidated bathroom has fallen into disrepair.",
+   "rank": 133,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "25057",
+   "caption": "A man holding a drink with a frizbee in front of him.",
+   "rank": 133,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "542073",
+   "caption": "A light pole that has a street sign.",
+   "rank": 133,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "36660",
+   "caption": "A cellophone broken into pieces by a womans feet.",
+   "rank": 133,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "265777",
+   "caption": "A person waiting for her meal to be served.",
+   "rank": 133,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "133819",
+   "caption": "A citi bus parked in the street with buildings in teh background.",
+   "rank": 133,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "343466",
+   "caption": "A white stove top oven sitting next to a window.",
+   "rank": 132,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "362716",
+   "caption": "A man who is attempting to hit a tennis ball.",
+   "rank": 132,
+   "own_sim": 0.274
+  },
+  {
+   "image_id": "277005",
+   "caption": "A young man walking across a street at a crosswalk.",
+   "rank": 132,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "42102",
+   "caption": "The man in the picture is wearing a stylish kilt.",
+   "rank": 132,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "156924",
+   "caption": "A man and a woman are holding video game controllers.",
+   "rank": 132,
+   "own_sim": 0.25
+  },
+  {
+   "image_id": "307598",
+   "caption": "A commuter train that is in the train yard and is parked.",
+   "rank": 132,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "133969",
+   "caption": "A group of men on a field playing baseball.",
+   "rank": 132,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "137294",
+   "caption": "A man outside cooking at an event and serving customers.",
+   "rank": 132,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "252559",
+   "caption": "There is a lot of foot traffic on this street in the city.",
+   "rank": 132,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "199055",
+   "caption": "A person on skateboard skating on the pavement.",
+   "rank": 131,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "397133",
+   "caption": "A man is in a kitchen making pizzas.",
+   "rank": 131,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "268831",
+   "caption": "A bathroom that has a be-day next to the toilet.",
+   "rank": 131,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "341828",
+   "caption": "A MAN IS EATING A TALKING ON THE PHONE.",
+   "rank": 131,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "419201",
+   "caption": "A herd of animals grazing on top of a grass field.",
+   "rank": 131,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "200162",
+   "caption": "A train driving down the tracks near a platform.",
+   "rank": 131,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "568584",
+   "caption": "A man sitting on a chair with his feet proper up.",
+   "rank": 131,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "445834",
+   "caption": "A couple of people are getting on a white bus.",
+   "rank": 131,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "470173",
+   "caption": "A satute in a field of grass near a plant.",
+   "rank": 131,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "451714",
+   "caption": "A man riding skis on top of a snow covered hill.",
+   "rank": 130,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "157046",
+   "caption": "The hand is pointing a remote at a screen.",
+   "rank": 130,
+   "own_sim": 0.25
+  },
+  {
+   "image_id": "431896",
+   "caption": "A passanger train stopped on the railroad tracks at a station.",
+   "rank": 130,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "463527",
+   "caption": "A blue and black ray holding sandwich, coffee and liquor bottles.",
+   "rank": 130,
+   "own_sim": 0.25
+  },
+  {
+   "image_id": "1425",
+   "caption": "A half eaten meal sitting on a plate.",
+   "rank": 130,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "189775",
+   "caption": "A man playing in a tennis match with a large crowd.",
+   "rank": 130,
+   "own_sim": 0.267
+  },
+  {
+   "image_id": "321118",
+   "caption": "A open laptop with a mouse beside it.",
+   "rank": 129,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "517523",
+   "caption": "A AIRPLANE IN THE SKY FLYING ABOVE A BUILDING.",
+   "rank": 129,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "471893",
+   "caption": "An image of two people playing video games.",
+   "rank": 129,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "139",
+   "caption": "A woman stands in the dining area at the table.",
+   "rank": 129,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "39785",
+   "caption": "A surfer is surfing in a wave simulator.",
+   "rank": 129,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "329614",
+   "caption": "A bus and other cars are traveling on a street.",
+   "rank": 129,
+   "own_sim": 0.267
+  },
+  {
+   "image_id": "46048",
+   "caption": "Playing board games while the iron heats up in the bedroom.",
+   "rank": 129,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "124798",
+   "caption": "A bus that is next to a bunch of cars.",
+   "rank": 129,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "398652",
+   "caption": "A beautiful view of a glass full of items.",
+   "rank": 128,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "44195",
+   "caption": "A person holding skis on a snowy surface.",
+   "rank": 128,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "359677",
+   "caption": "A man is above the water enjoying some skiing.",
+   "rank": 128,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "504389",
+   "caption": "A couple of people playing a weird game of tennis frisbee.",
+   "rank": 128,
+   "own_sim": 0.266
+  },
+  {
+   "image_id": "440617",
+   "caption": "An image of a bus that is going down the tracks.",
+   "rank": 128,
+   "own_sim": 0.27
+  },
+  {
+   "image_id": "98853",
+   "caption": "A man playing a game of tennis on a tennis court.",
+   "rank": 128,
+   "own_sim": 0.269
+  },
+  {
+   "image_id": "162732",
+   "caption": "Men speak to each other on the rugby field.",
+   "rank": 128,
+   "own_sim": 0.217
+  },
+  {
+   "image_id": "488251",
+   "caption": "A man is posing for a picture while holding the reigns.",
+   "rank": 128,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "335800",
+   "caption": "A green pole with street signs attached to it.",
+   "rank": 128,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "463174",
+   "caption": "A tennis player swinging a racket at a ball.",
+   "rank": 127,
+   "own_sim": 0.286
+  },
+  {
+   "image_id": "395903",
+   "caption": "A man that is holding a surfboard in hand.",
+   "rank": 127,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "494634",
+   "caption": "A shadow looks like a cat in a living room.",
+   "rank": 127,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "296634",
+   "caption": "Three white trays on a countertop containing various types of food.",
+   "rank": 127,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "214200",
+   "caption": "Road signage with sticker displayed near parking area.",
+   "rank": 127,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "573258",
+   "caption": "A person on a ski slope getting ready to ski down.",
+   "rank": 127,
+   "own_sim": 0.268
+  },
+  {
+   "image_id": "79588",
+   "caption": "A very old building has a large clock tower.",
+   "rank": 127,
+   "own_sim": 0.223
+  },
+  {
+   "image_id": "520910",
+   "caption": "A person and a toilet standing in a room.",
+   "rank": 127,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "329614",
+   "caption": "A double deckered bus on a city street.",
+   "rank": 127,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "257084",
+   "caption": "A person standing on a skateboard on top of a ramp.",
+   "rank": 127,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "262682",
+   "caption": "Two sinks that are in a kitchen near a window.",
+   "rank": 126,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "296634",
+   "caption": "A white bowl filled with meat patties next to bowls of veggies.",
+   "rank": 126,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "141671",
+   "caption": "A group of horses are crossing a finish line.",
+   "rank": 126,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "462643",
+   "caption": "A person is holding a small electronic device.",
+   "rank": 126,
+   "own_sim": 0.266
+  },
+  {
+   "image_id": "423104",
+   "caption": "A man holding a frisbee in his hand in a field.",
+   "rank": 126,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "451043",
+   "caption": "A person skiing down a hill with goggles on.",
+   "rank": 126,
+   "own_sim": 0.267
+  },
+  {
+   "image_id": "485844",
+   "caption": "A lady that has a bowl in her hand.",
+   "rank": 126,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "367095",
+   "caption": "A man that is sitting in front of a laptop.",
+   "rank": 126,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "371749",
+   "caption": "There are two women holding objects in their hands.",
+   "rank": 126,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "323751",
+   "caption": "A train is making its way down the tracks.",
+   "rank": 126,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "138954",
+   "caption": "Slices of food are arranged around food piled on a plate.",
+   "rank": 126,
+   "own_sim": 0.273
+  },
+  {
+   "image_id": "127530",
+   "caption": "A man on a court swinging a tennis racket.",
+   "rank": 125,
+   "own_sim": 0.271
+  },
+  {
+   "image_id": "297698",
+   "caption": "A man is skiing in mid jump onto a ramp.",
+   "rank": 125,
+   "own_sim": 0.271
+  },
+  {
+   "image_id": "532071",
+   "caption": "A field with a lot of dead trees.",
+   "rank": 125,
+   "own_sim": 0.194
+  },
+  {
+   "image_id": "26926",
+   "caption": "This is an image of an outside district.",
+   "rank": 125,
+   "own_sim": 0.267
+  },
+  {
+   "image_id": "42178",
+   "caption": "A long train yard full of different equipment.",
+   "rank": 125,
+   "own_sim": 0.223
+  },
+  {
+   "image_id": "448076",
+   "caption": "People standing around a waiting room with a flat screen TV.",
+   "rank": 125,
+   "own_sim": 0.224
+  },
+  {
+   "image_id": "579655",
+   "caption": "A woman holding a phone in one hand up to her ear.",
+   "rank": 125,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "233825",
+   "caption": "A basic living with a TV, couch, and rack,.",
+   "rank": 125,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "70048",
+   "caption": "A table that has some food on top of it.",
+   "rank": 125,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "241297",
+   "caption": "Train drives down the tracks along the treeline.",
+   "rank": 125,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "566524",
+   "caption": "Two people walking along a side walk next to a train on the tracks.",
+   "rank": 125,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "528578",
+   "caption": "A castle is shown on the water next to a bridge.",
+   "rank": 125,
+   "own_sim": 0.209
+  },
+  {
+   "image_id": "471893",
+   "caption": "A man and boy with video game controllers playing a game.",
+   "rank": 124,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "481404",
+   "caption": "A huge room with desks and places to sit.",
+   "rank": 124,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "111951",
+   "caption": "A couple of white bathroom sinks sitting next to a toilet.",
+   "rank": 124,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "519569",
+   "caption": "Bar stools at a bar separating a dining area from a kitchen.",
+   "rank": 124,
+   "own_sim": 0.211
+  },
+  {
+   "image_id": "507893",
+   "caption": "The washroom having a toilet,wash basin and a bath tub.",
+   "rank": 124,
+   "own_sim": 0.264
+  },
+  {
+   "image_id": "392722",
+   "caption": "People stand near the curb behind a lime green double-decked bus.",
+   "rank": 124,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "563648",
+   "caption": "A person riding a skate board on a skate park.",
+   "rank": 124,
+   "own_sim": 0.264
+  },
+  {
+   "image_id": "297698",
+   "caption": "A man flying through he air while riding.",
+   "rank": 124,
+   "own_sim": 0.276
+  },
+  {
+   "image_id": "412362",
+   "caption": "A group of three people standing next to each other in front of a doorway.",
+   "rank": 124,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "482978",
+   "caption": "An image of a subway bus going thru the subway station.",
+   "rank": 124,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "232538",
+   "caption": "A train is pulling into the train station.",
+   "rank": 124,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "459634",
+   "caption": "A motor bike going down a city road.",
+   "rank": 123,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "568814",
+   "caption": "A man with a bear sitting with his arms crossed and his tie over his left shoulder.",
+   "rank": 123,
+   "own_sim": 0.222
+  },
+  {
+   "image_id": "361238",
+   "caption": "A pizza with a slice missing is sitting on a pizza stand.",
+   "rank": 123,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "512776",
+   "caption": "The home plate with the back catcher and someone ready to bat.",
+   "rank": 123,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "575970",
+   "caption": "A neatly arranged room with two lights.",
+   "rank": 123,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "7278",
+   "caption": "A man that is on a surfboard in the water.",
+   "rank": 123,
+   "own_sim": 0.259
+  },
+  {
+   "image_id": "257896",
+   "caption": "The guy is standing outside taking his picture in his suit.",
+   "rank": 123,
+   "own_sim": 0.226
+  },
+  {
+   "image_id": "270677",
+   "caption": "This is a picture of a boy with his skateboard.",
+   "rank": 123,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "302107",
+   "caption": "Two athletes actively playing a game of baseball.",
+   "rank": 123,
+   "own_sim": 0.273
+  },
+  {
+   "image_id": "388215",
+   "caption": "A man reahced up his arms as he gets ready to get a hit a tennis ball.",
+   "rank": 123,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "445722",
+   "caption": "A group of people riding on top of a train.",
+   "rank": 123,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "553511",
+   "caption": "A city road with cars, traffic lights and road signs.",
+   "rank": 123,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "55150",
+   "caption": "Two kids sitting in a luggage cart together.",
+   "rank": 123,
+   "own_sim": 0.216
+  },
+  {
+   "image_id": "326970",
+   "caption": "Three people sitting on a wall looking at their cell phones.",
+   "rank": 123,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "303713",
+   "caption": "A male tennis player is getting ready to hit the ball.",
+   "rank": 123,
+   "own_sim": 0.283
+  },
+  {
+   "image_id": "8277",
+   "caption": "A close up of a plate of food on a carpeted floor.",
+   "rank": 122,
+   "own_sim": 0.25
+  },
+  {
+   "image_id": "362520",
+   "caption": "A skateboarder performing a trick wearing safety equipment.",
+   "rank": 122,
+   "own_sim": 0.276
+  },
+  {
+   "image_id": "163257",
+   "caption": "A man holding an umbrella on a sidewalk.",
+   "rank": 122,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "133087",
+   "caption": "A traffic light on a open city street.",
+   "rank": 122,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "307074",
+   "caption": "Two stop and go lights at an intersection.",
+   "rank": 122,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "401250",
+   "caption": "A person that is doing a trick in the air.",
+   "rank": 122,
+   "own_sim": 0.264
+  },
+  {
+   "image_id": "423104",
+   "caption": "A guy with a racket playing tennis on the court.",
+   "rank": 122,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "508917",
+   "caption": "A train in its full span gives the illusion of a neverending adventure.",
+   "rank": 122,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "307145",
+   "caption": "A kitchen scene complete with an oven, range and a refrigerator.",
+   "rank": 121,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "200162",
+   "caption": "A black train is coming down some tracks.",
+   "rank": 121,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "493284",
+   "caption": "Adults and their young offspring standing together in the woods.",
+   "rank": 121,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "481573",
+   "caption": "A person that is on top of a skateboard.",
+   "rank": 121,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "307172",
+   "caption": "A man cutting pizza on a plate on the table.",
+   "rank": 121,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "304365",
+   "caption": "A train at a rest in a small train station.",
+   "rank": 121,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "186624",
+   "caption": "A woman stands next to a parked train.",
+   "rank": 121,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "448410",
+   "caption": "A train car pulls into a train station where travelers wait nearby.",
+   "rank": 121,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "39785",
+   "caption": "There is a man surfing on some waves.",
+   "rank": 120,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "506656",
+   "caption": "A man standing in front of some Clysdale horses in front of some houses.",
+   "rank": 120,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "197658",
+   "caption": "The baseball player is waiting for the ball.",
+   "rank": 120,
+   "own_sim": 0.267
+  },
+  {
+   "image_id": "441247",
+   "caption": "Man and woman in the kitchen of a white house.",
+   "rank": 120,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "185250",
+   "caption": "A man watches as a dig looks at a toy in the air.",
+   "rank": 120,
+   "own_sim": 0.267
+  },
+  {
+   "image_id": "286523",
+   "caption": "The man is listening on his cell phone.",
+   "rank": 120,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "124798",
+   "caption": "Various vehicles driving on a road surrounded by trees.",
+   "rank": 120,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "307074",
+   "caption": "A stop light right across the street from a fire station.",
+   "rank": 120,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "384850",
+   "caption": "This is a bathroom with a toilet, counter and shower.",
+   "rank": 120,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "415882",
+   "caption": "There is a woman with a robe on laying in bed.",
+   "rank": 120,
+   "own_sim": 0.216
+  },
+  {
+   "image_id": "127530",
+   "caption": "A man hitting a tennis ball on a professional court.",
+   "rank": 119,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "78915",
+   "caption": "A picture of a person playing in a tennis game.",
+   "rank": 119,
+   "own_sim": 0.289
+  },
+  {
+   "image_id": "464089",
+   "caption": "A baseball game showing a batter waiting for a pitch.",
+   "rank": 119,
+   "own_sim": 0.269
+  },
+  {
+   "image_id": "213593",
+   "caption": "Street sign displayed on pole at intersection in metropolitan region.",
+   "rank": 119,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "130579",
+   "caption": "A professional baseball pitches is taking the mound.",
+   "rank": 119,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "453341",
+   "caption": "A picture of a room with a big mirror.",
+   "rank": 119,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "106912",
+   "caption": "A person rising a skate board in a lot.",
+   "rank": 119,
+   "own_sim": 0.268
+  },
+  {
+   "image_id": "78404",
+   "caption": "The bench's maximum weight capacity may be strained.",
+   "rank": 119,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "255965",
+   "caption": "A black cat with white stomach takes a pose.",
+   "rank": 119,
+   "own_sim": 0.219
+  },
+  {
+   "image_id": "377393",
+   "caption": "A clock on a small tower near a building.",
+   "rank": 119,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "526392",
+   "caption": "Many cars sit parked on the side of a street.",
+   "rank": 119,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "473121",
+   "caption": "A person skiing on a snow covered snow bank.",
+   "rank": 118,
+   "own_sim": 0.269
+  },
+  {
+   "image_id": "133819",
+   "caption": "A passenger bus that is driving down a street.",
+   "rank": 118,
+   "own_sim": 0.259
+  },
+  {
+   "image_id": "252216",
+   "caption": "Some animals that are standing in the grass together.",
+   "rank": 118,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "167067",
+   "caption": "A guy looking to the side and smiling.",
+   "rank": 118,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "139",
+   "caption": "A room with chairs, a table, and a woman in it.",
+   "rank": 118,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "570539",
+   "caption": "THERE IS A MAN THAT IS LOOKING OUT OF THE WINDOW.",
+   "rank": 118,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "355325",
+   "caption": "Several slices of meat are on top of a pizza.",
+   "rank": 118,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "270386",
+   "caption": "The black street pole has three different signs on it.",
+   "rank": 118,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "182021",
+   "caption": "A baseball player standing on a field holding a bat.",
+   "rank": 118,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "511760",
+   "caption": "A man and a child flying a kite.",
+   "rank": 118,
+   "own_sim": 0.262
+  },
+  {
+   "image_id": "272136",
+   "caption": "Some type of vehicle with a number on its side is pared inside a garage.",
+   "rank": 118,
+   "own_sim": 0.216
+  },
+  {
+   "image_id": "383842",
+   "caption": "A lady hold a game controller, pointed towards a laptop.",
+   "rank": 118,
+   "own_sim": 0.265
+  },
+  {
+   "image_id": "476704",
+   "caption": "A bus on the street next to the lamp post.",
+   "rank": 117,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "229659",
+   "caption": "A laptop computer sitting on top of a wooden table.",
+   "rank": 117,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "210855",
+   "caption": "A white toilet sitting inside of a bathroom next to a sink.",
+   "rank": 117,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "510095",
+   "caption": "A man in casual wear holding a baseball type bat.",
+   "rank": 117,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "573258",
+   "caption": "A woman is on the side of a mountain in ski gear.",
+   "rank": 117,
+   "own_sim": 0.264
+  },
+  {
+   "image_id": "475064",
+   "caption": "A person is holding up a half eaten pastry.",
+   "rank": 117,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "300842",
+   "caption": "The foot of a person on a skateboard is prominent in this photo.",
+   "rank": 117,
+   "own_sim": 0.276
+  },
+  {
+   "image_id": "184978",
+   "caption": "Snowboarder going down a slope with trees in the background.",
+   "rank": 117,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "495146",
+   "caption": "A train crosses as a bunch of gathered vehicles watch.",
+   "rank": 117,
+   "own_sim": 0.259
+  },
+  {
+   "image_id": "6723",
+   "caption": "A street with light poles and businesses on both sides.",
+   "rank": 117,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "62692",
+   "caption": "A tennis player with a racket on the court.",
+   "rank": 116,
+   "own_sim": 0.291
+  },
+  {
+   "image_id": "182021",
+   "caption": "A MAN IS HOLDING A BASE BALL BAT STANDING AT THE DIRT.",
+   "rank": 116,
+   "own_sim": 0.26
+  },
+  {
+   "image_id": "521956",
+   "caption": "A man getting ready to serve the ball in a tennis game.",
+   "rank": 116,
+   "own_sim": 0.286
+  },
+  {
+   "image_id": "365521",
+   "caption": "A skateboarder performing a trick on a skateboard.",
+   "rank": 116,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "263068",
+   "caption": "A person riding a skate board at a skate park.",
+   "rank": 116,
+   "own_sim": 0.27
+  },
+  {
+   "image_id": "418696",
+   "caption": "A street corner with a brown and white building on it.",
+   "rank": 116,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "155443",
+   "caption": "A train is shown on the train tracks.",
+   "rank": 116,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "239857",
+   "caption": "A woman is about to throw a frisbee in the dirt.",
+   "rank": 116,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "142585",
+   "caption": "A group of cars and motorbike crowd the streets.",
+   "rank": 116,
+   "own_sim": 0.235
+  },
+  {
+   "image_id": "481573",
+   "caption": "Boy standing on a skate board as seen from under the board.",
+   "rank": 116,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "279714",
+   "caption": "A car is parked next to a pole.",
+   "rank": 116,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "192964",
+   "caption": "A man is performing tricks on a skateboard.",
+   "rank": 116,
+   "own_sim": 0.279
+  },
+  {
+   "image_id": "290833",
+   "caption": "Two giraffe standing on a field together grazing on green grass.",
+   "rank": 116,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "171757",
+   "caption": "A group of people are socializing in a room.",
+   "rank": 116,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "429690",
+   "caption": "A man hitting a tennis ball with a bat.",
+   "rank": 116,
+   "own_sim": 0.277
+  },
+  {
+   "image_id": "7888",
+   "caption": "A pedestal clock strikes 6:55 in a rainy sky.",
+   "rank": 116,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "273715",
+   "caption": "A skier is standing in the snow under a blue thing.",
+   "rank": 116,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "427338",
+   "caption": "A man taking a picture of a narrow walkway.",
+   "rank": 116,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "62554",
+   "caption": "Several plates of food are set on a table.",
+   "rank": 116,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "365521",
+   "caption": "A young man riding a skateboard down a rail.",
+   "rank": 115,
+   "own_sim": 0.273
+  },
+  {
+   "image_id": "82812",
+   "caption": "A group of commuters standing around a train station.",
+   "rank": 115,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "153669",
+   "caption": "A batter after he has hit a pitched ball before he is going to run.",
+   "rank": 115,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "558421",
+   "caption": "A railroad train that has just gone under an overpass.",
+   "rank": 115,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "560178",
+   "caption": "Someone is holding a veggie with a bite already taken from it.",
+   "rank": 115,
+   "own_sim": 0.238
+  },
+  {
+   "image_id": "572900",
+   "caption": "A man holding a white frisbee in his right hand.",
+   "rank": 115,
+   "own_sim": 0.266
+  },
+  {
+   "image_id": "497599",
+   "caption": "A man standing by a table looking at a laptop.",
+   "rank": 115,
+   "own_sim": 0.264
+  },
+  {
+   "image_id": "283037",
+   "caption": "A stoplight with a speed radar on top.",
+   "rank": 115,
+   "own_sim": 0.256
+  },
+  {
+   "image_id": "180878",
+   "caption": "A bag, toy car, shoe, and iPhone are on the table.",
+   "rank": 115,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "497599",
+   "caption": "A young man stands over a lap top computer screen.",
+   "rank": 115,
+   "own_sim": 0.262
+  },
+  {
+   "image_id": "189775",
+   "caption": "A man swinging a tennis racket during a tennis match.",
+   "rank": 115,
+   "own_sim": 0.27
+  },
+  {
+   "image_id": "163118",
+   "caption": "Two people jumping up to try to catch a frisbee.",
+   "rank": 115,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "190841",
+   "caption": "A person jumping a skate board into the air.",
+   "rank": 114,
+   "own_sim": 0.271
+  },
+  {
+   "image_id": "65288",
+   "caption": "A bird is perched on the back of a chair.",
+   "rank": 114,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "281754",
+   "caption": "A kid and a girl are next to each other.",
+   "rank": 114,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "216296",
+   "caption": "A man standing on a tennis court holding a racquet.",
+   "rank": 114,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "366141",
+   "caption": "Cat sitting on recliner back in room facing the television.",
+   "rank": 114,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "409358",
+   "caption": "A white toilet and sink in a room.",
+   "rank": 114,
+   "own_sim": 0.272
+  },
+  {
+   "image_id": "288042",
+   "caption": "There is a man standing near a river with a umbrella.",
+   "rank": 114,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "506656",
+   "caption": "A guy standing in front of a few horses.",
+   "rank": 114,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "341058",
+   "caption": "A lamp post stands next to an umbrella and table.",
+   "rank": 114,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "565563",
+   "caption": "A sidewalk and cars parked on the street.",
+   "rank": 114,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "275727",
+   "caption": "A freight train riding on tracks through a forested area.",
+   "rank": 113,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "511999",
+   "caption": "A group of people is standing outside of a tram.",
+   "rank": 113,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "306437",
+   "caption": "A boy doing a stunt on a skateboard.",
+   "rank": 113,
+   "own_sim": 0.276
+  },
+  {
+   "image_id": "133244",
+   "caption": "A man taking a swing at a tennis ball.",
+   "rank": 113,
+   "own_sim": 0.282
+  },
+  {
+   "image_id": "151857",
+   "caption": "A train sitting on train tracks and driving by.",
+   "rank": 113,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "566524",
+   "caption": "A train is traveling on the railroad alone.",
+   "rank": 113,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "492362",
+   "caption": "A young man riding a skateboard with red wheels.",
+   "rank": 113,
+   "own_sim": 0.262
+  },
+  {
+   "image_id": "160728",
+   "caption": "The man stands next to a child standing on a canoe with a paddle.",
+   "rank": 113,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "82688",
+   "caption": "Video games are fun for people of all ages!.",
+   "rank": 113,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "357742",
+   "caption": "A person on skis sliding up down a path.",
+   "rank": 113,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "357737",
+   "caption": "A bicycle is mounted on the back of a motorcycle.",
+   "rank": 113,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "172083",
+   "caption": "A very colorful vanity in a public restroom.",
+   "rank": 113,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "388215",
+   "caption": "A man with a tennis racket on a court.",
+   "rank": 113,
+   "own_sim": 0.284
+  },
+  {
+   "image_id": "455085",
+   "caption": "A large long bus going down a city street.",
+   "rank": 113,
+   "own_sim": 0.259
+  },
+  {
+   "image_id": "232538",
+   "caption": "A passenger train stopped near a train station.",
+   "rank": 112,
+   "own_sim": 0.265
+  },
+  {
+   "image_id": "245320",
+   "caption": "A man performing on a skateboard ramp jump.",
+   "rank": 112,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "163746",
+   "caption": "People walking onto the beach from the water.",
+   "rank": 112,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "438774",
+   "caption": "A small party of people eats some pizza on a table.",
+   "rank": 112,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "1818",
+   "caption": "A baby giraffe drinking milk from it's mother in a field.",
+   "rank": 112,
+   "own_sim": 0.214
+  },
+  {
+   "image_id": "276285",
+   "caption": "Someone is sitting at a table with pizza and other food on it.",
+   "rank": 112,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "276707",
+   "caption": "A close-up of a street sign with small shops in the background.",
+   "rank": 112,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "33707",
+   "caption": "Two large giraffes inside a fenced area stand together near many rocks.",
+   "rank": 112,
+   "own_sim": 0.282
+  },
+  {
+   "image_id": "4134",
+   "caption": "Two men standing next to each other holding hands.",
+   "rank": 112,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "415741",
+   "caption": "A room in a home with a chair set up against the wall.",
+   "rank": 112,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "280710",
+   "caption": "A scene of a street.A bus for tourists is standing.",
+   "rank": 112,
+   "own_sim": 0.267
+  },
+  {
+   "image_id": "27982",
+   "caption": "A small bathroom with marble tiles and counter.",
+   "rank": 112,
+   "own_sim": 0.264
+  },
+  {
+   "image_id": "464476",
+   "caption": "A dark room with an open laptop and a computer monitor behind it.",
+   "rank": 112,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "276707",
+   "caption": "A sign that is sitting on a wooden pole.",
+   "rank": 112,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "578967",
+   "caption": "A monorail is going down the track with people on it.",
+   "rank": 111,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "527616",
+   "caption": "A television is in a wall and on.",
+   "rank": 111,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "343524",
+   "caption": "A man getting ready to serve a tennis ball.",
+   "rank": 111,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "414261",
+   "caption": "Some kind of animal that is on a rock.",
+   "rank": 111,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "263068",
+   "caption": "Boy making high jumps with his skate board.",
+   "rank": 111,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "68387",
+   "caption": "Baseball players prepare for the next pitch in a game.",
+   "rank": 111,
+   "own_sim": 0.266
+  },
+  {
+   "image_id": "885",
+   "caption": "This woman has just returned a volley in tennis.",
+   "rank": 111,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "227898",
+   "caption": "A picture of a person riding a horse.",
+   "rank": 111,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "388927",
+   "caption": "Hand holding an electronic component with a clock on it.",
+   "rank": 111,
+   "own_sim": 0.216
+  },
+  {
+   "image_id": "290768",
+   "caption": "Three mugs are on the kitchen counter of a stove.",
+   "rank": 111,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "255917",
+   "caption": "Some cars on a road with some buildings to the side.",
+   "rank": 111,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "376900",
+   "caption": "A tennis player prepares to serve a tennis ball.",
+   "rank": 110,
+   "own_sim": 0.291
+  },
+  {
+   "image_id": "143556",
+   "caption": "The person is driving a motorcycle on the road.",
+   "rank": 110,
+   "own_sim": 0.225
+  },
+  {
+   "image_id": "183391",
+   "caption": "A tennis player is about to play some tennis game.",
+   "rank": 110,
+   "own_sim": 0.282
+  },
+  {
+   "image_id": "248752",
+   "caption": "There is a man holding a baseball bat in his hands.",
+   "rank": 110,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "192716",
+   "caption": "A street sign attached to a wooden pole.",
+   "rank": 110,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "441247",
+   "caption": "The woman is working at the kitchen counter.",
+   "rank": 110,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "57597",
+   "caption": "A group of women playing a game of soccer on field.",
+   "rank": 110,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "415882",
+   "caption": "A woman laying in bed next to a window.",
+   "rank": 110,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "65288",
+   "caption": "A small bird sitting on a chair by a table.",
+   "rank": 110,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "133244",
+   "caption": "A man holding a tennis racquet on a tennis court.",
+   "rank": 110,
+   "own_sim": 0.27
+  },
+  {
+   "image_id": "161799",
+   "caption": "A man flying through the air while riding a skateboard.",
+   "rank": 110,
+   "own_sim": 0.279
+  },
+  {
+   "image_id": "234366",
+   "caption": "A building with a short clocktower in the front of it.",
+   "rank": 110,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "200162",
+   "caption": "A train traveling under a signal lights on top of tracks.",
+   "rank": 110,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "190841",
+   "caption": "A man in black shirt doing a trick on a skateboard.",
+   "rank": 110,
+   "own_sim": 0.267
+  },
+  {
+   "image_id": "465806",
+   "caption": "A woman touching a plastic container sitting on a table.",
+   "rank": 110,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "110042",
+   "caption": "A sign is placed over a toilet that is out on a lawn.",
+   "rank": 110,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "270677",
+   "caption": "A boy posing for a picture with his skateboard.",
+   "rank": 109,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "481573",
+   "caption": "There is a young man standing on a skate board.",
+   "rank": 109,
+   "own_sim": 0.273
+  },
+  {
+   "image_id": "214539",
+   "caption": "A crowd is watching the two teams play soccer.",
+   "rank": 109,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "63740",
+   "caption": "A lap top computer next to a computer monitor sitting on top of a desk.",
+   "rank": 109,
+   "own_sim": 0.257
+  },
+  {
+   "image_id": "297595",
+   "caption": "A person on a surfboard is surfing on a crashing wave.",
+   "rank": 109,
+   "own_sim": 0.265
+  },
+  {
+   "image_id": "199055",
+   "caption": "A man skateboards on a skateboard in a concrete area.",
+   "rank": 109,
+   "own_sim": 0.27
+  },
+  {
+   "image_id": "274708",
+   "caption": "A number of people riding skis on a snowy surface.",
+   "rank": 109,
+   "own_sim": 0.273
+  },
+  {
+   "image_id": "319721",
+   "caption": "A person standing next to a horse next to a building.",
+   "rank": 109,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "227187",
+   "caption": "A table that has some bananas on it.",
+   "rank": 109,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "488673",
+   "caption": "A male and female a cake and a candle.",
+   "rank": 109,
+   "own_sim": 0.246
+  },
+  {
+   "image_id": "263403",
+   "caption": "A man riding a wave on a surfboard in the ocean.",
+   "rank": 109,
+   "own_sim": 0.262
+  },
+  {
+   "image_id": "155443",
+   "caption": "A train traveling down the rail road tracks.",
+   "rank": 109,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "7278",
+   "caption": "A man on a surf board rides a wave.",
+   "rank": 109,
+   "own_sim": 0.266
+  },
+  {
+   "image_id": "257084",
+   "caption": "A person on a skateboard is balancing on the edge of a ramp.",
+   "rank": 108,
+   "own_sim": 0.272
+  },
+  {
+   "image_id": "448410",
+   "caption": "A train parked at a train stop next to another train.",
+   "rank": 108,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "93717",
+   "caption": "Two boys skateboarding on a ramp at a skate park.",
+   "rank": 108,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "521956",
+   "caption": "There is a male tennis player that is going to serve the ball.",
+   "rank": 108,
+   "own_sim": 0.282
+  },
+  {
+   "image_id": "2006",
+   "caption": "City bus driving through pedestrian saturated area near crosswalk.",
+   "rank": 108,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "304365",
+   "caption": "A commuter train traveling down the tracks into the next station.",
+   "rank": 108,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "336265",
+   "caption": "There is a boy playing frisbee in the grass.",
+   "rank": 108,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "146358",
+   "caption": "A couple that is posing for a picture.",
+   "rank": 108,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "300233",
+   "caption": "A table with a blender, oil and several seasonings.",
+   "rank": 108,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "312263",
+   "caption": "A large building that has a clock on it.",
+   "rank": 108,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "90155",
+   "caption": "A long train is driving down the tracks.",
+   "rank": 108,
+   "own_sim": 0.248
+  },
+  {
+   "image_id": "305695",
+   "caption": "Zebras are standing in a fenced in area.",
+   "rank": 108,
+   "own_sim": 0.284
+  },
+  {
+   "image_id": "404601",
+   "caption": "A building and some signs and street light and phone lines.",
+   "rank": 108,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "134722",
+   "caption": "A passenger train moving through a rail yard.",
+   "rank": 108,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "579307",
+   "caption": "The young boy is flying his kite on the beach by the water.",
+   "rank": 108,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "511760",
+   "caption": "An adult and a child in a green field flying a kite.",
+   "rank": 108,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "98853",
+   "caption": "A tennis player is leaping off of the ground.",
+   "rank": 108,
+   "own_sim": 0.281
+  },
+  {
+   "image_id": "252776",
+   "caption": "A man is on the court holding his racket.",
+   "rank": 107,
+   "own_sim": 0.292
+  },
+  {
+   "image_id": "54592",
+   "caption": "A person with some skis standing in the snow.",
+   "rank": 107,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "102805",
+   "caption": "A man holding a white object in his hand.",
+   "rank": 107,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "481404",
+   "caption": "A golden obelisk stands in the middle of an ornate building.",
+   "rank": 107,
+   "own_sim": 0.22
+  },
+  {
+   "image_id": "568814",
+   "caption": "A man with a tie is staring at something.",
+   "rank": 107,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "19432",
+   "caption": "A tennis player with a racket hitting the ball.",
+   "rank": 107,
+   "own_sim": 0.291
+  },
+  {
+   "image_id": "333402",
+   "caption": "Young male boarding a city bus at a bus stop.",
+   "rank": 107,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "172649",
+   "caption": "A guy wear a short khaki pants and brown tee is on a skate board.",
+   "rank": 107,
+   "own_sim": 0.273
+  },
+  {
+   "image_id": "343524",
+   "caption": "A male tennis player is preparing to serve the ball tennis court.",
+   "rank": 107,
+   "own_sim": 0.277
+  },
+  {
+   "image_id": "86582",
+   "caption": "A knit item sitting on a laptop on a desk.",
+   "rank": 107,
+   "own_sim": 0.265
+  },
+  {
+   "image_id": "362716",
+   "caption": "A male tennis player hitting a tennis ball.",
+   "rank": 107,
+   "own_sim": 0.286
+  },
+  {
+   "image_id": "347265",
+   "caption": "A person in the snow on some skis.",
+   "rank": 107,
+   "own_sim": 0.267
+  },
+  {
+   "image_id": "71877",
+   "caption": "Man in grey and black clothes grinding with his skateboard.",
+   "rank": 107,
+   "own_sim": 0.272
+  },
+  {
+   "image_id": "191288",
+   "caption": "A woman riding on the back of a brown horse over an obstacle.",
+   "rank": 107,
+   "own_sim": 0.242
+  },
+  {
+   "image_id": "553990",
+   "caption": "A woman is riding a horse as it jumps over a bar.",
+   "rank": 107,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "151629",
+   "caption": "A man holding a tennis racquet on a court.",
+   "rank": 107,
+   "own_sim": 0.281
+  },
+  {
+   "image_id": "46872",
+   "caption": "A man standing beside a large truck in a parking lot.",
+   "rank": 106,
+   "own_sim": 0.229
+  },
+  {
+   "image_id": "303305",
+   "caption": "A city bus parked on the side of a road.",
+   "rank": 106,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "388215",
+   "caption": "A man reaches into the air with a tennis racket, in an attempt to hit a flying tennis ball.",
+   "rank": 106,
+   "own_sim": 0.284
+  },
+  {
+   "image_id": "357816",
+   "caption": "A man standing near home plate swinging a bat.",
+   "rank": 106,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "396338",
+   "caption": "A couple of cars on a city street.",
+   "rank": 106,
+   "own_sim": 0.232
+  },
+  {
+   "image_id": "136033",
+   "caption": "A bathroom with a tiled counter, a sink and a soap dispenser.",
+   "rank": 106,
+   "own_sim": 0.272
+  },
+  {
+   "image_id": "568439",
+   "caption": "A couple of buses that are parked next to each other.",
+   "rank": 106,
+   "own_sim": 0.236
+  },
+  {
+   "image_id": "218249",
+   "caption": "An order of food sits on a table.",
+   "rank": 106,
+   "own_sim": 0.266
+  },
+  {
+   "image_id": "411774",
+   "caption": "A woman that is sitting down holding a racquet.",
+   "rank": 106,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "528314",
+   "caption": "The person was standing on the snow skiing course in his skis.",
+   "rank": 106,
+   "own_sim": 0.265
+  },
+  {
+   "image_id": "221754",
+   "caption": "A city street with multiple bildings and a street light.",
+   "rank": 106,
+   "own_sim": 0.252
+  },
+  {
+   "image_id": "433204",
+   "caption": "A man on a motor bike riding down the street.",
+   "rank": 106,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "297595",
+   "caption": "A person in a black wetsuit surfing on a wave alone.",
+   "rank": 106,
+   "own_sim": 0.263
+  },
+  {
+   "image_id": "127530",
+   "caption": "Male professional tennis player swinging at a tennis ball.",
+   "rank": 106,
+   "own_sim": 0.283
+  },
+  {
+   "image_id": "189775",
+   "caption": "The tennis player is ready to return the ball.",
+   "rank": 106,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "506707",
+   "caption": "A group of players playing a baseball game.",
+   "rank": 106,
+   "own_sim": 0.272
+  },
+  {
+   "image_id": "371677",
+   "caption": "Two computer screens that are sitting on a desk.",
+   "rank": 106,
+   "own_sim": 0.249
+  },
+  {
+   "image_id": "179214",
+   "caption": "A white plate topped with a pizza and cheese.",
+   "rank": 106,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "125572",
+   "caption": "A lady is riding her bike and approaching the huge castle like building.",
+   "rank": 105,
+   "own_sim": 0.24
+  },
+  {
+   "image_id": "90891",
+   "caption": "Five people sit in a room filled with bananas.",
+   "rank": 105,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "265518",
+   "caption": "A plate with food on it, a fork and some kind of drink.",
+   "rank": 105,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "369310",
+   "caption": "A boy wearing a helmet is playing video games.",
+   "rank": 105,
+   "own_sim": 0.25
+  },
+  {
+   "image_id": "415727",
+   "caption": "A baseball player grabbing a bat, in a game.",
+   "rank": 105,
+   "own_sim": 0.269
+  },
+  {
+   "image_id": "426836",
+   "caption": "Someone flying a kite right above the trees.",
+   "rank": 105,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "197004",
+   "caption": "The busuit has a piece of meat in it.",
+   "rank": 105,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "187055",
+   "caption": "A man throws tennis balls to waiting tennis players.",
+   "rank": 105,
+   "own_sim": 0.27
+  },
+  {
+   "image_id": "157601",
+   "caption": "An Asian woman eating by a large window.",
+   "rank": 105,
+   "own_sim": 0.245
+  },
+  {
+   "image_id": "149568",
+   "caption": "A man and two dogs on the beach.",
+   "rank": 105,
+   "own_sim": 0.23
+  },
+  {
+   "image_id": "88345",
+   "caption": "A woman smiling near a large clock on the wall.",
+   "rank": 105,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "343524",
+   "caption": "A man holding a tennis racket and ball as if to start a serve.",
+   "rank": 105,
+   "own_sim": 0.282
+  },
+  {
+   "image_id": "332901",
+   "caption": "A couple of sheep are in a corral together.",
+   "rank": 105,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "418062",
+   "caption": "Two friends sharing a drink at a party.",
+   "rank": 105,
+   "own_sim": 0.234
+  },
+  {
+   "image_id": "431693",
+   "caption": "A person on a court with a tennis racket.",
+   "rank": 104,
+   "own_sim": 0.295
+  },
+  {
+   "image_id": "65736",
+   "caption": "A tennis player is hitting a ball on the court.",
+   "rank": 104,
+   "own_sim": 0.296
+  },
+  {
+   "image_id": "125257",
+   "caption": "A person riding a snow board on a snowy slope.",
+   "rank": 104,
+   "own_sim": 0.277
+  },
+  {
+   "image_id": "344816",
+   "caption": "The train engine is followed by a line of open cars.",
+   "rank": 104,
+   "own_sim": 0.274
+  },
+  {
+   "image_id": "133418",
+   "caption": "A man playing tennis on a red coat in all white.",
+   "rank": 104,
+   "own_sim": 0.264
+  },
+  {
+   "image_id": "158744",
+   "caption": "Image of the front of a house next to an image of a woman holding a small table.",
+   "rank": 104,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "563281",
+   "caption": "A child standing on the floor with a toothbrush in hand.",
+   "rank": 104,
+   "own_sim": 0.25
+  },
+  {
+   "image_id": "402720",
+   "caption": "A group of people that are sitting around a table.",
+   "rank": 104,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "407646",
+   "caption": "Tennis player swinging at tennis ball with racket.",
+   "rank": 104,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "484760",
+   "caption": "Statue and old buildings shot at an angle.",
+   "rank": 103,
+   "own_sim": 0.207
+  },
+  {
+   "image_id": "257084",
+   "caption": "A man who is on a skateboard on a ramp.",
+   "rank": 103,
+   "own_sim": 0.27
+  },
+  {
+   "image_id": "162092",
+   "caption": "The woman is eating a piece of cake.",
+   "rank": 103,
+   "own_sim": 0.244
+  },
+  {
+   "image_id": "189775",
+   "caption": "A man playing a tennis game in front of a crowd.",
+   "rank": 103,
+   "own_sim": 0.296
+  },
+  {
+   "image_id": "507223",
+   "caption": "A baseball players is ealking toward the opposing team.",
+   "rank": 103,
+   "own_sim": 0.287
+  },
+  {
+   "image_id": "6460",
+   "caption": "A man on a surfboard with a safety line attached whipping out.",
+   "rank": 103,
+   "own_sim": 0.284
+  },
+  {
+   "image_id": "248616",
+   "caption": "A slow motion view of a person swinging a tennis racket.",
+   "rank": 103,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "109992",
+   "caption": "A person riding a snow board down a snow covered slope.",
+   "rank": 103,
+   "own_sim": 0.279
+  },
+  {
+   "image_id": "216497",
+   "caption": "Some chairs sit at an island near an open door.",
+   "rank": 103,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "31217",
+   "caption": "The woman is looking at the tennis ball.",
+   "rank": 103,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "163640",
+   "caption": "A couple of men standing in front of a building.",
+   "rank": 102,
+   "own_sim": 0.228
+  },
+  {
+   "image_id": "17714",
+   "caption": "A table that has plates of food, cups, and silver ware on it.",
+   "rank": 102,
+   "own_sim": 0.227
+  },
+  {
+   "image_id": "352584",
+   "caption": "An odd looking toilet is against a wall.",
+   "rank": 102,
+   "own_sim": 0.253
+  },
+  {
+   "image_id": "103548",
+   "caption": "A herd of animals traveling down a country road surrounded by a lush green landscape.",
+   "rank": 102,
+   "own_sim": 0.267
+  },
+  {
+   "image_id": "528578",
+   "caption": "An old clock tower stands near a bridge and other large old, medieval type structures.",
+   "rank": 102,
+   "own_sim": 0.237
+  },
+  {
+   "image_id": "256195",
+   "caption": "A train on a track next to a set of blue stairs.",
+   "rank": 102,
+   "own_sim": 0.243
+  },
+  {
+   "image_id": "259830",
+   "caption": "A scooter and bicycles are parked outside a local business.",
+   "rank": 102,
+   "own_sim": 0.233
+  },
+  {
+   "image_id": "371699",
+   "caption": "A room with woman at a desk next to a brown dog laying on the floor.",
+   "rank": 102,
+   "own_sim": 0.254
+  },
+  {
+   "image_id": "149375",
+   "caption": "A person on a skateboard is doing a jump.",
+   "rank": 102,
+   "own_sim": 0.279
+  },
+  {
+   "image_id": "347335",
+   "caption": "A large white plate of food on a table.",
+   "rank": 102,
+   "own_sim": 0.266
+  },
+  {
+   "image_id": "579655",
+   "caption": "A woman talking on the phone looks in the distance.",
+   "rank": 102,
+   "own_sim": 0.275
+  },
+  {
+   "image_id": "266409",
+   "caption": "A man in a blue coat skiing through a snowy field.",
+   "rank": 102,
+   "own_sim": 0.258
+  },
+  {
+   "image_id": "464824",
+   "caption": "A man leans on a pole as he bends down.",
+   "rank": 102,
+   "own_sim": 0.268
+  },
+  {
+   "image_id": "160864",
+   "caption": "A group of people stand with bats on a field.",
+   "rank": 102,
+   "own_sim": 0.231
+  },
+  {
+   "image_id": "347693",
+   "caption": "A couple of windows sitting inside of a room.",
+   "rank": 102,
+   "own_sim": 0.241
+  },
+  {
+   "image_id": "232538",
+   "caption": "A yellow and blue train is next to an overhang.",
+   "rank": 102,
+   "own_sim": 0.255
+  },
+  {
+   "image_id": "2006",
+   "caption": "A city bus drives through a city area.",
+   "rank": 102,
+   "own_sim": 0.262
+  },
+  {
+   "image_id": "19432",
+   "caption": "A man playing tennis going for a low ball.",
+   "rank": 101,
+   "own_sim": 0.291
+  },
+  {
+   "image_id": "458702",
+   "caption": "A view of a street with some trees around it.",
+   "rank": 101,
+   "own_sim": 0.239
+  },
+  {
+   "image_id": "151657",
+   "caption": "A man standing next to a woman in a living room.",
+   "rank": 101,
+   "own_sim": 0.261
+  },
+  {
+   "image_id": "454404",
+   "caption": "A girls sits on a bench while looking at her phone.",
+   "rank": 101,
+   "own_sim": 0.247
+  },
+  {
+   "image_id": "506707",
+   "caption": "A man is running the bases in a baseball game.",
+   "rank": 101,
+   "own_sim": 0.265
+  },
+  {
+   "image_id": "501023",
+   "caption": "A street sign with a sky back ground.",
+   "rank": 101,
+   "own_sim": 0.251
+  },
+  {
+   "image_id": "351823",
+   "caption": "A man standing with a racket on a court.",
+   "rank": 101,
+   "own_sim": 0.287
+  },
+  {
+   "image_id": "431848",
+   "caption": "A man is doing a trick on a sidewalk curb.",
+   "rank": 101,
+   "own_sim": 0.249
+  }
+ ]
+}

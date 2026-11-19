@@ -35,9 +35,17 @@ def system_name(path: str) -> str:
     return f"{p.parent.name}:{p.stem.removesuffix('_test')}"
 
 
+def same_style(caption: str) -> str:
+    """One surface form for every system (capital first letter, one final period), so that style does not
+    give away the source: BLIP-2 writes lower case without a period, the other systems do not."""
+    c = " ".join(caption.split()).rstrip(" .")
+    return (c[:1].upper() + c[1:] + ".") if c else c
+
+
 def make(systems: list[str], n: int, seed: int) -> None:
     caps, splits = load_captions(PROC_DIR), load_splits(PROC_DIR)
-    sets = {system_name(s): json.loads(Path(s).read_text(encoding="utf-8"))["captions"] for s in systems}
+    sets = {system_name(s): {i: same_style(c) for i, c in json.loads(Path(s).read_text(encoding="utf-8"))["captions"].items()}
+            for s in systems}
     rng = random.Random(seed)
     ids = rng.sample(splits["test"], n)
     (OUT / "images").mkdir(parents=True, exist_ok=True)

@@ -4,7 +4,7 @@ import math
 import pytest
 import torch
 
-from src.data import CaptionDataset, clean_caption
+from src.data import CaptionDataset, caption_image_check, clean_caption
 from src.decode import _no_empty, beam_search, generate, greedy, nucleus, parse_strategy
 from src.evaluate import gender_of, mentioned_objects
 from src.model import ClipCaptionModel, count_parameters, load_tokenizer
@@ -182,3 +182,14 @@ def test_attention_maps_and_box_coverage():
     for words, maps in res:
         assert maps.shape == (len(words), 7, 7)
         assert all(abs(m.sum() - 1) < 1e-4 for m in maps)
+
+
+def test_caption_image_check():
+    image = torch.eye(4)                                  # four orthogonal "images"
+    text = torch.tensor([[1.0, 0, 0, 0],                  # matches its own image 0 exactly
+                         [0.1, 0.9, 0, 0],                # mostly image 1 (its own)
+                         [0, 0, 0, 1.0]])                 # belongs to image 2 but looks like image 3
+    chk = caption_image_check(text, [0, 1, 2], image, flag_rank=1)
+    assert chk["rank"].tolist() == [1, 1, 2]
+    assert chk["flagged"].tolist() == [False, False, True]
+    assert chk["own_sim"][0] == pytest.approx(1.0)
